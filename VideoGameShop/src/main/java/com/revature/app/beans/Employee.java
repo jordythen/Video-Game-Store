@@ -1,4 +1,4 @@
-package com.revature.beans;
+package com.revature.app.beans;
 
 public class Employee extends Person{
 

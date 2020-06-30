@@ -1,4 +1,4 @@
-package com.revature.beans;
+package com.revature.app.beans;
 
 import java.time.LocalDateTime;
 import java.util.Arrays;
@@ -12,10 +12,11 @@ public class Game {
 	private List<String> developer; // Develops the game: Naughty Dog, Ubisoft, Infinity Ward
 	private List<String> publisher; // Pushlisher: Sony, Nintendo, Xbox
 	private LocalDateTime dateReleased;
-	private GameSystem[] systems;
+	private List<GameSystem> systems;
 	private String esrbRating;
 	private List<Category> category;
 	private String playerLimit;
+	
 	public Integer getId() {
 		return id;
 	}
@@ -46,10 +47,10 @@ public class Game {
 	public void setDateReleased(LocalDateTime dateReleased) {
 		this.dateReleased = dateReleased;
 	}
-	public GameSystem[] getSystems() {
+	public List<GameSystem> getSystems() {
 		return systems;
 	}
-	public void setSystems(GameSystem[] systems) {
+	public void setSystems(List<GameSystem> systems) {
 		this.systems = systems;
 	}
 	public String getEsrbRating() {
@@ -82,7 +83,7 @@ public class Game {
 		result = prime * result + ((name == null) ? 0 : name.hashCode());
 		result = prime * result + ((playerLimit == null) ? 0 : playerLimit.hashCode());
 		result = prime * result + ((publisher == null) ? 0 : publisher.hashCode());
-		result = prime * result + Arrays.hashCode(systems);
+		result = prime * result + ((systems == null) ? 0 : systems.hashCode());
 		return result;
 	}
 	@Override
@@ -134,14 +135,18 @@ public class Game {
 				return false;
 		} else if (!publisher.equals(other.publisher))
 			return false;
-		if (!Arrays.equals(systems, other.systems))
+		if (systems == null) {
+			if (other.systems != null)
+				return false;
+		} else if (!systems.equals(other.systems))
 			return false;
 		return true;
 	}
 	@Override
 	public String toString() {
 		return "Game [id=" + id + ", name=" + name + ", developer=" + developer + ", publisher=" + publisher
-				+ ", dateReleased=" + dateReleased + ", systems=" + Arrays.toString(systems) + ", esrbRating="
-				+ esrbRating + ", category=" + category + ", playerLimit=" + playerLimit + "]";
+				+ ", dateReleased=" + dateReleased + ", systems=" + systems + ", esrbRating=" + esrbRating
+				+ ", category=" + category + ", playerLimit=" + playerLimit + "]";
 	}
+	
 }

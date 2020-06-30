@@ -1,4 +1,4 @@
-package com.revature.beans;
+package com.revature.app.beans;
 
 public class Status {
 
@@ -7,6 +7,7 @@ public class Status {
 	private String status; //new or used
 	private Integer quantity; 
 	private Double price;
+	
 	public Integer getId() {
 		return id;
 	}
