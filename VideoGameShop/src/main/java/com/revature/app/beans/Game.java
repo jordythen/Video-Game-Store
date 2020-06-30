@@ -9,13 +9,13 @@ public class Game {
 	
 	private Integer id;
 	private String name;
-	private List<String> developer; // Develops the game: Naughty Dog, Ubisoft, Infinity Ward
-	private List<String> publisher; // Pushlisher: Sony, Nintendo, Xbox
+	private List<Developer> developers; // Develops the game: Naughty Dog, Ubisoft, Infinity Ward
+	private List<Publisher> publishers; // Pushlisher: Sony, Nintendo, Xbox
 	private LocalDateTime dateReleased;
 	private List<GameSystem> systems;
 	private String esrbRating;
 	private List<Category> category;
-	private String playerLimit;
+	private String playerLimit; 
 	
 	public Integer getId() {
 		return id;
@@ -29,17 +29,17 @@ public class Game {
 	public void setName(String name) {
 		this.name = name;
 	}
-	public List<String> getDeveloper() {
-		return developer;
+	public List<Developer> getDevelopers() {
+		return developers;
 	}
-	public void setDeveloper(List<String> developer) {
-		this.developer = developer;
+	public void setDevelopers(List<Developer> developers) {
+		this.developers = developers;
 	}
-	public List<String> getPublisher() {
-		return publisher;
+	public List<Publisher> getPublishers() {
+		return publishers;
 	}
-	public void setPublisher(List<String> publisher) {
-		this.publisher = publisher;
+	public void setPublishers(List<Publisher> publishers) {
+		this.publishers = publishers;
 	}
 	public LocalDateTime getDateReleased() {
 		return dateReleased;
@@ -77,12 +77,12 @@ public class Game {
 		int result = 1;
 		result = prime * result + ((category == null) ? 0 : category.hashCode());
 		result = prime * result + ((dateReleased == null) ? 0 : dateReleased.hashCode());
-		result = prime * result + ((developer == null) ? 0 : developer.hashCode());
+		result = prime * result + ((developers == null) ? 0 : developers.hashCode());
 		result = prime * result + ((esrbRating == null) ? 0 : esrbRating.hashCode());
 		result = prime * result + ((id == null) ? 0 : id.hashCode());
 		result = prime * result + ((name == null) ? 0 : name.hashCode());
 		result = prime * result + ((playerLimit == null) ? 0 : playerLimit.hashCode());
-		result = prime * result + ((publisher == null) ? 0 : publisher.hashCode());
+		result = prime * result + ((publishers == null) ? 0 : publishers.hashCode());
 		result = prime * result + ((systems == null) ? 0 : systems.hashCode());
 		return result;
 	}
@@ -105,10 +105,10 @@ public class Game {
 				return false;
 		} else if (!dateReleased.equals(other.dateReleased))
 			return false;
-		if (developer == null) {
-			if (other.developer != null)
+		if (developers == null) {
+			if (other.developers != null)
 				return false;
-		} else if (!developer.equals(other.developer))
+		} else if (!developers.equals(other.developers))
 			return false;
 		if (esrbRating == null) {
 			if (other.esrbRating != null)
@@ -130,10 +130,10 @@ public class Game {
 				return false;
 		} else if (!playerLimit.equals(other.playerLimit))
 			return false;
-		if (publisher == null) {
-			if (other.publisher != null)
+		if (publishers == null) {
+			if (other.publishers != null)
 				return false;
-		} else if (!publisher.equals(other.publisher))
+		} else if (!publishers.equals(other.publishers))
 			return false;
 		if (systems == null) {
 			if (other.systems != null)
@@ -144,7 +144,7 @@ public class Game {
 	}
 	@Override
 	public String toString() {
-		return "Game [id=" + id + ", name=" + name + ", developer=" + developer + ", publisher=" + publisher
+		return "Game [id=" + id + ", name=" + name + ", developers=" + developers + ", publishers=" + publishers
 				+ ", dateReleased=" + dateReleased + ", systems=" + systems + ", esrbRating=" + esrbRating
 				+ ", category=" + category + ", playerLimit=" + playerLimit + "]";
 	}

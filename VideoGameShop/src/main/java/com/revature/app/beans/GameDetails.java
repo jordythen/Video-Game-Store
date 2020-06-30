@@ -1,6 +1,6 @@
 package com.revature.app.beans;
 
-public class Status {
+public class GameDetails {
 
 	private Integer id;
 	private Game game;
@@ -57,7 +57,7 @@ public class Status {
 			return false;
 		if (getClass() != obj.getClass())
 			return false;
-		Status other = (Status) obj;
+		GameDetails other = (GameDetails) obj;
 		if (game == null) {
 			if (other.game != null)
 				return false;
