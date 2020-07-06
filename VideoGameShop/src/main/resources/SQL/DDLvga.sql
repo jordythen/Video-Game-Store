@@ -1,8 +1,28 @@
+drop table CUSTOMER cascade constraints;
+drop table CUSTOMER_GAME cascade constraints;
+drop table CUSTOMER_GAMEORDER cascade constraints;
+drop table DEVELOPER cascade constraints;
+drop table DEVELOPER_GAME cascade constraints;
+drop table EMPLOYEE cascade constraints;
+drop table GAME cascade constraints;
+drop table GAME_GAMECATEGORY cascade constraints;
+drop table GAME_GAMEDETAILS cascade constraints;
+drop table GAME_GAMESYSTEM cascade constraints;
+drop table ORDERDETAILS cascade constraints;
+drop table GAMECATEGORY cascade constraints;
+drop table GAMEDETAILS cascade constraints;
+drop table GAMESYSTEM cascade constraints;
+drop table GAMEORDER cascade constraints;
+drop table PUBLISHER cascade constraints;
+drop table PUBLISHER_GAME cascade constraints;
+
+
 create table GAME (
     
     id number(10) primary key,
     name varchar2(255),
     dateReleased timestamp,
+    esrbRating varchar2(10),
     playerLimit varchar2(100)
     
 );
@@ -18,7 +38,6 @@ create table GAMESYSTEM(
 --many to many 
 create table GAME_GAMESYSTEM(
 
-    id number(12),
     gameID number(10),
     systemID number(10),
     
@@ -37,7 +56,6 @@ create table DEVELOPER(
 
 create table DEVELOPER_GAME (
     
-    id number(10) primary key,
     gameID number(10),
     developerID number(10),
     
@@ -55,7 +73,6 @@ create table PUBLISHER(
 
 create table PUBLISHER_GAME (
     
-    id number(10) primary key,
     gameID number(10),
     publisherID number(10),
     
@@ -75,7 +92,6 @@ create table GAMECATEGORY(
 --many to many
 create table GAME_GAMECATEGORY(
 
-    id number(10) primary key,
     gameID number(10),
     categoryID number(10),
     
@@ -95,7 +111,6 @@ create table GAMEDETAILS(
 
 create table GAME_GAMEDETAILS(
 
-    id number(10) primary key,
     gameID number(10),
     detailID number(10),
     
@@ -131,7 +146,6 @@ create table CUSTOMER(
 --showing ownership of games
 create table CUSTOMER_GAME(
 
-    id number(12) primary key,
     customerID number(10),
     gameID number(10),
     
@@ -139,7 +153,7 @@ create table CUSTOMER_GAME(
     foreign key (customerID) references CUSTOMER(id)
 );
 
-create table GORDER(
+create table GAMEORDER(
 
     id number(10) primary key,
     tax number(20,2),
@@ -149,19 +163,18 @@ create table GORDER(
 );
 
 --one to many
-create table CUSTOMER_GORDER(
+create table CUSTOMER_GAMEORDER(
 
-    id number(10) primary key,
     customerID number(10),
     orderID number(10),
     
     
     foreign key (customerID) references CUSTOMER(id),
-    foreign key (orderID) references GORDER(id)
+    foreign key (orderID) references GAMEORDER(id)
 
 );
 
-create table GAME_GORDER(
+create table ORDERDETAILS(
 
     id number(10) primary key,
     gameID number(10),
@@ -169,8 +182,38 @@ create table GAME_GORDER(
     quantity number(10),
     
     foreign key (gameID) references GAME(id),
-    foreign key (orderID) references GORDER(id)
+    foreign key (orderID) references GAMEORDER(id)
 );
+
+drop sequence game_seq;
+drop sequence gamesystem_seq;
+drop sequence developer_seq;
+drop sequence publisher_seq;
+drop sequence category_seq;
+drop sequence gamedetails_seq;
+drop sequence employee_seq;
+drop sequence customer_seq;
+drop sequence order_seq;
+drop sequence orderdetails_seq;
+
+
+create sequence game_seq;
+create sequence gamesystem_seq;
+create sequence developer_seq;
+create sequence publisher_seq;
+create sequence category_seq;
+create sequence gamedetails_seq;
+create sequence employee_seq;
+create sequence customer_seq;
+create sequence order_seq;
+create sequence orderdetails_seq;
+
+
+
+
+
+
+
 
 
 

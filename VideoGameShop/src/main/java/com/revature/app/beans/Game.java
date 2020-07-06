@@ -1,20 +1,68 @@
 package com.revature.app.beans;
 
 import java.time.LocalDateTime;
-import java.util.Arrays;
 import java.util.List;
-import java.util.Set;
 
+import javax.persistence.CascadeType;
+import javax.persistence.Column;
+import javax.persistence.Entity;
+import javax.persistence.FetchType;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
+import javax.persistence.JoinTable;
+import javax.persistence.ManyToMany;
+import javax.persistence.JoinColumn;
+import javax.persistence.OneToMany;
+import javax.persistence.SequenceGenerator;
+import javax.persistence.Table;
+
+@Entity
+@Table
 public class Game {
-	
+	@Id
+	@SequenceGenerator(name="gameGen", sequenceName ="game_seq", allocationSize=1)
+	@GeneratedValue(generator="gameGen", strategy=GenerationType.SEQUENCE)
 	private Integer id;
+	@Column
 	private String name;
+	
+	@OneToMany(fetch=FetchType.EAGER, cascade=CascadeType.ALL)
+	@JoinTable(name="DEVELOPER_GAME", 
+			joinColumns=@JoinColumn(name="gameID"),
+			inverseJoinColumns=@JoinColumn(name="developerID"))
 	private List<Developer> developers; // Develops the game: Naughty Dog, Ubisoft, Infinity Ward
+	
+	@OneToMany(fetch=FetchType.EAGER, cascade=CascadeType.ALL)
+	@JoinTable(name="PUBLISHER_GAME",
+				joinColumns=@JoinColumn(name="gameID"),
+				inverseJoinColumns=@JoinColumn(name="publisherID"))
 	private List<Publisher> publishers; // Pushlisher: Sony, Nintendo, Xbox
+	@Column
 	private LocalDateTime dateReleased;
+	
+	@ManyToMany(fetch=FetchType.EAGER, cascade=CascadeType.ALL)
+	@JoinTable(name="GAME_GAMESYSTEM",
+				joinColumns=@JoinColumn(name="gameID"),
+				inverseJoinColumns=@JoinColumn(name="systemID"))
 	private List<GameSystem> systems;
+	
+	@Column
 	private String esrbRating;
+	
+	@OneToMany(fetch=FetchType.EAGER, cascade=CascadeType.ALL)
+	@JoinTable(name="GAME_GAMECATEGORY",
+				joinColumns=@JoinColumn(name="gameID"),
+				inverseJoinColumns=@JoinColumn(name="categoryID"))
 	private List<Category> category;
+	
+	@OneToMany(fetch=FetchType.EAGER, cascade=CascadeType.ALL)
+	@JoinTable(name="GAME_GAMEDETAILS",
+				joinColumns=@JoinColumn(name="gameID"),
+				inverseJoinColumns=@JoinColumn(name="detailID"))
+	private List<GameDetails> details;
+	
+	@Column
 	private String playerLimit; 
 	
 	public Integer getId() {
@@ -71,12 +119,19 @@ public class Game {
 	public void setPlayerLimit(String playerLimit) {
 		this.playerLimit = playerLimit;
 	}
+	public List<GameDetails> getDetails() {
+		return details;
+	}
+	public void setDetails(List<GameDetails> details) {
+		this.details = details;
+	}
 	@Override
 	public int hashCode() {
 		final int prime = 31;
 		int result = 1;
 		result = prime * result + ((category == null) ? 0 : category.hashCode());
 		result = prime * result + ((dateReleased == null) ? 0 : dateReleased.hashCode());
+		result = prime * result + ((details == null) ? 0 : details.hashCode());
 		result = prime * result + ((developers == null) ? 0 : developers.hashCode());
 		result = prime * result + ((esrbRating == null) ? 0 : esrbRating.hashCode());
 		result = prime * result + ((id == null) ? 0 : id.hashCode());
@@ -104,6 +159,11 @@ public class Game {
 			if (other.dateReleased != null)
 				return false;
 		} else if (!dateReleased.equals(other.dateReleased))
+			return false;
+		if (details == null) {
+			if (other.details != null)
+				return false;
+		} else if (!details.equals(other.details))
 			return false;
 		if (developers == null) {
 			if (other.developers != null)
@@ -146,7 +206,7 @@ public class Game {
 	public String toString() {
 		return "Game [id=" + id + ", name=" + name + ", developers=" + developers + ", publishers=" + publishers
 				+ ", dateReleased=" + dateReleased + ", systems=" + systems + ", esrbRating=" + esrbRating
-				+ ", category=" + category + ", playerLimit=" + playerLimit + "]";
+				+ ", category=" + category + ", details=" + details + ", playerLimit=" + playerLimit + "]";
 	}
 	
 }

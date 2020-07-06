@@ -2,16 +2,46 @@ package com.revature.app.beans;
 
 import java.util.List;
 
+import javax.persistence.CascadeType;
+import javax.persistence.Column;
+import javax.persistence.Entity;
+import javax.persistence.FetchType;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
+import javax.persistence.JoinTable;
+import javax.persistence.JoinColumn;
+import javax.persistence.OneToMany;
+import javax.persistence.SequenceGenerator;
+import javax.persistence.Table;
+
+@Entity
+@Table
 public class Customer{
-
-
+	@Id
+	@SequenceGenerator(name="customerGen",sequenceName="customer_seq",allocationSize=1)
+	@GeneratedValue(generator="customerGen",strategy=GenerationType.SEQUENCE)
 	private Integer id;
+	@Column
 	private String username;
+	@Column(name="passwd")
 	private String password;
+	@Column
 	private String firstName;
+	@Column
 	private String lastName;
+	@Column
 	private Double money;
+	@OneToMany(fetch=FetchType.EAGER, cascade=CascadeType.ALL)
+	@JoinTable(name="CUSTOMER_GAME", 
+				joinColumns=@JoinColumn(name="customerID"),
+				inverseJoinColumns=@JoinColumn(name="gameID"))
 	private List<Game> ownedGames;
+	
+	@OneToMany(fetch=FetchType.EAGER, cascade=CascadeType.ALL)
+	@JoinTable(name="CUSTOMER_GAMEORDER", 
+				joinColumns=@JoinColumn(name="customerID"),
+				inverseJoinColumns=@JoinColumn(name="orderID"))
 	private List<Order> orderHistory;
 	
 	

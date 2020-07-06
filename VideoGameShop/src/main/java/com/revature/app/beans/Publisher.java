@@ -1,8 +1,21 @@
 package com.revature.app.beans;
 
-public class Publisher {
+import javax.persistence.Column;
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
+import javax.persistence.SequenceGenerator;
+import javax.persistence.Table;
 
+@Entity
+@Table
+public class Publisher {
+	@Id
+	@SequenceGenerator(name="publisherGen",sequenceName="publisher_gen",allocationSize=1)
+	@GeneratedValue(generator="publisherGen",strategy=GenerationType.SEQUENCE)
 	private Integer id;
+	@Column
 	private String name;
 	
 	public Integer getId() {

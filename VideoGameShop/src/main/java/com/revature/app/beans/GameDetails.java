@@ -1,11 +1,25 @@
 package com.revature.app.beans;
 
-public class GameDetails {
+import javax.persistence.Column;
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
+import javax.persistence.SequenceGenerator;
+import javax.persistence.Table;
 
+@Entity
+@Table
+public class GameDetails {
+	@Id
+	@SequenceGenerator(name="gamedetailsGen", sequenceName="gamedetails_seq",allocationSize=1)
+	@GeneratedValue(generator="gamedetailsGen", strategy=GenerationType.SEQUENCE)
 	private Integer id;
-	private Game game;
+	@Column
 	private String status; //new or used
+	@Column
 	private Integer quantity; 
+	@Column
 	private Double price;
 	
 	public Integer getId() {
@@ -13,12 +27,6 @@ public class GameDetails {
 	}
 	public void setId(Integer id) {
 		this.id = id;
-	}
-	public Game getGame() {
-		return game;
-	}
-	public void setGame(Game game) {
-		this.game = game;
 	}
 	public String getStatus() {
 		return status;
@@ -42,7 +50,6 @@ public class GameDetails {
 	public int hashCode() {
 		final int prime = 31;
 		int result = 1;
-		result = prime * result + ((game == null) ? 0 : game.hashCode());
 		result = prime * result + ((id == null) ? 0 : id.hashCode());
 		result = prime * result + ((price == null) ? 0 : price.hashCode());
 		result = prime * result + ((quantity == null) ? 0 : quantity.hashCode());
@@ -58,11 +65,6 @@ public class GameDetails {
 		if (getClass() != obj.getClass())
 			return false;
 		GameDetails other = (GameDetails) obj;
-		if (game == null) {
-			if (other.game != null)
-				return false;
-		} else if (!game.equals(other.game))
-			return false;
 		if (id == null) {
 			if (other.id != null)
 				return false;
@@ -87,8 +89,7 @@ public class GameDetails {
 	}
 	@Override
 	public String toString() {
-		return "Status [id=" + id + ", game=" + game + ", status=" + status + ", quantity=" + quantity + ", price="
-				+ price + "]";
+		return "GameDetails [id=" + id + ", status=" + status + ", quantity=" + quantity + ", price=" + price + "]";
 	}
 	
 	 
