@@ -25,7 +25,7 @@ public class Order {
 	private Integer id;
 	
 	//HELP ON THIS?
-	@OneToOne(fetch=FetchType.EAGER, cascade=CascadeType.ALL)
+	@OneToOne(fetch=FetchType.LAZY, cascade=CascadeType.ALL)
 	@JoinTable(name="CUSTOMER_GAMEORDER", 
 				joinColumns=@JoinColumn(name="orderID"),
 				inverseJoinColumns=@JoinColumn(name="customerID"))

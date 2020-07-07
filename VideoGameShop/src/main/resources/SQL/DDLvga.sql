@@ -15,6 +15,7 @@ drop table GAMESYSTEM cascade constraints;
 drop table GAMEORDER cascade constraints;
 drop table PUBLISHER cascade constraints;
 drop table PUBLISHER_GAME cascade constraints;
+drop table CUSTOMER_GAMEDETAILS2SELL cascade constraints;
 
 
 create table GAME (
@@ -103,10 +104,12 @@ create table GAME_GAMECATEGORY(
 create table GAMEDETAILS(
 
     id number(10) primary key,
+    gameID number(10),
     status varchar2(255),
     quantity number(10),
-    price number(20,2)
+    price number(20,2),
     
+    foreign key (gameID) references GAME(id)
 );
 
 create table GAME_GAMEDETAILS(
@@ -153,6 +156,15 @@ create table CUSTOMER_GAME(
     foreign key (customerID) references CUSTOMER(id)
 );
 
+create table CUSTOMER_GAMEDETAILS2SELL(
+
+    customerID number(10),
+    gameDetailsID number(10),
+    
+    foreign key (gameDetailsID) references GAMEDETAILS(id),
+    foreign key (customerID) references CUSTOMER(id)
+);
+
 create table GAMEORDER(
 
     id number(10) primary key,
@@ -180,6 +192,8 @@ create table ORDERDETAILS(
     gameID number(10),
     orderID number(10),
     quantity number(10),
+    taxAmount number(20,2),
+    totalLineAmount number(20,2),
     
     foreign key (gameID) references GAME(id),
     foreign key (orderID) references GAMEORDER(id)

@@ -30,6 +30,11 @@ public class OrderDetails {
 	
 	@Column
 	private Integer quantity; 
+	@Column
+	private Double taxAmount;
+	//This will be the total amount for this particular game
+	@Column
+	private Double totalLineAmount;
 	
 	public Integer getId() {
 		return id;

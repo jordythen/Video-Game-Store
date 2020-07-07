@@ -44,6 +44,11 @@ public class Customer{
 				inverseJoinColumns=@JoinColumn(name="orderID"))
 	private List<Order> orderHistory;
 	
+	@OneToMany(fetch=FetchType.EAGER, cascade=CascadeType.ALL)
+	@JoinTable(name="CUSTOMER_GAMEDETAILS2SELL", 
+				joinColumns=@JoinColumn(name="customerID"),
+				inverseJoinColumns=@JoinColumn(name="gameDetailsID"))
+	private List<GameDetails> gamesToSell;
 	
 	public Integer getId() {
 		return id;

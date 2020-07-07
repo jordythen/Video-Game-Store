@@ -1,10 +1,14 @@
 package com.revature.app.beans;
 
+import javax.persistence.CascadeType;
 import javax.persistence.Column;
 import javax.persistence.Entity;
+import javax.persistence.FetchType;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
+import javax.persistence.JoinColumn;
+import javax.persistence.ManyToOne;
 import javax.persistence.SequenceGenerator;
 import javax.persistence.Table;
 
@@ -15,6 +19,11 @@ public class GameDetails {
 	@SequenceGenerator(name="gamedetailsGen", sequenceName="gamedetails_seq",allocationSize=1)
 	@GeneratedValue(generator="gamedetailsGen", strategy=GenerationType.SEQUENCE)
 	private Integer id;
+	
+	@ManyToOne(fetch=FetchType.LAZY, cascade=CascadeType.ALL)
+	@JoinColumn(name="gameID")
+	private Game game;
+	
 	@Column
 	private String status; //new or used
 	@Column
