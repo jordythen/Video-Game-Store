@@ -31,6 +31,15 @@ public class CustomerService implements GenericService<Customer>{
 		// TODO Auto-generated method stub
 		return cDao.findById(id).get();
 	}
+	
+	public Customer getByUsernameAndPassword(String username, String password) {
+		return cDao.findByUsernameAndPassword(username, password);
+	}
+	
+	public Customer registerAccount(Customer c) {
+		int id = add(c);
+		return getById(id);
+	}
 
 	@Override
 	public List<Customer> getAll() {

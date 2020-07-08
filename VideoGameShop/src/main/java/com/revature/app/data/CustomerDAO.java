@@ -7,5 +7,6 @@ import com.revature.app.beans.Customer;
 
 @Repository
 public interface CustomerDAO extends JpaRepository<Customer,Integer> {
-
+	
+	public Customer findByUsernameAndPassword(String username, String password);
 }
