@@ -1,21 +1,8 @@
 package com.revature.app.beans;
 
-import javax.persistence.Column;
-import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.GenerationType;
-import javax.persistence.Id;
-import javax.persistence.SequenceGenerator;
-import javax.persistence.Table;
-
-@Entity
-@Table
 public class GameSystem {
-	@Id
-	@SequenceGenerator(name="gameSystemGen", sequenceName="gamesystem_seq", allocationSize=1)
-	@GeneratedValue(generator="gameSystemGen", strategy=GenerationType.SEQUENCE)
 	private Integer id;
-	@Column(name="name")
+	
 	private String consoleName; // ex: PC, Xbox One, PS4, Sega Genesis, Super Nintendo, Nintendo Switch
 	public Integer getId() {
 		return id;
@@ -62,5 +49,4 @@ public class GameSystem {
 	public String toString() {
 		return "GameSystem [id=" + id + ", consoleName=" + consoleName + "]";
 	}
-	
 }

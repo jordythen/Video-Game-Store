@@ -1,41 +1,15 @@
 package com.revature.app.beans;
 
 import java.time.LocalDateTime;
-
-import javax.persistence.CascadeType;
-import javax.persistence.Column;
-import javax.persistence.Entity;
-import javax.persistence.FetchType;
-import javax.persistence.GeneratedValue;
-import javax.persistence.GenerationType;
-import javax.persistence.Id;
-import javax.persistence.JoinTable;
-import javax.persistence.ManyToOne;
-import javax.persistence.JoinColumn;
-import javax.persistence.OneToOne;
-import javax.persistence.SequenceGenerator;
-import javax.persistence.Table;
-
-@Entity
-@Table(name="GAMEORDER")
 public class Order {
-	@Id
-	@SequenceGenerator(name="orderGen",sequenceName="order_seq",allocationSize=1)
-	@GeneratedValue(generator="orderGen",strategy=GenerationType.SEQUENCE)
+	
 	private Integer id;
 	
-	//HELP ON THIS?
-	@OneToOne(fetch=FetchType.LAZY, cascade=CascadeType.ALL)
-	@JoinTable(name="CUSTOMER_GAMEORDER", 
-				joinColumns=@JoinColumn(name="orderID"),
-				inverseJoinColumns=@JoinColumn(name="customerID"))
 	private Customer customer;
 	
-	@Column
 	private Double tax;
-	@Column
+	
 	private Double orderTotal;
-	@Column
 	private LocalDateTime orderDate;
 	public Integer getId() {
 		return id;
@@ -119,5 +93,4 @@ public class Order {
 		return "Order [id=" + id + ", customer=" + customer + ", tax=" + tax + ", orderTotal=" + orderTotal
 				+ ", orderDate=" + orderDate + "]";
 	}
-
 }

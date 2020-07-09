@@ -1,58 +1,49 @@
 package com.revature.app.beans;
 
-import javax.persistence.Column;
-import javax.persistence.Entity;
-import javax.persistence.FetchType;
-import javax.persistence.GeneratedValue;
-import javax.persistence.GenerationType;
-import javax.persistence.Id;
-import javax.persistence.JoinColumn;
-import javax.persistence.ManyToOne;
-import javax.persistence.SequenceGenerator;
-import javax.persistence.Table;
 
-@Entity
-@Table
 public class OrderDetails {
-	
-	@Id
-	@SequenceGenerator(name="orderDetailsGen",sequenceName="orderdetails_seq",allocationSize=1)
-	@GeneratedValue(generator="orderDetailsGen",strategy=GenerationType.SEQUENCE)
 	private Integer id;
 	
-	@ManyToOne(fetch=FetchType.EAGER)
-	@JoinColumn(name="gameID")
-	private Game game;
+	private Integer gameID;
 
-	@ManyToOne(fetch=FetchType.EAGER)
-	@JoinColumn(name="orderID")
-	private Order order;
+	private Integer orderID;
 	
-	@Column
 	private Integer quantity; 
-	@Column
 	private Double taxAmount;
+
 	//This will be the total amount for this particular game
-	@Column
 	private Double totalLineAmount;
 	
+	public Double getTaxAmount() {
+		return taxAmount;
+	}
+	public void setTaxAmount(Double taxAmount) {
+		this.taxAmount = taxAmount;
+	}
+	public Double getTotalLineAmount() {
+		return totalLineAmount;
+	}
+	public void setTotalLineAmount(Double totalLineAmount) {
+		this.totalLineAmount = totalLineAmount;
+	}
 	public Integer getId() {
 		return id;
 	}
 	public void setId(Integer id) {
 		this.id = id;
 	}
-	public Game getGame() {
-		return game;
+	
+	public Integer getGameID() {
+		return gameID;
 	}
-	public void setGame(Game game) {
-		this.game = game;
+	public void setGameID(Integer gameID) {
+		this.gameID = gameID;
 	}
-	public Order getOrder() {
-		return order;
+	public Integer getOrderID() {
+		return orderID;
 	}
-	public void setOrder(Order order) {
-		this.order = order;
+	public void setOrderID(Integer orderID) {
+		this.orderID = orderID;
 	}
 	public Integer getQuantity() {
 		return quantity;
@@ -64,10 +55,12 @@ public class OrderDetails {
 	public int hashCode() {
 		final int prime = 31;
 		int result = 1;
-		result = prime * result + ((game == null) ? 0 : game.hashCode());
+		result = prime * result + ((gameID == null) ? 0 : gameID.hashCode());
 		result = prime * result + ((id == null) ? 0 : id.hashCode());
-		result = prime * result + ((order == null) ? 0 : order.hashCode());
+		result = prime * result + ((orderID == null) ? 0 : orderID.hashCode());
 		result = prime * result + ((quantity == null) ? 0 : quantity.hashCode());
+		result = prime * result + ((taxAmount == null) ? 0 : taxAmount.hashCode());
+		result = prime * result + ((totalLineAmount == null) ? 0 : totalLineAmount.hashCode());
 		return result;
 	}
 	@Override
@@ -79,31 +72,41 @@ public class OrderDetails {
 		if (getClass() != obj.getClass())
 			return false;
 		OrderDetails other = (OrderDetails) obj;
-		if (game == null) {
-			if (other.game != null)
+		if (gameID == null) {
+			if (other.gameID != null)
 				return false;
-		} else if (!game.equals(other.game))
+		} else if (!gameID.equals(other.gameID))
 			return false;
 		if (id == null) {
 			if (other.id != null)
 				return false;
 		} else if (!id.equals(other.id))
 			return false;
-		if (order == null) {
-			if (other.order != null)
+		if (orderID == null) {
+			if (other.orderID != null)
 				return false;
-		} else if (!order.equals(other.order))
+		} else if (!orderID.equals(other.orderID))
 			return false;
 		if (quantity == null) {
 			if (other.quantity != null)
 				return false;
 		} else if (!quantity.equals(other.quantity))
 			return false;
+		if (taxAmount == null) {
+			if (other.taxAmount != null)
+				return false;
+		} else if (!taxAmount.equals(other.taxAmount))
+			return false;
+		if (totalLineAmount == null) {
+			if (other.totalLineAmount != null)
+				return false;
+		} else if (!totalLineAmount.equals(other.totalLineAmount))
+			return false;
 		return true;
 	}
 	@Override
 	public String toString() {
-		return "OrderDetails [id=" + id + ", game=" + game + ", order=" + order + ", quantity=" + quantity + "]";
+		return "OrderDetails [id=" + id + ", gameID=" + gameID + ", orderID=" + orderID + ", quantity=" + quantity
+				+ ", taxAmount=" + taxAmount + ", totalLineAmount=" + totalLineAmount + "]";
 	}
-	
 }

@@ -1,21 +1,9 @@
 package com.revature.app.beans;
 
-import javax.persistence.Column;
-import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.GenerationType;
-import javax.persistence.Id;
-import javax.persistence.SequenceGenerator;
-import javax.persistence.Table;
 
-@Entity
-@Table
 public class Developer {
-	@Id
-	@SequenceGenerator(name="devGen", sequenceName="developer_seq",allocationSize=1)
-	@GeneratedValue(generator="devGen", strategy=GenerationType.SEQUENCE)
+	
 	private Integer id;
-	@Column
 	private String name;
 	
 	public Integer getId() {
@@ -63,7 +51,5 @@ public class Developer {
 	public String toString() {
 		return "Developer [id=" + id + ", name=" + name + "]";
 	}
-	
-	
 	
 }

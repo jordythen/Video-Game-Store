@@ -3,66 +3,26 @@ package com.revature.app.beans;
 import java.time.LocalDateTime;
 import java.util.List;
 
-import javax.persistence.CascadeType;
-import javax.persistence.Column;
-import javax.persistence.Entity;
-import javax.persistence.FetchType;
-import javax.persistence.GeneratedValue;
-import javax.persistence.GenerationType;
-import javax.persistence.Id;
-import javax.persistence.JoinTable;
-import javax.persistence.ManyToMany;
-import javax.persistence.JoinColumn;
-import javax.persistence.OneToMany;
-import javax.persistence.SequenceGenerator;
-import javax.persistence.Table;
-
-@Entity
-@Table
 public class Game {
-	@Id
-	@SequenceGenerator(name="gameGen", sequenceName ="game_seq", allocationSize=1)
-	@GeneratedValue(generator="gameGen", strategy=GenerationType.SEQUENCE)
+	
 	private Integer id;
-	@Column
+	
 	private String name;
 	
-	@OneToMany(fetch=FetchType.EAGER, cascade=CascadeType.ALL)
-	@JoinTable(name="DEVELOPER_GAME", 
-			joinColumns=@JoinColumn(name="gameID"),
-			inverseJoinColumns=@JoinColumn(name="developerID"))
 	private List<Developer> developers; // Develops the game: Naughty Dog, Ubisoft, Infinity Ward
 	
-	@OneToMany(fetch=FetchType.EAGER, cascade=CascadeType.ALL)
-	@JoinTable(name="PUBLISHER_GAME",
-				joinColumns=@JoinColumn(name="gameID"),
-				inverseJoinColumns=@JoinColumn(name="publisherID"))
 	private List<Publisher> publishers; // Pushlisher: Sony, Nintendo, Xbox
-	@Column
+
 	private LocalDateTime dateReleased;
 	
-	@ManyToMany(fetch=FetchType.EAGER, cascade=CascadeType.ALL)
-	@JoinTable(name="GAME_GAMESYSTEM",
-				joinColumns=@JoinColumn(name="gameID"),
-				inverseJoinColumns=@JoinColumn(name="systemID"))
 	private List<GameSystem> systems;
 	
-	@Column
 	private String esrbRating;
 	
-	@OneToMany(fetch=FetchType.EAGER, cascade=CascadeType.ALL)
-	@JoinTable(name="GAME_GAMECATEGORY",
-				joinColumns=@JoinColumn(name="gameID"),
-				inverseJoinColumns=@JoinColumn(name="categoryID"))
 	private List<Category> category;
 	
-	@OneToMany(fetch=FetchType.EAGER, cascade=CascadeType.ALL)
-	@JoinTable(name="GAME_GAMEDETAILS",
-				joinColumns=@JoinColumn(name="gameID"),
-				inverseJoinColumns=@JoinColumn(name="detailID"))
 	private List<GameDetails> details;
 	
-	@Column
 	private String playerLimit; 
 	
 	public Integer getId() {
@@ -208,5 +168,4 @@ public class Game {
 				+ ", dateReleased=" + dateReleased + ", systems=" + systems + ", esrbRating=" + esrbRating
 				+ ", category=" + category + ", details=" + details + ", playerLimit=" + playerLimit + "]";
 	}
-	
 }

@@ -8,6 +8,7 @@ drop table GAME cascade constraints;
 drop table GAME_GAMECATEGORY cascade constraints;
 drop table GAME_GAMEDETAILS cascade constraints;
 drop table GAME_GAMESYSTEM cascade constraints;
+drop table GAME_GORDER cascade constraints;
 drop table ORDERDETAILS cascade constraints;
 drop table GAMECATEGORY cascade constraints;
 drop table GAMEDETAILS cascade constraints;

@@ -1,30 +1,11 @@
 package com.revature.app.beans;
 
-import javax.persistence.Column;
-import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.GenerationType;
-import javax.persistence.Id;
-import javax.persistence.SequenceGenerator;
-import javax.persistence.Table;
-
-@Entity
-@Table
 public class Employee{
-
-	@Id
-	@SequenceGenerator(name="employeeGen",sequenceName="employee_seq",allocationSize=1)
-	@GeneratedValue(generator="employeeGen",strategy=GenerationType.SEQUENCE)
 	private Integer id;
-	@Column
 	private String username;
-	@Column(name="passwd")
 	private String password;
-	@Column
 	private String firstName;
-	@Column
 	private String lastName;
-	@Column(name="employeeRole")
 	private String role;
 
 	
