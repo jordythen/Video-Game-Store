@@ -1,23 +1,20 @@
-drop table CUSTOMER cascade constraints;
-drop table CUSTOMER_GAME cascade constraints;
-drop table CUSTOMER_GAMEORDER cascade constraints;
 drop table DEVELOPER cascade constraints;
 drop table DEVELOPER_GAME cascade constraints;
-drop table EMPLOYEE cascade constraints;
 drop table GAME cascade constraints;
 drop table GAME_GAMECATEGORY cascade constraints;
 drop table GAME_GAMEDETAILS cascade constraints;
 drop table GAME_GAMESYSTEM cascade constraints;
-drop table GAME_GORDER cascade constraints;
-drop table ORDERDETAILS cascade constraints;
 drop table GAMECATEGORY cascade constraints;
 drop table GAMEDETAILS cascade constraints;
-drop table GAMESYSTEM cascade constraints;
 drop table GAMEORDER cascade constraints;
-drop table PUBLISHER cascade constraints;
+drop table GAMESYSTEM cascade constraints;
+drop table ORDERDETAILS cascade constraints;
+drop table PERSON cascade constraints;
+drop table PERSON_GAME cascade constraints;
+drop table PERSON_GAMEDETAILS2SELL cascade constraints;
+drop table PERSONROLE cascade constraints;
 drop table PUBLISHER_GAME cascade constraints;
-drop table CUSTOMER_GAMEDETAILS2SELL cascade constraints;
-
+drop table PUBLISHER cascade constraints;
 
 create table GAME (
     
@@ -123,69 +120,58 @@ create table GAME_GAMEDETAILS(
     
 );
 
-create table EMPLOYEE(
-    
+create table PERSONROLE(
+
     id number(10) primary key,
-    username varchar2(255),
-    passwd varchar2(255),
-    firstName varchar2(255),
-    lastName varchar2(255),
-    employeeRole varchar2(255)
+    personRole varchar(255)
 
 );
 
-create table CUSTOMER(
-
-    id number(10) primary key,
+create table PERSON(
     
+    id number(10) primary key,
+    roleID number(10),
     username varchar2(255),
     passwd varchar2(255),
     firstName varchar2(255),
     lastName varchar2(255),
-    money number(20,2)
+    money number(20,2),
 
+    foreign key (roleID) references PERSONROLE(id)
 );
 
 --one to many/many to one
 --showing ownership of games
-create table CUSTOMER_GAME(
+create table PERSON_GAME(
 
-    customerID number(10),
+    personID number(10),
     gameID number(10),
     
     foreign key (gameID) references GAME(id),
-    foreign key (customerID) references CUSTOMER(id)
+    foreign key (personID) references PERSON(id)
 );
 
-create table CUSTOMER_GAMEDETAILS2SELL(
+create table PERSON_GAMEDETAILS2SELL(
 
-    customerID number(10),
+    personID number(10),
     gameDetailsID number(10),
     
     foreign key (gameDetailsID) references GAMEDETAILS(id),
-    foreign key (customerID) references CUSTOMER(id)
+    foreign key (personID) references PERSON(id)
 );
 
 create table GAMEORDER(
 
     id number(10) primary key,
+    personID number(10),
     tax number(20,2),
     orderTotal number(20,2),
-    orderDate timestamp
+    orderDate timestamp,
     
-);
-
---one to many
-create table CUSTOMER_GAMEORDER(
-
-    customerID number(10),
-    orderID number(10),
-    
-    
-    foreign key (customerID) references CUSTOMER(id),
-    foreign key (orderID) references GAMEORDER(id)
+    foreign key (personID) references PERSON(id)
 
 );
+
 
 create table ORDERDETAILS(
 
@@ -206,23 +192,132 @@ drop sequence developer_seq;
 drop sequence publisher_seq;
 drop sequence category_seq;
 drop sequence gamedetails_seq;
-drop sequence employee_seq;
-drop sequence customer_seq;
+drop sequence person_seq;
 drop sequence order_seq;
 drop sequence orderdetails_seq;
+drop sequence role_seq;
 
+drop trigger developer_trig;
+drop trigger game_trig;
+drop trigger gamedetails_trig;
+drop trigger gamesystem_trig;
+drop trigger order_trig;
+drop trigger orderdetails_trig;
+drop trigger person_trig;
+drop trigger publisher_trig;
+drop trigger role_trig;
 
+create sequence role_seq;
 create sequence game_seq;
 create sequence gamesystem_seq;
 create sequence developer_seq;
 create sequence publisher_seq;
 create sequence category_seq;
 create sequence gamedetails_seq;
-create sequence employee_seq;
-create sequence customer_seq;
+create sequence person_seq;
 create sequence order_seq;
 create sequence orderdetails_seq;
 
+
+create or replace trigger GAME_TRIG
+before insert or update on GAME
+for each row
+begin
+    if INSERTING then
+        select GAME_SEQ.nextval into :new.id from dual;
+    elsif UPDATING then
+        select :old.id into :new.id from dual;
+    end if;
+end;
+/
+create or replace trigger GAMESYSTEM_TRIG
+before insert or update on GAMESYSTEM
+for each row
+begin
+    if INSERTING then
+        select GAMESYSTEM_SEQ.nextval into :new.id from dual;
+    elsif UPDATING then
+        select :old.id into :new.id from dual;
+    end if;
+end;
+/
+create or replace trigger DEVELOPER_TRIG
+before insert or update on DEVELOPER
+for each row
+begin
+    if INSERTING then
+        select DEVELOPER_SEQ.nextval into :new.id from dual;
+    elsif UPDATING then
+        select :old.id into :new.id from dual;
+    end if;
+end;
+/
+create or replace trigger PUBLISHER_TRIG
+before insert or update on PUBLISHER
+for each row
+begin
+    if INSERTING then
+        select PUBLISHER_SEQ.nextval into :new.id from dual;
+    elsif UPDATING then
+        select :old.id into :new.id from dual;
+    end if;
+end;
+/
+create or replace trigger GAMEDETAILS_TRIG
+before insert or update on GAMEDETAILS
+for each row
+begin
+    if INSERTING then
+        select GAMEDETAILS_SEQ.nextval into :new.id from dual;
+    elsif UPDATING then
+        select :old.id into :new.id from dual;
+    end if;
+end;
+/
+create or replace trigger PERSON_TRIG
+before insert or update on PERSON
+for each row
+begin
+    if INSERTING then
+        select PERSON_SEQ.nextval into :new.id from dual;
+    elsif UPDATING then
+        select :old.id into :new.id from dual;
+    end if;
+end;
+/
+create or replace trigger ORDER_TRIG
+before insert or update on GAMEORDER
+for each row
+begin
+    if INSERTING then
+        select ORDER_SEQ.nextval into :new.id from dual;
+    elsif UPDATING then
+        select :old.id into :new.id from dual;
+    end if;
+end;
+/
+create or replace trigger ORDERDETAILS_TRIG
+before insert or update on ORDERDETAILS
+for each row
+begin
+    if INSERTING then
+        select ORDERDETAILS_SEQ.nextval into :new.id from dual;
+    elsif UPDATING then
+        select :old.id into :new.id from dual;
+    end if;
+end;
+/
+create or replace trigger ROLE_TRIG
+before insert or update on PERSONROLE
+for each row
+begin
+    if INSERTING then
+        select ROLE_SEQ.nextval into :new.id from dual;
+    elsif UPDATING then
+        select :old.id into :new.id from dual;
+    end if;
+end;
+/
 
 
 

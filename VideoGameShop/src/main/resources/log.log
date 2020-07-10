@@ -1,0 +1,18 @@
+2020-07-09 23:09:01 TRACE UserOracle:56 - Retrieving person by username and password
+2020-07-09 23:09:04 TRACE UserOracle:84 - Cannot find person with username and password
+2020-07-09 23:09:33 TRACE UserOracle:56 - Retrieving person by username and password
+2020-07-09 23:09:35 TRACE UserOracle:84 - Cannot find person with username and password
+2020-07-09 23:11:35 TRACE UserOracle:56 - Retrieving person by username and password
+2020-07-09 23:11:36 TRACE UserOracle:66 - Person with username jordythen was found!
+2020-07-09 23:11:36 TRACE UserOracle:70 - This person is a customer
+2020-07-09 23:13:33 TRACE UserOracle:56 - Retrieving person by username and password
+2020-07-09 23:13:35 TRACE UserOracle:66 - Person with username jordythen was found!
+2020-07-09 23:13:35 TRACE UserOracle:70 - This person is a customer
+2020-07-09 23:16:26 TRACE UserOracle:56 - Retrieving person by username and password
+2020-07-09 23:16:28 TRACE UserOracle:66 - Person with username jordythen was found!
+2020-07-09 23:16:28 TRACE UserOracle:70 - This person is a customer
+2020-07-09 23:24:34 TRACE UserController:62 - User is not in session, attempting to log in with username jordythen and password pass
+2020-07-09 23:24:34 TRACE UserOracle:56 - Retrieving person by username and password
+2020-07-09 23:24:35 TRACE UserOracle:66 - Person with username jordythen was found!
+2020-07-09 23:24:35 TRACE UserOracle:70 - This person is a customer
+2020-07-09 23:24:35 INFO  UserController:65 - User was found!
