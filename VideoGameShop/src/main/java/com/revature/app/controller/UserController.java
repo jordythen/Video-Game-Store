@@ -43,14 +43,14 @@ public class UserController {
 		}
 		return ResponseEntity.ok(u);
 	}
-	/*
+	
 	@PostMapping(path="/register")
-	public ResponseEntity<Customer> register(@RequestBody Customer u){
+	public ResponseEntity<User> register(@RequestBody User u, @RequestParam("isDeveloper") Boolean isDev){
 		
 		log.info("Registering user "+ u);
-		return ResponseEntity.ok(uServ.registerAccount(u));
+		return ResponseEntity.ok(uServ.registerAccount(u, isDev));
 		
-	}*/
+	}
 	
 	@PostMapping(path="/login")
 	public ResponseEntity<User> login(@RequestParam("user") String username, @RequestParam("pass") String password, HttpSession session){

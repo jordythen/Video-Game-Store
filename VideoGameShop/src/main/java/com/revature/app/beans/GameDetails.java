@@ -6,7 +6,7 @@ public class GameDetails {
 	
 	private Game game;
 	
-	private String status; //new or used
+	private String status; //alpha or beta
 	
 	private Integer quantity; 
 	

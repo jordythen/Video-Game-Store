@@ -9,6 +9,7 @@ public class OrderDetails {
 	private Integer orderID;
 	
 	private Integer quantity; 
+	
 	private Double taxAmount;
 
 	//This will be the total amount for this particular game
