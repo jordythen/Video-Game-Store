@@ -1,1 +1,2 @@
 # Video-Game-Store
+This application is an online e-commerce website used to promote and distribute indie games developed by small indie developers who's looking to bring awareness to their games. The application will provide a platform for users to sell and purchase other developer's games. Customers will be able to view the store's inventory and sort them by upload date, reviews, and price. Every week/month, polished games hosted on the platform will be promoted on the home page. Games will be able to be rated and reviewed by other developers. 
