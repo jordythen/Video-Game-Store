@@ -85,7 +85,7 @@ public class CategoryOracle implements CategoryDAO {
 	@Override
 	public List<Category> getAll() {
 		// TODO Auto-generated method stub
-		log.trace("Retrieving all users from the person table");
+		log.trace("Retrieving all categories from the person table");
 		List<Category> categories = new LinkedList<Category>();
 		try(Connection conn = cu.getConnection()){
 			String sql = "select * from gamecategory";
