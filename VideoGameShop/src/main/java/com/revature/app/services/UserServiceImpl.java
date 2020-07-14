@@ -8,16 +8,15 @@ import com.revature.app.beans.Customer;
 import com.revature.app.beans.User;
 import com.revature.app.data.UserOracle;
 
-public class UserServiceImpl implements UserService{
+public class UserServiceImpl implements UserService {
 
 	private static UserOracle uDao;
-	
-	
+
 	@Autowired
 	public UserServiceImpl() {
 		uDao = new UserOracle();
 	}
-	
+
 	@Override
 	public User findByUsernameAndPassword(String username, String password) {
 		// TODO Auto-generated method stub
@@ -55,15 +54,10 @@ public class UserServiceImpl implements UserService{
 	}
 
 	@Override
-	public User registerAccount(User u, Boolean isDeveloper) {
+	public User registerAccount(User u) {
 		// TODO Auto-generated method stub
-		if(!isDeveloper) {
-			
-			return findById(add(u));
-		}else {
-			
-			return findById(add(u));
-		}
+
+		return findById(add(u));
 	}
 
 }

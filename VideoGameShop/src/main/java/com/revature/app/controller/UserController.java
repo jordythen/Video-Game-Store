@@ -45,12 +45,27 @@ public class UserController {
 	}
 	
 	@PostMapping(path="/register")
-	public ResponseEntity<User> register(@RequestBody User u, @RequestParam("isDeveloper") Boolean isDev){
+	public ResponseEntity<User> registerCustomerAccount(@RequestParam("firstname") String firstName,
+			@RequestParam("lastname") String lastName,
+			@RequestParam("username") String username,
+			@RequestParam("password") String password){
 		
-		log.info("Registering user "+ u);
-		return ResponseEntity.ok(uServ.registerAccount(u, isDev));
+		log.info("Registering user " + username);
+		Customer temp = new Customer();
+		temp.setFirstName(firstName);
+		temp.setLastName(lastName);
+		temp.setUsername(username);
+		temp.setPassword(password);
+		temp.setMoney(0.00);
+		
+		User responseUser = uServ.registerAccount(temp);
+		if(responseUser == null) {
+			return ResponseEntity.status(404).build();
+		}
+		return ResponseEntity.ok(responseUser);
 		
 	}
+	
 	
 	@PostMapping(path="/login")
 	public ResponseEntity<User> login(@RequestParam("user") String username, @RequestParam("pass") String password, HttpSession session){

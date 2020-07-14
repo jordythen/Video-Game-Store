@@ -365,3 +365,1116 @@
 2020-07-10 22:29:51 TRACE UserController:39 - user already logged in
 2020-07-10 22:29:51 INFO  UserController:36 - Checking to see if Customer session is occupied
 2020-07-10 22:29:51 TRACE UserController:39 - user already logged in
+2020-07-14 11:57:47 INFO  UserController:36 - Checking to see if Customer session is occupied
+2020-07-14 11:57:47 TRACE UserController:41 - user is not logged in
+2020-07-14 11:57:47 INFO  UserController:36 - Checking to see if Customer session is occupied
+2020-07-14 11:57:47 TRACE UserController:41 - user is not logged in
+2020-07-14 11:57:54 TRACE UserController:62 - User is not in session, attempting to log in with username jordythen and password pass
+2020-07-14 11:57:54 TRACE UserOracle:254 - Retrieving person by username and password
+2020-07-14 11:57:54 TRACE UserOracle:264 - Person with username jordythen was found!
+2020-07-14 11:57:54 TRACE UserOracle:268 - This person is a customer
+2020-07-14 11:57:54 INFO  UserController:65 - User was found!
+2020-07-14 11:57:55 INFO  UserController:36 - Checking to see if Customer session is occupied
+2020-07-14 11:57:55 TRACE UserController:39 - user already logged in
+2020-07-14 11:57:55 INFO  UserController:36 - Checking to see if Customer session is occupied
+2020-07-14 11:57:55 TRACE UserController:39 - user already logged in
+2020-07-14 11:58:13 INFO  UserController:78 - User has been logged out
+2020-07-14 11:58:13 INFO  UserController:36 - Checking to see if Customer session is occupied
+2020-07-14 11:58:13 TRACE UserController:41 - user is not logged in
+2020-07-14 11:58:13 INFO  UserController:36 - Checking to see if Customer session is occupied
+2020-07-14 11:58:13 TRACE UserController:41 - user is not logged in
+2020-07-14 12:00:00 INFO  UserController:36 - Checking to see if Customer session is occupied
+2020-07-14 12:00:00 TRACE UserController:41 - user is not logged in
+2020-07-14 12:00:17 INFO  UserController:36 - Checking to see if Customer session is occupied
+2020-07-14 12:00:17 TRACE UserController:41 - user is not logged in
+2020-07-14 12:00:17 INFO  UserController:36 - Checking to see if Customer session is occupied
+2020-07-14 12:00:17 TRACE UserController:41 - user is not logged in
+2020-07-14 12:02:06 INFO  UserController:36 - Checking to see if Customer session is occupied
+2020-07-14 12:02:06 TRACE UserController:41 - user is not logged in
+2020-07-14 12:02:07 INFO  UserController:36 - Checking to see if Customer session is occupied
+2020-07-14 12:02:07 TRACE UserController:41 - user is not logged in
+2020-07-14 12:02:08 INFO  UserController:36 - Checking to see if Customer session is occupied
+2020-07-14 12:02:08 TRACE UserController:41 - user is not logged in
+2020-07-14 12:02:08 INFO  UserController:36 - Checking to see if Customer session is occupied
+2020-07-14 12:02:08 TRACE UserController:41 - user is not logged in
+2020-07-14 12:15:33 INFO  UserController:36 - Checking to see if Customer session is occupied
+2020-07-14 12:15:33 TRACE UserController:41 - user is not logged in
+2020-07-14 12:15:33 INFO  UserController:36 - Checking to see if Customer session is occupied
+2020-07-14 12:15:33 TRACE UserController:41 - user is not logged in
+2020-07-14 12:15:45 INFO  UserController:36 - Checking to see if Customer session is occupied
+2020-07-14 12:15:45 TRACE UserController:41 - user is not logged in
+2020-07-14 12:15:45 INFO  UserController:36 - Checking to see if Customer session is occupied
+2020-07-14 12:15:45 TRACE UserController:41 - user is not logged in
+2020-07-14 12:15:57 INFO  UserController:36 - Checking to see if Customer session is occupied
+2020-07-14 12:15:57 TRACE UserController:41 - user is not logged in
+2020-07-14 12:15:57 INFO  UserController:36 - Checking to see if Customer session is occupied
+2020-07-14 12:15:57 TRACE UserController:41 - user is not logged in
+2020-07-14 12:16:03 INFO  UserController:36 - Checking to see if Customer session is occupied
+2020-07-14 12:16:03 TRACE UserController:41 - user is not logged in
+2020-07-14 12:16:03 INFO  UserController:36 - Checking to see if Customer session is occupied
+2020-07-14 12:16:03 TRACE UserController:41 - user is not logged in
+2020-07-14 12:16:07 INFO  UserController:36 - Checking to see if Customer session is occupied
+2020-07-14 12:16:07 TRACE UserController:41 - user is not logged in
+2020-07-14 12:16:07 INFO  UserController:36 - Checking to see if Customer session is occupied
+2020-07-14 12:16:07 TRACE UserController:41 - user is not logged in
+2020-07-14 12:25:15 TRACE UserOracle:254 - Retrieving person by username and password
+2020-07-14 12:25:17 TRACE UserOracle:264 - Person with username jordythen was found!
+2020-07-14 12:25:17 TRACE UserOracle:268 - This person is a customer
+2020-07-14 12:25:53 TRACE UserOracle:254 - Retrieving person by username and password
+2020-07-14 12:25:55 TRACE UserOracle:264 - Person with username jordythen was found!
+2020-07-14 12:25:55 TRACE UserOracle:268 - This person is a customer
+2020-07-14 12:26:01 TRACE UserOracle:254 - Retrieving person by username and password
+2020-07-14 12:26:02 TRACE UserOracle:264 - Person with username jordythen was found!
+2020-07-14 12:26:02 TRACE UserOracle:268 - This person is a customer
+2020-07-14 13:02:40 INFO  UserController:36 - Checking to see if Customer session is occupied
+2020-07-14 13:02:40 TRACE UserController:41 - user is not logged in
+2020-07-14 13:02:40 INFO  UserController:36 - Checking to see if Customer session is occupied
+2020-07-14 13:02:40 TRACE UserController:41 - user is not logged in
+2020-07-14 13:02:48 TRACE UserController:73 - User is not in session, attempting to log in with username jordythen and password pass
+2020-07-14 13:02:48 TRACE UserOracle:254 - Retrieving person by username and password
+2020-07-14 13:02:48 TRACE UserOracle:264 - Person with username jordythen was found!
+2020-07-14 13:02:48 TRACE UserOracle:268 - This person is a customer
+2020-07-14 13:02:48 INFO  UserController:76 - User was found!
+2020-07-14 13:02:49 INFO  UserController:36 - Checking to see if Customer session is occupied
+2020-07-14 13:02:49 TRACE UserController:39 - user already logged in
+2020-07-14 13:02:49 INFO  UserController:36 - Checking to see if Customer session is occupied
+2020-07-14 13:02:49 TRACE UserController:39 - user already logged in
+2020-07-14 13:02:51 INFO  UserController:89 - User has been logged out
+2020-07-14 13:02:51 INFO  UserController:36 - Checking to see if Customer session is occupied
+2020-07-14 13:02:51 TRACE UserController:41 - user is not logged in
+2020-07-14 13:02:51 INFO  UserController:36 - Checking to see if Customer session is occupied
+2020-07-14 13:02:51 TRACE UserController:41 - user is not logged in
+2020-07-14 13:05:31 INFO  UserController:36 - Checking to see if Customer session is occupied
+2020-07-14 13:05:31 TRACE UserController:41 - user is not logged in
+2020-07-14 13:05:31 INFO  UserController:36 - Checking to see if Customer session is occupied
+2020-07-14 13:05:31 TRACE UserController:41 - user is not logged in
+2020-07-14 13:05:46 INFO  UserController:36 - Checking to see if Customer session is occupied
+2020-07-14 13:05:46 TRACE UserController:41 - user is not logged in
+2020-07-14 13:05:46 INFO  UserController:36 - Checking to see if Customer session is occupied
+2020-07-14 13:05:46 TRACE UserController:41 - user is not logged in
+2020-07-14 13:05:55 INFO  UserController:36 - Checking to see if Customer session is occupied
+2020-07-14 13:05:55 TRACE UserController:41 - user is not logged in
+2020-07-14 13:05:55 INFO  UserController:36 - Checking to see if Customer session is occupied
+2020-07-14 13:05:55 TRACE UserController:41 - user is not logged in
+2020-07-14 13:06:05 INFO  UserController:36 - Checking to see if Customer session is occupied
+2020-07-14 13:06:05 TRACE UserController:41 - user is not logged in
+2020-07-14 13:06:05 INFO  UserController:36 - Checking to see if Customer session is occupied
+2020-07-14 13:06:05 TRACE UserController:41 - user is not logged in
+2020-07-14 13:06:13 INFO  UserController:36 - Checking to see if Customer session is occupied
+2020-07-14 13:06:13 TRACE UserController:41 - user is not logged in
+2020-07-14 13:06:13 INFO  UserController:36 - Checking to see if Customer session is occupied
+2020-07-14 13:06:13 TRACE UserController:41 - user is not logged in
+2020-07-14 13:06:17 INFO  UserController:36 - Checking to see if Customer session is occupied
+2020-07-14 13:06:17 TRACE UserController:41 - user is not logged in
+2020-07-14 13:06:17 INFO  UserController:36 - Checking to see if Customer session is occupied
+2020-07-14 13:06:17 TRACE UserController:41 - user is not logged in
+2020-07-14 13:06:23 INFO  UserController:36 - Checking to see if Customer session is occupied
+2020-07-14 13:06:23 TRACE UserController:41 - user is not logged in
+2020-07-14 13:06:23 INFO  UserController:36 - Checking to see if Customer session is occupied
+2020-07-14 13:06:23 TRACE UserController:41 - user is not logged in
+2020-07-14 13:06:28 INFO  UserController:36 - Checking to see if Customer session is occupied
+2020-07-14 13:06:28 TRACE UserController:41 - user is not logged in
+2020-07-14 13:06:28 INFO  UserController:36 - Checking to see if Customer session is occupied
+2020-07-14 13:06:28 TRACE UserController:41 - user is not logged in
+2020-07-14 13:06:38 INFO  UserController:36 - Checking to see if Customer session is occupied
+2020-07-14 13:06:38 TRACE UserController:41 - user is not logged in
+2020-07-14 13:06:39 INFO  UserController:36 - Checking to see if Customer session is occupied
+2020-07-14 13:06:39 TRACE UserController:41 - user is not logged in
+2020-07-14 13:06:41 INFO  UserController:36 - Checking to see if Customer session is occupied
+2020-07-14 13:06:41 TRACE UserController:41 - user is not logged in
+2020-07-14 13:06:41 INFO  UserController:36 - Checking to see if Customer session is occupied
+2020-07-14 13:06:41 TRACE UserController:41 - user is not logged in
+2020-07-14 13:06:44 INFO  UserController:36 - Checking to see if Customer session is occupied
+2020-07-14 13:06:44 TRACE UserController:41 - user is not logged in
+2020-07-14 13:06:44 INFO  UserController:36 - Checking to see if Customer session is occupied
+2020-07-14 13:06:44 TRACE UserController:41 - user is not logged in
+2020-07-14 13:06:46 INFO  UserController:36 - Checking to see if Customer session is occupied
+2020-07-14 13:06:46 TRACE UserController:41 - user is not logged in
+2020-07-14 13:06:46 INFO  UserController:36 - Checking to see if Customer session is occupied
+2020-07-14 13:06:46 TRACE UserController:41 - user is not logged in
+2020-07-14 13:06:51 INFO  UserController:36 - Checking to see if Customer session is occupied
+2020-07-14 13:06:51 TRACE UserController:41 - user is not logged in
+2020-07-14 13:06:52 INFO  UserController:36 - Checking to see if Customer session is occupied
+2020-07-14 13:06:52 TRACE UserController:41 - user is not logged in
+2020-07-14 13:06:54 INFO  UserController:36 - Checking to see if Customer session is occupied
+2020-07-14 13:06:54 TRACE UserController:41 - user is not logged in
+2020-07-14 13:06:54 INFO  UserController:36 - Checking to see if Customer session is occupied
+2020-07-14 13:06:54 TRACE UserController:41 - user is not logged in
+2020-07-14 13:07:01 INFO  UserController:36 - Checking to see if Customer session is occupied
+2020-07-14 13:07:01 TRACE UserController:41 - user is not logged in
+2020-07-14 13:07:01 INFO  UserController:36 - Checking to see if Customer session is occupied
+2020-07-14 13:07:01 TRACE UserController:41 - user is not logged in
+2020-07-14 13:07:06 INFO  UserController:36 - Checking to see if Customer session is occupied
+2020-07-14 13:07:06 TRACE UserController:41 - user is not logged in
+2020-07-14 13:07:06 INFO  UserController:36 - Checking to see if Customer session is occupied
+2020-07-14 13:07:06 TRACE UserController:41 - user is not logged in
+2020-07-14 13:07:16 INFO  UserController:36 - Checking to see if Customer session is occupied
+2020-07-14 13:07:16 TRACE UserController:41 - user is not logged in
+2020-07-14 13:07:16 INFO  UserController:36 - Checking to see if Customer session is occupied
+2020-07-14 13:07:16 TRACE UserController:41 - user is not logged in
+2020-07-14 13:07:27 INFO  UserController:36 - Checking to see if Customer session is occupied
+2020-07-14 13:07:27 TRACE UserController:41 - user is not logged in
+2020-07-14 13:07:27 INFO  UserController:36 - Checking to see if Customer session is occupied
+2020-07-14 13:07:27 TRACE UserController:41 - user is not logged in
+2020-07-14 13:07:42 INFO  UserController:36 - Checking to see if Customer session is occupied
+2020-07-14 13:07:42 TRACE UserController:41 - user is not logged in
+2020-07-14 13:07:42 INFO  UserController:36 - Checking to see if Customer session is occupied
+2020-07-14 13:07:42 TRACE UserController:41 - user is not logged in
+2020-07-14 13:07:47 INFO  UserController:36 - Checking to see if Customer session is occupied
+2020-07-14 13:07:47 TRACE UserController:41 - user is not logged in
+2020-07-14 13:07:48 INFO  UserController:36 - Checking to see if Customer session is occupied
+2020-07-14 13:07:48 TRACE UserController:41 - user is not logged in
+2020-07-14 13:07:58 INFO  UserController:36 - Checking to see if Customer session is occupied
+2020-07-14 13:07:58 TRACE UserController:41 - user is not logged in
+2020-07-14 13:07:58 INFO  UserController:36 - Checking to see if Customer session is occupied
+2020-07-14 13:07:58 TRACE UserController:41 - user is not logged in
+2020-07-14 13:10:43 INFO  UserController:36 - Checking to see if Customer session is occupied
+2020-07-14 13:10:43 TRACE UserController:41 - user is not logged in
+2020-07-14 13:10:43 INFO  UserController:36 - Checking to see if Customer session is occupied
+2020-07-14 13:10:43 TRACE UserController:41 - user is not logged in
+2020-07-14 13:10:54 INFO  UserController:36 - Checking to see if Customer session is occupied
+2020-07-14 13:10:54 TRACE UserController:41 - user is not logged in
+2020-07-14 13:10:54 INFO  UserController:36 - Checking to see if Customer session is occupied
+2020-07-14 13:10:54 TRACE UserController:41 - user is not logged in
+2020-07-14 13:11:40 INFO  UserController:36 - Checking to see if Customer session is occupied
+2020-07-14 13:11:40 TRACE UserController:41 - user is not logged in
+2020-07-14 13:11:41 INFO  UserController:36 - Checking to see if Customer session is occupied
+2020-07-14 13:11:41 TRACE UserController:41 - user is not logged in
+2020-07-14 13:11:56 INFO  UserController:36 - Checking to see if Customer session is occupied
+2020-07-14 13:11:56 TRACE UserController:41 - user is not logged in
+2020-07-14 13:11:56 INFO  UserController:36 - Checking to see if Customer session is occupied
+2020-07-14 13:11:56 TRACE UserController:41 - user is not logged in
+2020-07-14 13:11:58 INFO  UserController:36 - Checking to see if Customer session is occupied
+2020-07-14 13:11:58 TRACE UserController:41 - user is not logged in
+2020-07-14 13:11:58 INFO  UserController:36 - Checking to see if Customer session is occupied
+2020-07-14 13:11:58 TRACE UserController:41 - user is not logged in
+2020-07-14 13:12:47 INFO  UserController:36 - Checking to see if Customer session is occupied
+2020-07-14 13:12:47 TRACE UserController:41 - user is not logged in
+2020-07-14 13:12:47 INFO  UserController:36 - Checking to see if Customer session is occupied
+2020-07-14 13:12:47 TRACE UserController:41 - user is not logged in
+2020-07-14 13:12:50 INFO  UserController:36 - Checking to see if Customer session is occupied
+2020-07-14 13:12:50 TRACE UserController:41 - user is not logged in
+2020-07-14 13:12:50 INFO  UserController:36 - Checking to see if Customer session is occupied
+2020-07-14 13:12:50 TRACE UserController:41 - user is not logged in
+2020-07-14 13:13:05 INFO  UserController:36 - Checking to see if Customer session is occupied
+2020-07-14 13:13:05 TRACE UserController:41 - user is not logged in
+2020-07-14 13:13:05 INFO  UserController:36 - Checking to see if Customer session is occupied
+2020-07-14 13:13:05 TRACE UserController:41 - user is not logged in
+2020-07-14 13:13:07 INFO  UserController:36 - Checking to see if Customer session is occupied
+2020-07-14 13:13:07 TRACE UserController:41 - user is not logged in
+2020-07-14 13:13:07 INFO  UserController:36 - Checking to see if Customer session is occupied
+2020-07-14 13:13:07 TRACE UserController:41 - user is not logged in
+2020-07-14 13:13:11 INFO  UserController:36 - Checking to see if Customer session is occupied
+2020-07-14 13:13:11 TRACE UserController:41 - user is not logged in
+2020-07-14 13:13:11 INFO  UserController:36 - Checking to see if Customer session is occupied
+2020-07-14 13:13:11 TRACE UserController:41 - user is not logged in
+2020-07-14 13:13:42 INFO  UserController:36 - Checking to see if Customer session is occupied
+2020-07-14 13:13:42 TRACE UserController:41 - user is not logged in
+2020-07-14 13:13:42 INFO  UserController:36 - Checking to see if Customer session is occupied
+2020-07-14 13:13:42 TRACE UserController:41 - user is not logged in
+2020-07-14 13:13:45 INFO  UserController:36 - Checking to see if Customer session is occupied
+2020-07-14 13:13:45 TRACE UserController:41 - user is not logged in
+2020-07-14 13:13:45 INFO  UserController:36 - Checking to see if Customer session is occupied
+2020-07-14 13:13:45 TRACE UserController:41 - user is not logged in
+2020-07-14 13:13:56 INFO  UserController:36 - Checking to see if Customer session is occupied
+2020-07-14 13:13:56 TRACE UserController:41 - user is not logged in
+2020-07-14 13:13:56 INFO  UserController:36 - Checking to see if Customer session is occupied
+2020-07-14 13:13:56 TRACE UserController:41 - user is not logged in
+2020-07-14 13:13:59 INFO  UserController:36 - Checking to see if Customer session is occupied
+2020-07-14 13:13:59 TRACE UserController:41 - user is not logged in
+2020-07-14 13:13:59 INFO  UserController:36 - Checking to see if Customer session is occupied
+2020-07-14 13:13:59 TRACE UserController:41 - user is not logged in
+2020-07-14 13:14:01 INFO  UserController:36 - Checking to see if Customer session is occupied
+2020-07-14 13:14:01 TRACE UserController:41 - user is not logged in
+2020-07-14 13:14:02 INFO  UserController:36 - Checking to see if Customer session is occupied
+2020-07-14 13:14:02 TRACE UserController:41 - user is not logged in
+2020-07-14 13:14:04 INFO  UserController:36 - Checking to see if Customer session is occupied
+2020-07-14 13:14:04 TRACE UserController:41 - user is not logged in
+2020-07-14 13:14:04 INFO  UserController:36 - Checking to see if Customer session is occupied
+2020-07-14 13:14:04 TRACE UserController:41 - user is not logged in
+2020-07-14 13:14:30 INFO  UserController:36 - Checking to see if Customer session is occupied
+2020-07-14 13:14:30 TRACE UserController:41 - user is not logged in
+2020-07-14 13:14:30 INFO  UserController:36 - Checking to see if Customer session is occupied
+2020-07-14 13:14:30 TRACE UserController:41 - user is not logged in
+2020-07-14 13:14:32 INFO  UserController:36 - Checking to see if Customer session is occupied
+2020-07-14 13:14:32 TRACE UserController:41 - user is not logged in
+2020-07-14 13:14:32 INFO  UserController:36 - Checking to see if Customer session is occupied
+2020-07-14 13:14:32 TRACE UserController:41 - user is not logged in
+2020-07-14 13:14:36 INFO  UserController:36 - Checking to see if Customer session is occupied
+2020-07-14 13:14:36 TRACE UserController:41 - user is not logged in
+2020-07-14 13:14:36 INFO  UserController:36 - Checking to see if Customer session is occupied
+2020-07-14 13:14:36 TRACE UserController:41 - user is not logged in
+2020-07-14 13:14:44 INFO  UserController:36 - Checking to see if Customer session is occupied
+2020-07-14 13:14:44 TRACE UserController:41 - user is not logged in
+2020-07-14 13:14:44 INFO  UserController:36 - Checking to see if Customer session is occupied
+2020-07-14 13:14:44 TRACE UserController:41 - user is not logged in
+2020-07-14 13:14:47 INFO  UserController:36 - Checking to see if Customer session is occupied
+2020-07-14 13:14:47 TRACE UserController:41 - user is not logged in
+2020-07-14 13:14:47 INFO  UserController:36 - Checking to see if Customer session is occupied
+2020-07-14 13:14:47 TRACE UserController:41 - user is not logged in
+2020-07-14 13:14:52 INFO  UserController:36 - Checking to see if Customer session is occupied
+2020-07-14 13:14:52 TRACE UserController:41 - user is not logged in
+2020-07-14 13:14:52 INFO  UserController:36 - Checking to see if Customer session is occupied
+2020-07-14 13:14:52 TRACE UserController:41 - user is not logged in
+2020-07-14 13:14:54 INFO  UserController:36 - Checking to see if Customer session is occupied
+2020-07-14 13:14:54 TRACE UserController:41 - user is not logged in
+2020-07-14 13:14:54 INFO  UserController:36 - Checking to see if Customer session is occupied
+2020-07-14 13:14:54 TRACE UserController:41 - user is not logged in
+2020-07-14 13:14:57 INFO  UserController:36 - Checking to see if Customer session is occupied
+2020-07-14 13:14:57 TRACE UserController:41 - user is not logged in
+2020-07-14 13:14:57 INFO  UserController:36 - Checking to see if Customer session is occupied
+2020-07-14 13:14:57 TRACE UserController:41 - user is not logged in
+2020-07-14 13:15:03 INFO  UserController:36 - Checking to see if Customer session is occupied
+2020-07-14 13:15:03 TRACE UserController:41 - user is not logged in
+2020-07-14 13:15:03 INFO  UserController:36 - Checking to see if Customer session is occupied
+2020-07-14 13:15:03 TRACE UserController:41 - user is not logged in
+2020-07-14 13:15:09 INFO  UserController:36 - Checking to see if Customer session is occupied
+2020-07-14 13:15:09 TRACE UserController:41 - user is not logged in
+2020-07-14 13:15:09 INFO  UserController:36 - Checking to see if Customer session is occupied
+2020-07-14 13:15:09 TRACE UserController:41 - user is not logged in
+2020-07-14 13:15:35 INFO  UserController:36 - Checking to see if Customer session is occupied
+2020-07-14 13:15:35 TRACE UserController:41 - user is not logged in
+2020-07-14 13:15:35 INFO  UserController:36 - Checking to see if Customer session is occupied
+2020-07-14 13:15:35 TRACE UserController:41 - user is not logged in
+2020-07-14 13:15:37 INFO  UserController:36 - Checking to see if Customer session is occupied
+2020-07-14 13:15:37 TRACE UserController:41 - user is not logged in
+2020-07-14 13:15:37 INFO  UserController:36 - Checking to see if Customer session is occupied
+2020-07-14 13:15:37 TRACE UserController:41 - user is not logged in
+2020-07-14 13:15:43 INFO  UserController:36 - Checking to see if Customer session is occupied
+2020-07-14 13:15:43 TRACE UserController:41 - user is not logged in
+2020-07-14 13:15:43 INFO  UserController:36 - Checking to see if Customer session is occupied
+2020-07-14 13:15:43 TRACE UserController:41 - user is not logged in
+2020-07-14 13:19:48 INFO  UserController:36 - Checking to see if Customer session is occupied
+2020-07-14 13:19:48 TRACE UserController:41 - user is not logged in
+2020-07-14 13:19:48 INFO  UserController:36 - Checking to see if Customer session is occupied
+2020-07-14 13:19:48 TRACE UserController:41 - user is not logged in
+2020-07-14 13:25:09 INFO  UserController:36 - Checking to see if Customer session is occupied
+2020-07-14 13:25:09 TRACE UserController:41 - user is not logged in
+2020-07-14 13:25:10 INFO  UserController:36 - Checking to see if Customer session is occupied
+2020-07-14 13:25:10 TRACE UserController:41 - user is not logged in
+2020-07-14 13:25:53 INFO  UserController:53 - Registering user jadams
+2020-07-14 13:25:53 TRACE UserOracle:28 - Adding user John Adams into the database.
+2020-07-14 13:25:53 TRACE UserOracle:59 - Successfully added user John Adams into the database.
+2020-07-14 13:25:53 TRACE UserOracle:79 - Retrieving person with ID: 21 from DB
+2020-07-14 13:25:54 TRACE UserOracle:88 - person with ID: 21 was found!
+2020-07-14 13:25:54 TRACE UserOracle:92 - This person is a customer
+2020-07-14 13:31:04 INFO  UserController:36 - Checking to see if Customer session is occupied
+2020-07-14 13:31:04 TRACE UserController:41 - user is not logged in
+2020-07-14 13:31:05 INFO  UserController:36 - Checking to see if Customer session is occupied
+2020-07-14 13:31:05 TRACE UserController:41 - user is not logged in
+2020-07-14 13:32:10 INFO  UserController:36 - Checking to see if Customer session is occupied
+2020-07-14 13:32:10 TRACE UserController:41 - user is not logged in
+2020-07-14 13:32:10 INFO  UserController:36 - Checking to see if Customer session is occupied
+2020-07-14 13:32:10 TRACE UserController:41 - user is not logged in
+2020-07-14 13:33:38 INFO  UserController:36 - Checking to see if Customer session is occupied
+2020-07-14 13:33:38 TRACE UserController:41 - user is not logged in
+2020-07-14 13:33:38 INFO  UserController:36 - Checking to see if Customer session is occupied
+2020-07-14 13:33:38 TRACE UserController:41 - user is not logged in
+2020-07-14 13:34:37 INFO  UserController:36 - Checking to see if Customer session is occupied
+2020-07-14 13:34:37 TRACE UserController:41 - user is not logged in
+2020-07-14 13:34:38 INFO  UserController:36 - Checking to see if Customer session is occupied
+2020-07-14 13:34:38 TRACE UserController:41 - user is not logged in
+2020-07-14 13:38:04 INFO  UserController:36 - Checking to see if Customer session is occupied
+2020-07-14 13:38:04 TRACE UserController:41 - user is not logged in
+2020-07-14 13:38:04 INFO  UserController:36 - Checking to see if Customer session is occupied
+2020-07-14 13:38:04 TRACE UserController:41 - user is not logged in
+2020-07-14 13:41:37 INFO  UserController:36 - Checking to see if Customer session is occupied
+2020-07-14 13:41:37 TRACE UserController:41 - user is not logged in
+2020-07-14 13:41:37 INFO  UserController:36 - Checking to see if Customer session is occupied
+2020-07-14 13:41:37 TRACE UserController:41 - user is not logged in
+2020-07-14 13:41:39 INFO  UserController:36 - Checking to see if Customer session is occupied
+2020-07-14 13:41:39 TRACE UserController:41 - user is not logged in
+2020-07-14 13:41:39 INFO  UserController:36 - Checking to see if Customer session is occupied
+2020-07-14 13:41:39 TRACE UserController:41 - user is not logged in
+2020-07-14 13:41:56 INFO  UserController:36 - Checking to see if Customer session is occupied
+2020-07-14 13:41:56 TRACE UserController:41 - user is not logged in
+2020-07-14 13:41:56 INFO  UserController:36 - Checking to see if Customer session is occupied
+2020-07-14 13:41:56 TRACE UserController:41 - user is not logged in
+2020-07-14 13:42:03 INFO  UserController:36 - Checking to see if Customer session is occupied
+2020-07-14 13:42:03 TRACE UserController:41 - user is not logged in
+2020-07-14 13:42:03 INFO  UserController:36 - Checking to see if Customer session is occupied
+2020-07-14 13:42:03 TRACE UserController:41 - user is not logged in
+2020-07-14 13:43:03 INFO  UserController:36 - Checking to see if Customer session is occupied
+2020-07-14 13:43:03 TRACE UserController:41 - user is not logged in
+2020-07-14 13:43:03 INFO  UserController:36 - Checking to see if Customer session is occupied
+2020-07-14 13:43:03 TRACE UserController:41 - user is not logged in
+2020-07-14 13:43:29 INFO  UserController:53 - Registering user bbobik
+2020-07-14 13:43:29 TRACE UserOracle:28 - Adding user Brandon Bobik into the database.
+2020-07-14 13:43:30 TRACE UserOracle:59 - Successfully added user Brandon Bobik into the database.
+2020-07-14 13:43:30 TRACE UserOracle:79 - Retrieving person with ID: 22 from DB
+2020-07-14 13:43:30 TRACE UserOracle:88 - person with ID: 22 was found!
+2020-07-14 13:43:30 TRACE UserOracle:92 - This person is a customer
+2020-07-14 13:45:50 INFO  UserController:36 - Checking to see if Customer session is occupied
+2020-07-14 13:45:50 TRACE UserController:41 - user is not logged in
+2020-07-14 13:45:50 INFO  UserController:36 - Checking to see if Customer session is occupied
+2020-07-14 13:45:50 TRACE UserController:41 - user is not logged in
+2020-07-14 13:46:04 INFO  UserController:36 - Checking to see if Customer session is occupied
+2020-07-14 13:46:04 TRACE UserController:41 - user is not logged in
+2020-07-14 13:46:04 INFO  UserController:36 - Checking to see if Customer session is occupied
+2020-07-14 13:46:04 TRACE UserController:41 - user is not logged in
+2020-07-14 13:46:12 INFO  UserController:36 - Checking to see if Customer session is occupied
+2020-07-14 13:46:12 TRACE UserController:41 - user is not logged in
+2020-07-14 13:46:12 INFO  UserController:36 - Checking to see if Customer session is occupied
+2020-07-14 13:46:12 TRACE UserController:41 - user is not logged in
+2020-07-14 13:46:14 INFO  UserController:36 - Checking to see if Customer session is occupied
+2020-07-14 13:46:14 TRACE UserController:41 - user is not logged in
+2020-07-14 13:46:14 INFO  UserController:36 - Checking to see if Customer session is occupied
+2020-07-14 13:46:14 TRACE UserController:41 - user is not logged in
+2020-07-14 13:46:19 INFO  UserController:36 - Checking to see if Customer session is occupied
+2020-07-14 13:46:19 TRACE UserController:41 - user is not logged in
+2020-07-14 13:46:19 INFO  UserController:36 - Checking to see if Customer session is occupied
+2020-07-14 13:46:19 TRACE UserController:41 - user is not logged in
+2020-07-14 13:46:21 INFO  UserController:36 - Checking to see if Customer session is occupied
+2020-07-14 13:46:21 TRACE UserController:41 - user is not logged in
+2020-07-14 13:46:22 INFO  UserController:36 - Checking to see if Customer session is occupied
+2020-07-14 13:46:22 TRACE UserController:41 - user is not logged in
+2020-07-14 13:46:31 INFO  UserController:36 - Checking to see if Customer session is occupied
+2020-07-14 13:46:31 TRACE UserController:41 - user is not logged in
+2020-07-14 13:46:31 INFO  UserController:36 - Checking to see if Customer session is occupied
+2020-07-14 13:46:31 TRACE UserController:41 - user is not logged in
+2020-07-14 13:46:42 INFO  UserController:36 - Checking to see if Customer session is occupied
+2020-07-14 13:46:42 TRACE UserController:41 - user is not logged in
+2020-07-14 13:46:42 INFO  UserController:36 - Checking to see if Customer session is occupied
+2020-07-14 13:46:42 TRACE UserController:41 - user is not logged in
+2020-07-14 13:46:45 INFO  UserController:36 - Checking to see if Customer session is occupied
+2020-07-14 13:46:45 TRACE UserController:41 - user is not logged in
+2020-07-14 13:46:45 INFO  UserController:36 - Checking to see if Customer session is occupied
+2020-07-14 13:46:45 TRACE UserController:41 - user is not logged in
+2020-07-14 13:46:47 INFO  UserController:36 - Checking to see if Customer session is occupied
+2020-07-14 13:46:47 TRACE UserController:41 - user is not logged in
+2020-07-14 13:46:48 INFO  UserController:36 - Checking to see if Customer session is occupied
+2020-07-14 13:46:48 TRACE UserController:41 - user is not logged in
+2020-07-14 13:46:59 INFO  UserController:36 - Checking to see if Customer session is occupied
+2020-07-14 13:46:59 TRACE UserController:41 - user is not logged in
+2020-07-14 13:46:59 INFO  UserController:36 - Checking to see if Customer session is occupied
+2020-07-14 13:46:59 TRACE UserController:41 - user is not logged in
+2020-07-14 13:47:10 INFO  UserController:36 - Checking to see if Customer session is occupied
+2020-07-14 13:47:10 TRACE UserController:41 - user is not logged in
+2020-07-14 13:47:10 INFO  UserController:36 - Checking to see if Customer session is occupied
+2020-07-14 13:47:10 TRACE UserController:41 - user is not logged in
+2020-07-14 13:47:14 INFO  UserController:36 - Checking to see if Customer session is occupied
+2020-07-14 13:47:14 TRACE UserController:41 - user is not logged in
+2020-07-14 13:47:14 INFO  UserController:36 - Checking to see if Customer session is occupied
+2020-07-14 13:47:14 TRACE UserController:41 - user is not logged in
+2020-07-14 13:47:18 INFO  UserController:36 - Checking to see if Customer session is occupied
+2020-07-14 13:47:18 TRACE UserController:41 - user is not logged in
+2020-07-14 13:47:18 INFO  UserController:36 - Checking to see if Customer session is occupied
+2020-07-14 13:47:18 TRACE UserController:41 - user is not logged in
+2020-07-14 13:47:40 INFO  UserController:36 - Checking to see if Customer session is occupied
+2020-07-14 13:47:40 TRACE UserController:41 - user is not logged in
+2020-07-14 13:47:40 INFO  UserController:36 - Checking to see if Customer session is occupied
+2020-07-14 13:47:40 TRACE UserController:41 - user is not logged in
+2020-07-14 13:47:43 INFO  UserController:36 - Checking to see if Customer session is occupied
+2020-07-14 13:47:43 TRACE UserController:41 - user is not logged in
+2020-07-14 13:47:43 INFO  UserController:36 - Checking to see if Customer session is occupied
+2020-07-14 13:47:43 TRACE UserController:41 - user is not logged in
+2020-07-14 13:48:07 INFO  UserController:36 - Checking to see if Customer session is occupied
+2020-07-14 13:48:07 TRACE UserController:41 - user is not logged in
+2020-07-14 13:48:07 INFO  UserController:36 - Checking to see if Customer session is occupied
+2020-07-14 13:48:07 TRACE UserController:41 - user is not logged in
+2020-07-14 13:48:20 INFO  UserController:36 - Checking to see if Customer session is occupied
+2020-07-14 13:48:20 TRACE UserController:41 - user is not logged in
+2020-07-14 13:48:20 INFO  UserController:36 - Checking to see if Customer session is occupied
+2020-07-14 13:48:20 TRACE UserController:41 - user is not logged in
+2020-07-14 13:48:23 INFO  UserController:36 - Checking to see if Customer session is occupied
+2020-07-14 13:48:23 TRACE UserController:41 - user is not logged in
+2020-07-14 13:48:23 INFO  UserController:36 - Checking to see if Customer session is occupied
+2020-07-14 13:48:23 TRACE UserController:41 - user is not logged in
+2020-07-14 13:48:30 INFO  UserController:36 - Checking to see if Customer session is occupied
+2020-07-14 13:48:30 TRACE UserController:41 - user is not logged in
+2020-07-14 13:48:30 INFO  UserController:36 - Checking to see if Customer session is occupied
+2020-07-14 13:48:30 TRACE UserController:41 - user is not logged in
+2020-07-14 13:48:34 INFO  UserController:36 - Checking to see if Customer session is occupied
+2020-07-14 13:48:34 TRACE UserController:41 - user is not logged in
+2020-07-14 13:48:34 INFO  UserController:36 - Checking to see if Customer session is occupied
+2020-07-14 13:48:34 TRACE UserController:41 - user is not logged in
+2020-07-14 13:48:48 INFO  UserController:36 - Checking to see if Customer session is occupied
+2020-07-14 13:48:48 TRACE UserController:41 - user is not logged in
+2020-07-14 13:48:48 INFO  UserController:36 - Checking to see if Customer session is occupied
+2020-07-14 13:48:48 TRACE UserController:41 - user is not logged in
+2020-07-14 13:48:55 INFO  UserController:36 - Checking to see if Customer session is occupied
+2020-07-14 13:48:55 TRACE UserController:41 - user is not logged in
+2020-07-14 13:48:56 INFO  UserController:36 - Checking to see if Customer session is occupied
+2020-07-14 13:48:56 TRACE UserController:41 - user is not logged in
+2020-07-14 13:49:22 INFO  UserController:36 - Checking to see if Customer session is occupied
+2020-07-14 13:49:22 TRACE UserController:41 - user is not logged in
+2020-07-14 13:49:22 INFO  UserController:36 - Checking to see if Customer session is occupied
+2020-07-14 13:49:22 TRACE UserController:41 - user is not logged in
+2020-07-14 13:49:28 INFO  UserController:36 - Checking to see if Customer session is occupied
+2020-07-14 13:49:28 TRACE UserController:41 - user is not logged in
+2020-07-14 13:49:29 INFO  UserController:36 - Checking to see if Customer session is occupied
+2020-07-14 13:49:29 TRACE UserController:41 - user is not logged in
+2020-07-14 13:49:42 INFO  UserController:36 - Checking to see if Customer session is occupied
+2020-07-14 13:49:42 TRACE UserController:41 - user is not logged in
+2020-07-14 13:49:42 INFO  UserController:36 - Checking to see if Customer session is occupied
+2020-07-14 13:49:42 TRACE UserController:41 - user is not logged in
+2020-07-14 13:49:51 INFO  UserController:36 - Checking to see if Customer session is occupied
+2020-07-14 13:49:51 TRACE UserController:41 - user is not logged in
+2020-07-14 13:49:51 INFO  UserController:36 - Checking to see if Customer session is occupied
+2020-07-14 13:49:51 TRACE UserController:41 - user is not logged in
+2020-07-14 13:49:56 INFO  UserController:36 - Checking to see if Customer session is occupied
+2020-07-14 13:49:56 TRACE UserController:41 - user is not logged in
+2020-07-14 13:49:56 INFO  UserController:36 - Checking to see if Customer session is occupied
+2020-07-14 13:49:56 TRACE UserController:41 - user is not logged in
+2020-07-14 13:49:58 INFO  UserController:36 - Checking to see if Customer session is occupied
+2020-07-14 13:49:58 TRACE UserController:41 - user is not logged in
+2020-07-14 13:49:58 INFO  UserController:36 - Checking to see if Customer session is occupied
+2020-07-14 13:49:58 TRACE UserController:41 - user is not logged in
+2020-07-14 13:50:05 INFO  UserController:36 - Checking to see if Customer session is occupied
+2020-07-14 13:50:05 TRACE UserController:41 - user is not logged in
+2020-07-14 13:50:05 INFO  UserController:36 - Checking to see if Customer session is occupied
+2020-07-14 13:50:05 TRACE UserController:41 - user is not logged in
+2020-07-14 13:50:13 INFO  UserController:36 - Checking to see if Customer session is occupied
+2020-07-14 13:50:13 TRACE UserController:41 - user is not logged in
+2020-07-14 13:50:14 INFO  UserController:36 - Checking to see if Customer session is occupied
+2020-07-14 13:50:14 TRACE UserController:41 - user is not logged in
+2020-07-14 13:52:27 INFO  UserController:36 - Checking to see if Customer session is occupied
+2020-07-14 13:52:27 TRACE UserController:41 - user is not logged in
+2020-07-14 13:52:28 INFO  UserController:36 - Checking to see if Customer session is occupied
+2020-07-14 13:52:28 TRACE UserController:41 - user is not logged in
+2020-07-14 13:52:34 INFO  UserController:36 - Checking to see if Customer session is occupied
+2020-07-14 13:52:34 TRACE UserController:41 - user is not logged in
+2020-07-14 13:52:34 INFO  UserController:36 - Checking to see if Customer session is occupied
+2020-07-14 13:52:34 TRACE UserController:41 - user is not logged in
+2020-07-14 13:52:39 INFO  UserController:36 - Checking to see if Customer session is occupied
+2020-07-14 13:52:39 TRACE UserController:41 - user is not logged in
+2020-07-14 13:52:39 INFO  UserController:36 - Checking to see if Customer session is occupied
+2020-07-14 13:52:39 TRACE UserController:41 - user is not logged in
+2020-07-14 13:52:48 INFO  UserController:36 - Checking to see if Customer session is occupied
+2020-07-14 13:52:48 TRACE UserController:41 - user is not logged in
+2020-07-14 13:52:48 INFO  UserController:36 - Checking to see if Customer session is occupied
+2020-07-14 13:52:48 TRACE UserController:41 - user is not logged in
+2020-07-14 13:52:53 INFO  UserController:36 - Checking to see if Customer session is occupied
+2020-07-14 13:52:53 TRACE UserController:41 - user is not logged in
+2020-07-14 13:52:53 INFO  UserController:36 - Checking to see if Customer session is occupied
+2020-07-14 13:52:53 TRACE UserController:41 - user is not logged in
+2020-07-14 13:54:28 INFO  UserController:36 - Checking to see if Customer session is occupied
+2020-07-14 13:54:28 TRACE UserController:41 - user is not logged in
+2020-07-14 13:54:28 INFO  UserController:36 - Checking to see if Customer session is occupied
+2020-07-14 13:54:28 TRACE UserController:41 - user is not logged in
+2020-07-14 13:54:31 INFO  UserController:36 - Checking to see if Customer session is occupied
+2020-07-14 13:54:31 TRACE UserController:41 - user is not logged in
+2020-07-14 13:54:31 INFO  UserController:36 - Checking to see if Customer session is occupied
+2020-07-14 13:54:31 TRACE UserController:41 - user is not logged in
+2020-07-14 13:54:34 INFO  UserController:36 - Checking to see if Customer session is occupied
+2020-07-14 13:54:34 TRACE UserController:41 - user is not logged in
+2020-07-14 13:54:34 INFO  UserController:36 - Checking to see if Customer session is occupied
+2020-07-14 13:54:34 TRACE UserController:41 - user is not logged in
+2020-07-14 13:54:38 INFO  UserController:36 - Checking to see if Customer session is occupied
+2020-07-14 13:54:38 TRACE UserController:41 - user is not logged in
+2020-07-14 13:54:38 INFO  UserController:36 - Checking to see if Customer session is occupied
+2020-07-14 13:54:38 TRACE UserController:41 - user is not logged in
+2020-07-14 13:54:51 INFO  UserController:36 - Checking to see if Customer session is occupied
+2020-07-14 13:54:51 TRACE UserController:41 - user is not logged in
+2020-07-14 13:54:51 INFO  UserController:36 - Checking to see if Customer session is occupied
+2020-07-14 13:54:51 TRACE UserController:41 - user is not logged in
+2020-07-14 13:55:01 INFO  UserController:36 - Checking to see if Customer session is occupied
+2020-07-14 13:55:01 TRACE UserController:41 - user is not logged in
+2020-07-14 13:55:01 INFO  UserController:36 - Checking to see if Customer session is occupied
+2020-07-14 13:55:01 TRACE UserController:41 - user is not logged in
+2020-07-14 13:55:18 INFO  UserController:53 - Registering user kritkat
+2020-07-14 13:55:18 TRACE UserOracle:28 - Adding user Krit Kat into the database.
+2020-07-14 13:55:18 TRACE UserOracle:59 - Successfully added user Krit Kat into the database.
+2020-07-14 13:55:18 TRACE UserOracle:79 - Retrieving person with ID: 23 from DB
+2020-07-14 13:55:19 TRACE UserOracle:88 - person with ID: 23 was found!
+2020-07-14 13:55:19 TRACE UserOracle:92 - This person is a customer
+2020-07-14 13:56:19 INFO  UserController:36 - Checking to see if Customer session is occupied
+2020-07-14 13:56:19 TRACE UserController:41 - user is not logged in
+2020-07-14 13:56:19 INFO  UserController:36 - Checking to see if Customer session is occupied
+2020-07-14 13:56:19 TRACE UserController:41 - user is not logged in
+2020-07-14 13:56:30 INFO  UserController:36 - Checking to see if Customer session is occupied
+2020-07-14 13:56:30 TRACE UserController:41 - user is not logged in
+2020-07-14 13:56:30 INFO  UserController:36 - Checking to see if Customer session is occupied
+2020-07-14 13:56:30 TRACE UserController:41 - user is not logged in
+2020-07-14 13:56:55 INFO  UserController:53 - Registering user johndow
+2020-07-14 13:56:55 TRACE UserOracle:28 - Adding user John Doe into the database.
+2020-07-14 13:56:55 TRACE UserOracle:59 - Successfully added user John Doe into the database.
+2020-07-14 13:56:55 TRACE UserOracle:79 - Retrieving person with ID: 24 from DB
+2020-07-14 13:56:56 TRACE UserOracle:88 - person with ID: 24 was found!
+2020-07-14 13:56:56 TRACE UserOracle:92 - This person is a customer
+2020-07-14 13:57:26 INFO  UserController:36 - Checking to see if Customer session is occupied
+2020-07-14 13:57:26 TRACE UserController:41 - user is not logged in
+2020-07-14 13:57:26 INFO  UserController:36 - Checking to see if Customer session is occupied
+2020-07-14 13:57:26 TRACE UserController:41 - user is not logged in
+2020-07-14 13:57:44 INFO  UserController:36 - Checking to see if Customer session is occupied
+2020-07-14 13:57:44 TRACE UserController:41 - user is not logged in
+2020-07-14 13:57:44 INFO  UserController:36 - Checking to see if Customer session is occupied
+2020-07-14 13:57:44 TRACE UserController:41 - user is not logged in
+2020-07-14 13:57:56 INFO  UserController:36 - Checking to see if Customer session is occupied
+2020-07-14 13:57:56 TRACE UserController:41 - user is not logged in
+2020-07-14 13:57:57 INFO  UserController:36 - Checking to see if Customer session is occupied
+2020-07-14 13:57:57 TRACE UserController:41 - user is not logged in
+2020-07-14 13:58:08 INFO  UserController:53 - Registering user jbobik
+2020-07-14 13:58:08 TRACE UserOracle:28 - Adding user John Bobik into the database.
+2020-07-14 13:58:09 TRACE UserOracle:59 - Successfully added user John Bobik into the database.
+2020-07-14 13:58:09 TRACE UserOracle:79 - Retrieving person with ID: 25 from DB
+2020-07-14 13:58:09 TRACE UserOracle:88 - person with ID: 25 was found!
+2020-07-14 13:58:09 TRACE UserOracle:92 - This person is a customer
+2020-07-14 13:59:35 INFO  UserController:36 - Checking to see if Customer session is occupied
+2020-07-14 13:59:35 TRACE UserController:41 - user is not logged in
+2020-07-14 13:59:35 INFO  UserController:36 - Checking to see if Customer session is occupied
+2020-07-14 13:59:35 TRACE UserController:41 - user is not logged in
+2020-07-14 14:00:55 INFO  UserController:53 - Registering user badams
+2020-07-14 14:00:55 TRACE UserOracle:28 - Adding user Brandon Adams into the database.
+2020-07-14 14:00:55 TRACE UserOracle:59 - Successfully added user Brandon Adams into the database.
+2020-07-14 14:00:55 TRACE UserOracle:79 - Retrieving person with ID: 26 from DB
+2020-07-14 14:00:56 TRACE UserOracle:88 - person with ID: 26 was found!
+2020-07-14 14:00:56 TRACE UserOracle:92 - This person is a customer
+2020-07-14 14:01:42 INFO  UserController:36 - Checking to see if Customer session is occupied
+2020-07-14 14:01:42 TRACE UserController:41 - user is not logged in
+2020-07-14 14:01:42 INFO  UserController:36 - Checking to see if Customer session is occupied
+2020-07-14 14:01:42 TRACE UserController:41 - user is not logged in
+2020-07-14 14:01:46 INFO  UserController:36 - Checking to see if Customer session is occupied
+2020-07-14 14:01:46 TRACE UserController:41 - user is not logged in
+2020-07-14 14:01:46 INFO  UserController:36 - Checking to see if Customer session is occupied
+2020-07-14 14:01:46 TRACE UserController:41 - user is not logged in
+2020-07-14 14:02:28 INFO  UserController:36 - Checking to see if Customer session is occupied
+2020-07-14 14:02:28 TRACE UserController:41 - user is not logged in
+2020-07-14 14:02:28 INFO  UserController:36 - Checking to see if Customer session is occupied
+2020-07-14 14:02:28 TRACE UserController:41 - user is not logged in
+2020-07-14 14:02:34 INFO  UserController:36 - Checking to see if Customer session is occupied
+2020-07-14 14:02:34 TRACE UserController:41 - user is not logged in
+2020-07-14 14:02:34 INFO  UserController:36 - Checking to see if Customer session is occupied
+2020-07-14 14:02:34 TRACE UserController:41 - user is not logged in
+2020-07-14 14:02:39 INFO  UserController:36 - Checking to see if Customer session is occupied
+2020-07-14 14:02:39 TRACE UserController:41 - user is not logged in
+2020-07-14 14:02:39 INFO  UserController:36 - Checking to see if Customer session is occupied
+2020-07-14 14:02:39 TRACE UserController:41 - user is not logged in
+2020-07-14 14:02:50 INFO  UserController:36 - Checking to see if Customer session is occupied
+2020-07-14 14:02:50 TRACE UserController:41 - user is not logged in
+2020-07-14 14:02:50 INFO  UserController:36 - Checking to see if Customer session is occupied
+2020-07-14 14:02:50 TRACE UserController:41 - user is not logged in
+2020-07-14 14:02:58 INFO  UserController:36 - Checking to see if Customer session is occupied
+2020-07-14 14:02:58 TRACE UserController:41 - user is not logged in
+2020-07-14 14:02:58 INFO  UserController:36 - Checking to see if Customer session is occupied
+2020-07-14 14:02:58 TRACE UserController:41 - user is not logged in
+2020-07-14 14:03:05 INFO  UserController:36 - Checking to see if Customer session is occupied
+2020-07-14 14:03:05 TRACE UserController:41 - user is not logged in
+2020-07-14 14:03:05 INFO  UserController:36 - Checking to see if Customer session is occupied
+2020-07-14 14:03:05 TRACE UserController:41 - user is not logged in
+2020-07-14 14:03:15 INFO  UserController:36 - Checking to see if Customer session is occupied
+2020-07-14 14:03:15 TRACE UserController:41 - user is not logged in
+2020-07-14 14:03:15 INFO  UserController:36 - Checking to see if Customer session is occupied
+2020-07-14 14:03:15 TRACE UserController:41 - user is not logged in
+2020-07-14 14:03:29 INFO  UserController:36 - Checking to see if Customer session is occupied
+2020-07-14 14:03:29 TRACE UserController:41 - user is not logged in
+2020-07-14 14:03:29 INFO  UserController:36 - Checking to see if Customer session is occupied
+2020-07-14 14:03:29 TRACE UserController:41 - user is not logged in
+2020-07-14 14:03:33 INFO  UserController:36 - Checking to see if Customer session is occupied
+2020-07-14 14:03:33 TRACE UserController:41 - user is not logged in
+2020-07-14 14:03:33 INFO  UserController:36 - Checking to see if Customer session is occupied
+2020-07-14 14:03:33 TRACE UserController:41 - user is not logged in
+2020-07-14 14:03:40 INFO  UserController:36 - Checking to see if Customer session is occupied
+2020-07-14 14:03:40 TRACE UserController:41 - user is not logged in
+2020-07-14 14:03:40 INFO  UserController:36 - Checking to see if Customer session is occupied
+2020-07-14 14:03:40 TRACE UserController:41 - user is not logged in
+2020-07-14 14:03:44 INFO  UserController:36 - Checking to see if Customer session is occupied
+2020-07-14 14:03:44 TRACE UserController:41 - user is not logged in
+2020-07-14 14:03:44 INFO  UserController:36 - Checking to see if Customer session is occupied
+2020-07-14 14:03:44 TRACE UserController:41 - user is not logged in
+2020-07-14 14:03:51 INFO  UserController:36 - Checking to see if Customer session is occupied
+2020-07-14 14:03:51 TRACE UserController:41 - user is not logged in
+2020-07-14 14:03:51 INFO  UserController:36 - Checking to see if Customer session is occupied
+2020-07-14 14:03:51 TRACE UserController:41 - user is not logged in
+2020-07-14 14:03:55 INFO  UserController:36 - Checking to see if Customer session is occupied
+2020-07-14 14:03:55 TRACE UserController:41 - user is not logged in
+2020-07-14 14:03:55 INFO  UserController:36 - Checking to see if Customer session is occupied
+2020-07-14 14:03:55 TRACE UserController:41 - user is not logged in
+2020-07-14 14:04:01 INFO  UserController:36 - Checking to see if Customer session is occupied
+2020-07-14 14:04:01 TRACE UserController:41 - user is not logged in
+2020-07-14 14:04:01 INFO  UserController:36 - Checking to see if Customer session is occupied
+2020-07-14 14:04:01 TRACE UserController:41 - user is not logged in
+2020-07-14 14:04:10 INFO  UserController:36 - Checking to see if Customer session is occupied
+2020-07-14 14:04:10 TRACE UserController:41 - user is not logged in
+2020-07-14 14:04:10 INFO  UserController:36 - Checking to see if Customer session is occupied
+2020-07-14 14:04:10 TRACE UserController:41 - user is not logged in
+2020-07-14 14:04:54 INFO  UserController:36 - Checking to see if Customer session is occupied
+2020-07-14 14:04:54 TRACE UserController:41 - user is not logged in
+2020-07-14 14:04:54 INFO  UserController:36 - Checking to see if Customer session is occupied
+2020-07-14 14:04:54 TRACE UserController:41 - user is not logged in
+2020-07-14 14:05:02 INFO  UserController:36 - Checking to see if Customer session is occupied
+2020-07-14 14:05:02 TRACE UserController:41 - user is not logged in
+2020-07-14 14:05:02 INFO  UserController:36 - Checking to see if Customer session is occupied
+2020-07-14 14:05:02 TRACE UserController:41 - user is not logged in
+2020-07-14 14:05:07 INFO  UserController:36 - Checking to see if Customer session is occupied
+2020-07-14 14:05:07 TRACE UserController:41 - user is not logged in
+2020-07-14 14:05:07 INFO  UserController:36 - Checking to see if Customer session is occupied
+2020-07-14 14:05:07 TRACE UserController:41 - user is not logged in
+2020-07-14 14:05:15 INFO  UserController:36 - Checking to see if Customer session is occupied
+2020-07-14 14:05:15 TRACE UserController:41 - user is not logged in
+2020-07-14 14:05:15 INFO  UserController:36 - Checking to see if Customer session is occupied
+2020-07-14 14:05:15 TRACE UserController:41 - user is not logged in
+2020-07-14 14:05:22 INFO  UserController:36 - Checking to see if Customer session is occupied
+2020-07-14 14:05:22 TRACE UserController:41 - user is not logged in
+2020-07-14 14:05:22 INFO  UserController:36 - Checking to see if Customer session is occupied
+2020-07-14 14:05:22 TRACE UserController:41 - user is not logged in
+2020-07-14 14:05:33 INFO  UserController:36 - Checking to see if Customer session is occupied
+2020-07-14 14:05:33 TRACE UserController:41 - user is not logged in
+2020-07-14 14:05:33 INFO  UserController:36 - Checking to see if Customer session is occupied
+2020-07-14 14:05:33 TRACE UserController:41 - user is not logged in
+2020-07-14 14:06:03 INFO  UserController:36 - Checking to see if Customer session is occupied
+2020-07-14 14:06:03 TRACE UserController:41 - user is not logged in
+2020-07-14 14:06:03 INFO  UserController:36 - Checking to see if Customer session is occupied
+2020-07-14 14:06:03 TRACE UserController:41 - user is not logged in
+2020-07-14 14:06:21 INFO  UserController:36 - Checking to see if Customer session is occupied
+2020-07-14 14:06:21 TRACE UserController:41 - user is not logged in
+2020-07-14 14:06:21 INFO  UserController:36 - Checking to see if Customer session is occupied
+2020-07-14 14:06:21 TRACE UserController:41 - user is not logged in
+2020-07-14 14:06:35 INFO  UserController:36 - Checking to see if Customer session is occupied
+2020-07-14 14:06:35 TRACE UserController:41 - user is not logged in
+2020-07-14 14:06:35 INFO  UserController:36 - Checking to see if Customer session is occupied
+2020-07-14 14:06:35 TRACE UserController:41 - user is not logged in
+2020-07-14 14:06:42 INFO  UserController:36 - Checking to see if Customer session is occupied
+2020-07-14 14:06:42 TRACE UserController:41 - user is not logged in
+2020-07-14 14:06:42 INFO  UserController:36 - Checking to see if Customer session is occupied
+2020-07-14 14:06:42 TRACE UserController:41 - user is not logged in
+2020-07-14 14:06:58 INFO  UserController:36 - Checking to see if Customer session is occupied
+2020-07-14 14:06:58 TRACE UserController:41 - user is not logged in
+2020-07-14 14:06:58 INFO  UserController:36 - Checking to see if Customer session is occupied
+2020-07-14 14:06:58 TRACE UserController:41 - user is not logged in
+2020-07-14 14:07:12 INFO  UserController:36 - Checking to see if Customer session is occupied
+2020-07-14 14:07:12 TRACE UserController:41 - user is not logged in
+2020-07-14 14:07:12 INFO  UserController:36 - Checking to see if Customer session is occupied
+2020-07-14 14:07:12 TRACE UserController:41 - user is not logged in
+2020-07-14 14:07:49 INFO  UserController:36 - Checking to see if Customer session is occupied
+2020-07-14 14:07:49 TRACE UserController:41 - user is not logged in
+2020-07-14 14:07:50 INFO  UserController:36 - Checking to see if Customer session is occupied
+2020-07-14 14:07:50 TRACE UserController:41 - user is not logged in
+2020-07-14 14:07:57 INFO  UserController:36 - Checking to see if Customer session is occupied
+2020-07-14 14:07:57 TRACE UserController:41 - user is not logged in
+2020-07-14 14:07:57 INFO  UserController:36 - Checking to see if Customer session is occupied
+2020-07-14 14:07:57 TRACE UserController:41 - user is not logged in
+2020-07-14 14:08:07 INFO  UserController:36 - Checking to see if Customer session is occupied
+2020-07-14 14:08:07 TRACE UserController:41 - user is not logged in
+2020-07-14 14:08:07 INFO  UserController:36 - Checking to see if Customer session is occupied
+2020-07-14 14:08:07 TRACE UserController:41 - user is not logged in
+2020-07-14 14:08:47 INFO  UserController:36 - Checking to see if Customer session is occupied
+2020-07-14 14:08:47 TRACE UserController:41 - user is not logged in
+2020-07-14 14:08:47 INFO  UserController:36 - Checking to see if Customer session is occupied
+2020-07-14 14:08:47 TRACE UserController:41 - user is not logged in
+2020-07-14 14:08:56 INFO  UserController:36 - Checking to see if Customer session is occupied
+2020-07-14 14:08:56 TRACE UserController:41 - user is not logged in
+2020-07-14 14:08:56 INFO  UserController:36 - Checking to see if Customer session is occupied
+2020-07-14 14:08:56 TRACE UserController:41 - user is not logged in
+2020-07-14 14:09:08 INFO  UserController:36 - Checking to see if Customer session is occupied
+2020-07-14 14:09:08 TRACE UserController:41 - user is not logged in
+2020-07-14 14:09:08 INFO  UserController:36 - Checking to see if Customer session is occupied
+2020-07-14 14:09:08 TRACE UserController:41 - user is not logged in
+2020-07-14 14:09:13 INFO  UserController:36 - Checking to see if Customer session is occupied
+2020-07-14 14:09:13 TRACE UserController:41 - user is not logged in
+2020-07-14 14:09:13 INFO  UserController:36 - Checking to see if Customer session is occupied
+2020-07-14 14:09:13 TRACE UserController:41 - user is not logged in
+2020-07-14 14:10:01 INFO  UserController:36 - Checking to see if Customer session is occupied
+2020-07-14 14:10:01 TRACE UserController:41 - user is not logged in
+2020-07-14 14:10:01 INFO  UserController:36 - Checking to see if Customer session is occupied
+2020-07-14 14:10:01 TRACE UserController:41 - user is not logged in
+2020-07-14 14:10:33 INFO  UserController:36 - Checking to see if Customer session is occupied
+2020-07-14 14:10:33 TRACE UserController:41 - user is not logged in
+2020-07-14 14:10:33 INFO  UserController:36 - Checking to see if Customer session is occupied
+2020-07-14 14:10:33 TRACE UserController:41 - user is not logged in
+2020-07-14 14:10:37 INFO  UserController:36 - Checking to see if Customer session is occupied
+2020-07-14 14:10:37 TRACE UserController:41 - user is not logged in
+2020-07-14 14:10:37 INFO  UserController:36 - Checking to see if Customer session is occupied
+2020-07-14 14:10:37 TRACE UserController:41 - user is not logged in
+2020-07-14 14:10:49 INFO  UserController:36 - Checking to see if Customer session is occupied
+2020-07-14 14:10:49 TRACE UserController:41 - user is not logged in
+2020-07-14 14:10:49 INFO  UserController:36 - Checking to see if Customer session is occupied
+2020-07-14 14:10:49 TRACE UserController:41 - user is not logged in
+2020-07-14 14:10:59 INFO  UserController:36 - Checking to see if Customer session is occupied
+2020-07-14 14:10:59 TRACE UserController:41 - user is not logged in
+2020-07-14 14:10:59 INFO  UserController:36 - Checking to see if Customer session is occupied
+2020-07-14 14:10:59 TRACE UserController:41 - user is not logged in
+2020-07-14 14:11:02 INFO  UserController:36 - Checking to see if Customer session is occupied
+2020-07-14 14:11:02 TRACE UserController:41 - user is not logged in
+2020-07-14 14:11:02 INFO  UserController:36 - Checking to see if Customer session is occupied
+2020-07-14 14:11:02 TRACE UserController:41 - user is not logged in
+2020-07-14 14:11:10 INFO  UserController:36 - Checking to see if Customer session is occupied
+2020-07-14 14:11:10 TRACE UserController:41 - user is not logged in
+2020-07-14 14:11:10 INFO  UserController:36 - Checking to see if Customer session is occupied
+2020-07-14 14:11:10 TRACE UserController:41 - user is not logged in
+2020-07-14 14:11:15 INFO  UserController:36 - Checking to see if Customer session is occupied
+2020-07-14 14:11:15 TRACE UserController:41 - user is not logged in
+2020-07-14 14:11:15 INFO  UserController:36 - Checking to see if Customer session is occupied
+2020-07-14 14:11:15 TRACE UserController:41 - user is not logged in
+2020-07-14 14:13:42 INFO  UserController:36 - Checking to see if Customer session is occupied
+2020-07-14 14:13:42 TRACE UserController:41 - user is not logged in
+2020-07-14 14:13:42 INFO  UserController:36 - Checking to see if Customer session is occupied
+2020-07-14 14:13:42 TRACE UserController:41 - user is not logged in
+2020-07-14 14:15:05 INFO  UserController:36 - Checking to see if Customer session is occupied
+2020-07-14 14:15:05 TRACE UserController:41 - user is not logged in
+2020-07-14 14:15:05 INFO  UserController:36 - Checking to see if Customer session is occupied
+2020-07-14 14:15:05 TRACE UserController:41 - user is not logged in
+2020-07-14 14:16:34 INFO  UserController:36 - Checking to see if Customer session is occupied
+2020-07-14 14:16:34 TRACE UserController:41 - user is not logged in
+2020-07-14 14:16:34 INFO  UserController:36 - Checking to see if Customer session is occupied
+2020-07-14 14:16:34 TRACE UserController:41 - user is not logged in
+2020-07-14 14:16:43 INFO  UserController:36 - Checking to see if Customer session is occupied
+2020-07-14 14:16:43 TRACE UserController:41 - user is not logged in
+2020-07-14 14:16:43 INFO  UserController:36 - Checking to see if Customer session is occupied
+2020-07-14 14:16:43 TRACE UserController:41 - user is not logged in
+2020-07-14 14:16:49 INFO  UserController:36 - Checking to see if Customer session is occupied
+2020-07-14 14:16:49 TRACE UserController:41 - user is not logged in
+2020-07-14 14:16:49 INFO  UserController:36 - Checking to see if Customer session is occupied
+2020-07-14 14:16:49 TRACE UserController:41 - user is not logged in
+2020-07-14 14:16:59 INFO  UserController:36 - Checking to see if Customer session is occupied
+2020-07-14 14:16:59 TRACE UserController:41 - user is not logged in
+2020-07-14 14:16:59 INFO  UserController:36 - Checking to see if Customer session is occupied
+2020-07-14 14:16:59 TRACE UserController:41 - user is not logged in
+2020-07-14 14:17:17 INFO  UserController:36 - Checking to see if Customer session is occupied
+2020-07-14 14:17:17 TRACE UserController:41 - user is not logged in
+2020-07-14 14:17:18 INFO  UserController:36 - Checking to see if Customer session is occupied
+2020-07-14 14:17:18 TRACE UserController:41 - user is not logged in
+2020-07-14 14:17:52 INFO  UserController:36 - Checking to see if Customer session is occupied
+2020-07-14 14:17:52 TRACE UserController:41 - user is not logged in
+2020-07-14 14:17:52 INFO  UserController:36 - Checking to see if Customer session is occupied
+2020-07-14 14:17:52 TRACE UserController:41 - user is not logged in
+2020-07-14 14:18:19 INFO  UserController:36 - Checking to see if Customer session is occupied
+2020-07-14 14:18:19 TRACE UserController:41 - user is not logged in
+2020-07-14 14:18:19 INFO  UserController:36 - Checking to see if Customer session is occupied
+2020-07-14 14:18:19 TRACE UserController:41 - user is not logged in
+2020-07-14 14:18:22 INFO  UserController:36 - Checking to see if Customer session is occupied
+2020-07-14 14:18:22 TRACE UserController:41 - user is not logged in
+2020-07-14 14:18:22 INFO  UserController:36 - Checking to see if Customer session is occupied
+2020-07-14 14:18:22 TRACE UserController:41 - user is not logged in
+2020-07-14 14:18:28 INFO  UserController:36 - Checking to see if Customer session is occupied
+2020-07-14 14:18:28 TRACE UserController:41 - user is not logged in
+2020-07-14 14:18:28 INFO  UserController:36 - Checking to see if Customer session is occupied
+2020-07-14 14:18:28 TRACE UserController:41 - user is not logged in
+2020-07-14 14:18:33 INFO  UserController:36 - Checking to see if Customer session is occupied
+2020-07-14 14:18:33 TRACE UserController:41 - user is not logged in
+2020-07-14 14:18:34 INFO  UserController:36 - Checking to see if Customer session is occupied
+2020-07-14 14:18:34 TRACE UserController:41 - user is not logged in
+2020-07-14 14:18:37 INFO  UserController:36 - Checking to see if Customer session is occupied
+2020-07-14 14:18:37 TRACE UserController:41 - user is not logged in
+2020-07-14 14:18:37 INFO  UserController:36 - Checking to see if Customer session is occupied
+2020-07-14 14:18:37 TRACE UserController:41 - user is not logged in
+2020-07-14 14:18:42 INFO  UserController:36 - Checking to see if Customer session is occupied
+2020-07-14 14:18:42 TRACE UserController:41 - user is not logged in
+2020-07-14 14:18:42 INFO  UserController:36 - Checking to see if Customer session is occupied
+2020-07-14 14:18:42 TRACE UserController:41 - user is not logged in
+2020-07-14 14:18:49 INFO  UserController:36 - Checking to see if Customer session is occupied
+2020-07-14 14:18:49 TRACE UserController:41 - user is not logged in
+2020-07-14 14:18:50 INFO  UserController:36 - Checking to see if Customer session is occupied
+2020-07-14 14:18:50 TRACE UserController:41 - user is not logged in
+2020-07-14 14:20:08 INFO  UserController:36 - Checking to see if Customer session is occupied
+2020-07-14 14:20:08 TRACE UserController:41 - user is not logged in
+2020-07-14 14:20:08 INFO  UserController:36 - Checking to see if Customer session is occupied
+2020-07-14 14:20:08 TRACE UserController:41 - user is not logged in
+2020-07-14 14:20:18 INFO  UserController:36 - Checking to see if Customer session is occupied
+2020-07-14 14:20:18 TRACE UserController:41 - user is not logged in
+2020-07-14 14:20:18 INFO  UserController:36 - Checking to see if Customer session is occupied
+2020-07-14 14:20:18 TRACE UserController:41 - user is not logged in
+2020-07-14 14:20:56 INFO  UserController:36 - Checking to see if Customer session is occupied
+2020-07-14 14:20:56 TRACE UserController:41 - user is not logged in
+2020-07-14 14:20:56 INFO  UserController:36 - Checking to see if Customer session is occupied
+2020-07-14 14:20:56 TRACE UserController:41 - user is not logged in
+2020-07-14 14:21:03 INFO  UserController:36 - Checking to see if Customer session is occupied
+2020-07-14 14:21:03 TRACE UserController:41 - user is not logged in
+2020-07-14 14:21:03 INFO  UserController:36 - Checking to see if Customer session is occupied
+2020-07-14 14:21:03 TRACE UserController:41 - user is not logged in
+2020-07-14 14:21:25 INFO  UserController:36 - Checking to see if Customer session is occupied
+2020-07-14 14:21:25 TRACE UserController:41 - user is not logged in
+2020-07-14 14:21:25 INFO  UserController:36 - Checking to see if Customer session is occupied
+2020-07-14 14:21:25 TRACE UserController:41 - user is not logged in
+2020-07-14 14:21:30 INFO  UserController:36 - Checking to see if Customer session is occupied
+2020-07-14 14:21:30 TRACE UserController:41 - user is not logged in
+2020-07-14 14:21:30 INFO  UserController:36 - Checking to see if Customer session is occupied
+2020-07-14 14:21:30 TRACE UserController:41 - user is not logged in
+2020-07-14 14:21:37 INFO  UserController:36 - Checking to see if Customer session is occupied
+2020-07-14 14:21:37 TRACE UserController:41 - user is not logged in
+2020-07-14 14:21:37 INFO  UserController:36 - Checking to see if Customer session is occupied
+2020-07-14 14:21:37 TRACE UserController:41 - user is not logged in
+2020-07-14 14:21:56 INFO  UserController:36 - Checking to see if Customer session is occupied
+2020-07-14 14:21:56 TRACE UserController:41 - user is not logged in
+2020-07-14 14:21:56 INFO  UserController:36 - Checking to see if Customer session is occupied
+2020-07-14 14:21:56 TRACE UserController:41 - user is not logged in
+2020-07-14 14:22:03 INFO  UserController:36 - Checking to see if Customer session is occupied
+2020-07-14 14:22:03 TRACE UserController:41 - user is not logged in
+2020-07-14 14:22:03 INFO  UserController:36 - Checking to see if Customer session is occupied
+2020-07-14 14:22:03 TRACE UserController:41 - user is not logged in
+2020-07-14 14:22:12 INFO  UserController:36 - Checking to see if Customer session is occupied
+2020-07-14 14:22:12 TRACE UserController:41 - user is not logged in
+2020-07-14 14:22:12 INFO  UserController:36 - Checking to see if Customer session is occupied
+2020-07-14 14:22:12 TRACE UserController:41 - user is not logged in
+2020-07-14 14:22:41 INFO  UserController:36 - Checking to see if Customer session is occupied
+2020-07-14 14:22:41 TRACE UserController:41 - user is not logged in
+2020-07-14 14:22:41 INFO  UserController:36 - Checking to see if Customer session is occupied
+2020-07-14 14:22:41 TRACE UserController:41 - user is not logged in
+2020-07-14 14:22:44 INFO  UserController:36 - Checking to see if Customer session is occupied
+2020-07-14 14:22:44 TRACE UserController:41 - user is not logged in
+2020-07-14 14:22:44 INFO  UserController:36 - Checking to see if Customer session is occupied
+2020-07-14 14:22:44 TRACE UserController:41 - user is not logged in
+2020-07-14 14:23:38 INFO  UserController:36 - Checking to see if Customer session is occupied
+2020-07-14 14:23:38 TRACE UserController:41 - user is not logged in
+2020-07-14 14:23:38 INFO  UserController:36 - Checking to see if Customer session is occupied
+2020-07-14 14:23:38 TRACE UserController:41 - user is not logged in
+2020-07-14 14:23:45 INFO  UserController:36 - Checking to see if Customer session is occupied
+2020-07-14 14:23:45 TRACE UserController:41 - user is not logged in
+2020-07-14 14:23:45 INFO  UserController:36 - Checking to see if Customer session is occupied
+2020-07-14 14:23:45 TRACE UserController:41 - user is not logged in
+2020-07-14 14:23:52 INFO  UserController:36 - Checking to see if Customer session is occupied
+2020-07-14 14:23:52 TRACE UserController:41 - user is not logged in
+2020-07-14 14:23:52 INFO  UserController:36 - Checking to see if Customer session is occupied
+2020-07-14 14:23:52 TRACE UserController:41 - user is not logged in
+2020-07-14 14:24:38 INFO  UserController:36 - Checking to see if Customer session is occupied
+2020-07-14 14:24:38 TRACE UserController:41 - user is not logged in
+2020-07-14 14:24:38 INFO  UserController:36 - Checking to see if Customer session is occupied
+2020-07-14 14:24:38 TRACE UserController:41 - user is not logged in
+2020-07-14 14:24:47 INFO  UserController:36 - Checking to see if Customer session is occupied
+2020-07-14 14:24:47 TRACE UserController:41 - user is not logged in
+2020-07-14 14:24:48 INFO  UserController:36 - Checking to see if Customer session is occupied
+2020-07-14 14:24:48 TRACE UserController:41 - user is not logged in
+2020-07-14 14:24:52 INFO  UserController:36 - Checking to see if Customer session is occupied
+2020-07-14 14:24:52 TRACE UserController:41 - user is not logged in
+2020-07-14 14:24:52 INFO  UserController:36 - Checking to see if Customer session is occupied
+2020-07-14 14:24:52 TRACE UserController:41 - user is not logged in
+2020-07-14 14:27:56 INFO  UserController:36 - Checking to see if Customer session is occupied
+2020-07-14 14:27:56 TRACE UserController:41 - user is not logged in
+2020-07-14 14:27:56 INFO  UserController:36 - Checking to see if Customer session is occupied
+2020-07-14 14:27:56 TRACE UserController:41 - user is not logged in
+2020-07-14 14:29:27 INFO  UserController:36 - Checking to see if Customer session is occupied
+2020-07-14 14:29:27 TRACE UserController:41 - user is not logged in
+2020-07-14 14:29:27 INFO  UserController:36 - Checking to see if Customer session is occupied
+2020-07-14 14:29:27 TRACE UserController:41 - user is not logged in
+2020-07-14 14:34:17 INFO  UserController:36 - Checking to see if Customer session is occupied
+2020-07-14 14:34:17 TRACE UserController:41 - user is not logged in
+2020-07-14 14:34:18 INFO  UserController:36 - Checking to see if Customer session is occupied
+2020-07-14 14:34:18 TRACE UserController:41 - user is not logged in
+2020-07-14 14:34:44 INFO  UserController:36 - Checking to see if Customer session is occupied
+2020-07-14 14:34:44 TRACE UserController:41 - user is not logged in
+2020-07-14 14:34:44 INFO  UserController:36 - Checking to see if Customer session is occupied
+2020-07-14 14:34:44 TRACE UserController:41 - user is not logged in
+2020-07-14 14:34:53 INFO  UserController:36 - Checking to see if Customer session is occupied
+2020-07-14 14:34:53 TRACE UserController:41 - user is not logged in
+2020-07-14 14:34:53 INFO  UserController:36 - Checking to see if Customer session is occupied
+2020-07-14 14:34:53 TRACE UserController:41 - user is not logged in
+2020-07-14 14:35:23 INFO  UserController:36 - Checking to see if Customer session is occupied
+2020-07-14 14:35:23 TRACE UserController:41 - user is not logged in
+2020-07-14 14:35:23 INFO  UserController:36 - Checking to see if Customer session is occupied
+2020-07-14 14:35:23 TRACE UserController:41 - user is not logged in
+2020-07-14 14:35:36 INFO  UserController:36 - Checking to see if Customer session is occupied
+2020-07-14 14:35:36 TRACE UserController:41 - user is not logged in
+2020-07-14 14:35:36 INFO  UserController:36 - Checking to see if Customer session is occupied
+2020-07-14 14:35:36 TRACE UserController:41 - user is not logged in
+2020-07-14 14:35:40 INFO  UserController:36 - Checking to see if Customer session is occupied
+2020-07-14 14:35:40 TRACE UserController:41 - user is not logged in
+2020-07-14 14:35:40 INFO  UserController:36 - Checking to see if Customer session is occupied
+2020-07-14 14:35:40 TRACE UserController:41 - user is not logged in
+2020-07-14 14:35:44 INFO  UserController:36 - Checking to see if Customer session is occupied
+2020-07-14 14:35:44 TRACE UserController:41 - user is not logged in
+2020-07-14 14:35:44 INFO  UserController:36 - Checking to see if Customer session is occupied
+2020-07-14 14:35:44 TRACE UserController:41 - user is not logged in
+2020-07-14 14:36:06 INFO  UserController:36 - Checking to see if Customer session is occupied
+2020-07-14 14:36:06 TRACE UserController:41 - user is not logged in
+2020-07-14 14:36:06 INFO  UserController:36 - Checking to see if Customer session is occupied
+2020-07-14 14:36:06 TRACE UserController:41 - user is not logged in
+2020-07-14 14:36:38 INFO  UserController:36 - Checking to see if Customer session is occupied
+2020-07-14 14:36:38 TRACE UserController:41 - user is not logged in
+2020-07-14 14:36:38 INFO  UserController:36 - Checking to see if Customer session is occupied
+2020-07-14 14:36:38 TRACE UserController:41 - user is not logged in
+2020-07-14 14:36:43 INFO  UserController:36 - Checking to see if Customer session is occupied
+2020-07-14 14:36:43 TRACE UserController:41 - user is not logged in
+2020-07-14 14:36:43 INFO  UserController:36 - Checking to see if Customer session is occupied
+2020-07-14 14:36:43 TRACE UserController:41 - user is not logged in
+2020-07-14 14:37:00 INFO  UserController:36 - Checking to see if Customer session is occupied
+2020-07-14 14:37:00 TRACE UserController:41 - user is not logged in
+2020-07-14 14:37:00 INFO  UserController:36 - Checking to see if Customer session is occupied
+2020-07-14 14:37:00 TRACE UserController:41 - user is not logged in
+2020-07-14 14:37:43 INFO  UserController:36 - Checking to see if Customer session is occupied
+2020-07-14 14:37:43 TRACE UserController:41 - user is not logged in
+2020-07-14 14:37:43 INFO  UserController:36 - Checking to see if Customer session is occupied
+2020-07-14 14:37:43 TRACE UserController:41 - user is not logged in
+2020-07-14 14:38:03 INFO  UserController:36 - Checking to see if Customer session is occupied
+2020-07-14 14:38:03 TRACE UserController:41 - user is not logged in
+2020-07-14 14:38:04 INFO  UserController:36 - Checking to see if Customer session is occupied
+2020-07-14 14:38:04 TRACE UserController:41 - user is not logged in
+2020-07-14 14:38:15 INFO  UserController:36 - Checking to see if Customer session is occupied
+2020-07-14 14:38:15 TRACE UserController:41 - user is not logged in
+2020-07-14 14:38:15 INFO  UserController:36 - Checking to see if Customer session is occupied
+2020-07-14 14:38:15 TRACE UserController:41 - user is not logged in
+2020-07-14 14:38:22 INFO  UserController:36 - Checking to see if Customer session is occupied
+2020-07-14 14:38:22 TRACE UserController:41 - user is not logged in
+2020-07-14 14:38:22 INFO  UserController:36 - Checking to see if Customer session is occupied
+2020-07-14 14:38:22 TRACE UserController:41 - user is not logged in
+2020-07-14 14:39:49 INFO  UserController:36 - Checking to see if Customer session is occupied
+2020-07-14 14:39:49 TRACE UserController:41 - user is not logged in
+2020-07-14 14:39:49 INFO  UserController:36 - Checking to see if Customer session is occupied
+2020-07-14 14:39:49 TRACE UserController:41 - user is not logged in
+2020-07-14 14:40:09 INFO  UserController:36 - Checking to see if Customer session is occupied
+2020-07-14 14:40:09 TRACE UserController:41 - user is not logged in
+2020-07-14 14:40:09 INFO  UserController:36 - Checking to see if Customer session is occupied
+2020-07-14 14:40:09 TRACE UserController:41 - user is not logged in
+2020-07-14 14:40:15 INFO  UserController:36 - Checking to see if Customer session is occupied
+2020-07-14 14:40:15 TRACE UserController:41 - user is not logged in
+2020-07-14 14:40:15 INFO  UserController:36 - Checking to see if Customer session is occupied
+2020-07-14 14:40:15 TRACE UserController:41 - user is not logged in
+2020-07-14 14:40:44 INFO  UserController:36 - Checking to see if Customer session is occupied
+2020-07-14 14:40:44 TRACE UserController:41 - user is not logged in
+2020-07-14 14:40:44 INFO  UserController:36 - Checking to see if Customer session is occupied
+2020-07-14 14:40:44 TRACE UserController:41 - user is not logged in
+2020-07-14 14:41:00 INFO  UserController:36 - Checking to see if Customer session is occupied
+2020-07-14 14:41:00 TRACE UserController:41 - user is not logged in
+2020-07-14 14:41:00 INFO  UserController:36 - Checking to see if Customer session is occupied
+2020-07-14 14:41:00 TRACE UserController:41 - user is not logged in
+2020-07-14 14:41:13 INFO  UserController:36 - Checking to see if Customer session is occupied
+2020-07-14 14:41:13 TRACE UserController:41 - user is not logged in
+2020-07-14 14:41:13 INFO  UserController:36 - Checking to see if Customer session is occupied
+2020-07-14 14:41:13 TRACE UserController:41 - user is not logged in
+2020-07-14 14:41:23 INFO  UserController:36 - Checking to see if Customer session is occupied
+2020-07-14 14:41:23 TRACE UserController:41 - user is not logged in
+2020-07-14 14:41:23 INFO  UserController:36 - Checking to see if Customer session is occupied
+2020-07-14 14:41:23 TRACE UserController:41 - user is not logged in
+2020-07-14 14:44:32 INFO  UserController:36 - Checking to see if Customer session is occupied
+2020-07-14 14:44:32 TRACE UserController:41 - user is not logged in
+2020-07-14 14:44:32 INFO  UserController:36 - Checking to see if Customer session is occupied
+2020-07-14 14:44:32 TRACE UserController:41 - user is not logged in
+2020-07-14 14:44:38 INFO  UserController:36 - Checking to see if Customer session is occupied
+2020-07-14 14:44:38 TRACE UserController:41 - user is not logged in
+2020-07-14 14:44:38 INFO  UserController:36 - Checking to see if Customer session is occupied
+2020-07-14 14:44:38 TRACE UserController:41 - user is not logged in
+2020-07-14 14:44:44 INFO  UserController:36 - Checking to see if Customer session is occupied
+2020-07-14 14:44:44 TRACE UserController:41 - user is not logged in
+2020-07-14 14:44:44 INFO  UserController:36 - Checking to see if Customer session is occupied
+2020-07-14 14:44:44 TRACE UserController:41 - user is not logged in
+2020-07-14 14:46:26 INFO  UserController:36 - Checking to see if Customer session is occupied
+2020-07-14 14:46:26 TRACE UserController:41 - user is not logged in
+2020-07-14 14:46:26 INFO  UserController:36 - Checking to see if Customer session is occupied
+2020-07-14 14:46:26 TRACE UserController:41 - user is not logged in
+2020-07-14 14:46:38 INFO  UserController:36 - Checking to see if Customer session is occupied
+2020-07-14 14:46:38 TRACE UserController:41 - user is not logged in
+2020-07-14 14:46:38 INFO  UserController:36 - Checking to see if Customer session is occupied
+2020-07-14 14:46:38 TRACE UserController:41 - user is not logged in
+2020-07-14 14:46:52 INFO  UserController:36 - Checking to see if Customer session is occupied
+2020-07-14 14:46:52 TRACE UserController:41 - user is not logged in
+2020-07-14 14:46:52 INFO  UserController:36 - Checking to see if Customer session is occupied
+2020-07-14 14:46:52 TRACE UserController:41 - user is not logged in
+2020-07-14 14:47:09 INFO  UserController:36 - Checking to see if Customer session is occupied
+2020-07-14 14:47:09 TRACE UserController:41 - user is not logged in
+2020-07-14 14:47:21 INFO  UserController:36 - Checking to see if Customer session is occupied
+2020-07-14 14:47:21 TRACE UserController:41 - user is not logged in
+2020-07-14 14:47:21 INFO  UserController:36 - Checking to see if Customer session is occupied
+2020-07-14 14:47:21 TRACE UserController:41 - user is not logged in
+2020-07-14 14:47:28 INFO  UserController:36 - Checking to see if Customer session is occupied
+2020-07-14 14:47:28 TRACE UserController:41 - user is not logged in
+2020-07-14 14:47:28 INFO  UserController:36 - Checking to see if Customer session is occupied
+2020-07-14 14:47:28 TRACE UserController:41 - user is not logged in
+2020-07-14 14:47:48 INFO  UserController:36 - Checking to see if Customer session is occupied
+2020-07-14 14:47:48 TRACE UserController:41 - user is not logged in
+2020-07-14 14:47:48 INFO  UserController:36 - Checking to see if Customer session is occupied
+2020-07-14 14:47:48 TRACE UserController:41 - user is not logged in
+2020-07-14 14:59:33 INFO  UserController:36 - Checking to see if Customer session is occupied
+2020-07-14 14:59:33 TRACE UserController:41 - user is not logged in
+2020-07-14 14:59:34 INFO  UserController:36 - Checking to see if Customer session is occupied
+2020-07-14 14:59:34 TRACE UserController:41 - user is not logged in
+2020-07-14 14:59:42 INFO  UserController:36 - Checking to see if Customer session is occupied
+2020-07-14 14:59:42 TRACE UserController:41 - user is not logged in
+2020-07-14 14:59:42 INFO  UserController:36 - Checking to see if Customer session is occupied
+2020-07-14 14:59:42 TRACE UserController:41 - user is not logged in
+2020-07-14 14:59:56 INFO  UserController:36 - Checking to see if Customer session is occupied
+2020-07-14 14:59:56 TRACE UserController:41 - user is not logged in
+2020-07-14 14:59:56 INFO  UserController:36 - Checking to see if Customer session is occupied
+2020-07-14 14:59:56 TRACE UserController:41 - user is not logged in
+2020-07-14 15:00:03 INFO  UserController:36 - Checking to see if Customer session is occupied
+2020-07-14 15:00:03 TRACE UserController:41 - user is not logged in
+2020-07-14 15:00:03 INFO  UserController:36 - Checking to see if Customer session is occupied
+2020-07-14 15:00:03 TRACE UserController:41 - user is not logged in
+2020-07-14 15:00:10 INFO  UserController:36 - Checking to see if Customer session is occupied
+2020-07-14 15:00:10 TRACE UserController:41 - user is not logged in
+2020-07-14 15:00:10 INFO  UserController:36 - Checking to see if Customer session is occupied
+2020-07-14 15:00:10 TRACE UserController:41 - user is not logged in
+2020-07-14 15:00:24 INFO  UserController:36 - Checking to see if Customer session is occupied
+2020-07-14 15:00:24 TRACE UserController:41 - user is not logged in
+2020-07-14 15:00:24 INFO  UserController:36 - Checking to see if Customer session is occupied
+2020-07-14 15:00:24 TRACE UserController:41 - user is not logged in
+2020-07-14 15:00:32 INFO  UserController:36 - Checking to see if Customer session is occupied
+2020-07-14 15:00:32 TRACE UserController:41 - user is not logged in
+2020-07-14 15:00:32 INFO  UserController:36 - Checking to see if Customer session is occupied
+2020-07-14 15:00:32 TRACE UserController:41 - user is not logged in
+2020-07-14 15:00:39 INFO  UserController:36 - Checking to see if Customer session is occupied
+2020-07-14 15:00:39 TRACE UserController:41 - user is not logged in
+2020-07-14 15:00:39 INFO  UserController:36 - Checking to see if Customer session is occupied
+2020-07-14 15:00:39 TRACE UserController:41 - user is not logged in
+2020-07-14 15:00:53 INFO  UserController:36 - Checking to see if Customer session is occupied
+2020-07-14 15:00:53 TRACE UserController:41 - user is not logged in
+2020-07-14 15:00:53 INFO  UserController:36 - Checking to see if Customer session is occupied
+2020-07-14 15:00:53 TRACE UserController:41 - user is not logged in
+2020-07-14 15:01:04 INFO  UserController:36 - Checking to see if Customer session is occupied
+2020-07-14 15:01:04 TRACE UserController:41 - user is not logged in
+2020-07-14 15:01:05 INFO  UserController:36 - Checking to see if Customer session is occupied
+2020-07-14 15:01:05 TRACE UserController:41 - user is not logged in
+2020-07-14 15:01:08 INFO  UserController:36 - Checking to see if Customer session is occupied
+2020-07-14 15:01:08 TRACE UserController:41 - user is not logged in
+2020-07-14 15:01:08 INFO  UserController:36 - Checking to see if Customer session is occupied
+2020-07-14 15:01:08 TRACE UserController:41 - user is not logged in
+2020-07-14 15:01:13 INFO  UserController:36 - Checking to see if Customer session is occupied
+2020-07-14 15:01:13 TRACE UserController:41 - user is not logged in
+2020-07-14 15:01:13 INFO  UserController:36 - Checking to see if Customer session is occupied
+2020-07-14 15:01:13 TRACE UserController:41 - user is not logged in
+2020-07-14 15:01:23 INFO  UserController:36 - Checking to see if Customer session is occupied
+2020-07-14 15:01:23 TRACE UserController:41 - user is not logged in
+2020-07-14 15:01:23 INFO  UserController:36 - Checking to see if Customer session is occupied
+2020-07-14 15:01:23 TRACE UserController:41 - user is not logged in
+2020-07-14 15:01:56 INFO  UserController:36 - Checking to see if Customer session is occupied
+2020-07-14 15:01:56 TRACE UserController:41 - user is not logged in
+2020-07-14 15:01:57 INFO  UserController:36 - Checking to see if Customer session is occupied
+2020-07-14 15:01:57 TRACE UserController:41 - user is not logged in
+2020-07-14 15:02:01 INFO  UserController:36 - Checking to see if Customer session is occupied
+2020-07-14 15:02:01 TRACE UserController:41 - user is not logged in
+2020-07-14 15:02:01 INFO  UserController:36 - Checking to see if Customer session is occupied
+2020-07-14 15:02:01 TRACE UserController:41 - user is not logged in
+2020-07-14 15:02:08 INFO  UserController:36 - Checking to see if Customer session is occupied
+2020-07-14 15:02:08 TRACE UserController:41 - user is not logged in
+2020-07-14 15:02:08 INFO  UserController:36 - Checking to see if Customer session is occupied
+2020-07-14 15:02:08 TRACE UserController:41 - user is not logged in
+2020-07-14 15:02:23 INFO  UserController:36 - Checking to see if Customer session is occupied
+2020-07-14 15:02:23 TRACE UserController:41 - user is not logged in
+2020-07-14 15:02:23 INFO  UserController:36 - Checking to see if Customer session is occupied
+2020-07-14 15:02:23 TRACE UserController:41 - user is not logged in
+2020-07-14 15:02:38 INFO  UserController:36 - Checking to see if Customer session is occupied
+2020-07-14 15:02:38 TRACE UserController:41 - user is not logged in
+2020-07-14 15:02:38 INFO  UserController:36 - Checking to see if Customer session is occupied
+2020-07-14 15:02:38 TRACE UserController:41 - user is not logged in
+2020-07-14 15:02:43 INFO  UserController:36 - Checking to see if Customer session is occupied
+2020-07-14 15:02:43 TRACE UserController:41 - user is not logged in
+2020-07-14 15:02:43 INFO  UserController:36 - Checking to see if Customer session is occupied
+2020-07-14 15:02:43 TRACE UserController:41 - user is not logged in
+2020-07-14 15:03:37 INFO  UserController:36 - Checking to see if Customer session is occupied
+2020-07-14 15:03:37 TRACE UserController:41 - user is not logged in
+2020-07-14 15:03:37 INFO  UserController:36 - Checking to see if Customer session is occupied
+2020-07-14 15:03:37 TRACE UserController:41 - user is not logged in
+2020-07-14 15:03:46 INFO  UserController:36 - Checking to see if Customer session is occupied
+2020-07-14 15:03:46 TRACE UserController:41 - user is not logged in
+2020-07-14 15:03:46 INFO  UserController:36 - Checking to see if Customer session is occupied
+2020-07-14 15:03:46 TRACE UserController:41 - user is not logged in
+2020-07-14 15:04:11 INFO  UserController:36 - Checking to see if Customer session is occupied
+2020-07-14 15:04:11 TRACE UserController:41 - user is not logged in
+2020-07-14 15:04:11 INFO  UserController:36 - Checking to see if Customer session is occupied
+2020-07-14 15:04:11 TRACE UserController:41 - user is not logged in
+2020-07-14 15:04:21 INFO  UserController:36 - Checking to see if Customer session is occupied
+2020-07-14 15:04:21 TRACE UserController:41 - user is not logged in
+2020-07-14 15:04:21 INFO  UserController:36 - Checking to see if Customer session is occupied
+2020-07-14 15:04:21 TRACE UserController:41 - user is not logged in
+2020-07-14 15:04:28 INFO  UserController:36 - Checking to see if Customer session is occupied
+2020-07-14 15:04:28 TRACE UserController:41 - user is not logged in
+2020-07-14 15:04:28 INFO  UserController:36 - Checking to see if Customer session is occupied
+2020-07-14 15:04:28 TRACE UserController:41 - user is not logged in
+2020-07-14 15:09:34 INFO  UserController:36 - Checking to see if Customer session is occupied
+2020-07-14 15:09:34 TRACE UserController:41 - user is not logged in
+2020-07-14 15:09:34 INFO  UserController:36 - Checking to see if Customer session is occupied
+2020-07-14 15:09:34 TRACE UserController:41 - user is not logged in
+2020-07-14 15:09:40 INFO  UserController:36 - Checking to see if Customer session is occupied
+2020-07-14 15:09:40 TRACE UserController:41 - user is not logged in
+2020-07-14 15:09:41 INFO  UserController:36 - Checking to see if Customer session is occupied
+2020-07-14 15:09:41 TRACE UserController:41 - user is not logged in
+2020-07-14 15:09:49 INFO  UserController:36 - Checking to see if Customer session is occupied
+2020-07-14 15:09:49 TRACE UserController:41 - user is not logged in
+2020-07-14 15:09:49 INFO  UserController:36 - Checking to see if Customer session is occupied
+2020-07-14 15:09:49 TRACE UserController:41 - user is not logged in
+2020-07-14 15:09:56 INFO  UserController:36 - Checking to see if Customer session is occupied
+2020-07-14 15:09:56 TRACE UserController:41 - user is not logged in
+2020-07-14 15:09:56 INFO  UserController:36 - Checking to see if Customer session is occupied
+2020-07-14 15:09:56 TRACE UserController:41 - user is not logged in
+2020-07-14 15:10:01 INFO  UserController:36 - Checking to see if Customer session is occupied
+2020-07-14 15:10:01 TRACE UserController:41 - user is not logged in
+2020-07-14 15:10:01 INFO  UserController:36 - Checking to see if Customer session is occupied
+2020-07-14 15:10:01 TRACE UserController:41 - user is not logged in
