@@ -71,6 +71,12 @@ public class UserController {
 		
 	}
 	
+	@PostMapping(path="/register/usernameVerification")
+	public ResponseEntity<String> checkIfUsernameExist(@RequestParam("username") String username, HttpSession session){
+		
+		return ResponseEntity.ok().build();
+	}
+	
 	@PostMapping(path="/devReg")
 	public ResponseEntity<User> registerDeveloper(
 			@RequestParam("userID") Integer userID,

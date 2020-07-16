@@ -9,3 +9,7 @@ select * from PERSON where username = 'jordythen' AND passwd = 'pass';
 select * from person order by id;
 delete from person where id > 20;
 select * from personrole;
+select * from developer;
+delete from developer;
+select * from developer_person;
+delete from developer_person;
