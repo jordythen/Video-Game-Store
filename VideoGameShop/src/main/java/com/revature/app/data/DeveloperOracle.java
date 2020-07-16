@@ -49,6 +49,31 @@ public class DeveloperOracle implements DeveloperDAO {
 
 		return key;
 	}
+	
+	public Boolean addPersonToDev(Integer personID, Integer devID) {
+		
+		log.trace("Adding to DEVELOPER_PERSON many to many table");
+		try(Connection conn = cu.getConnection()){
+			conn.setAutoCommit(false);
+			String sql = "insert into DEVELOPER_PERSON(personID, devID) values (?,?)";
+			PreparedStatement pstmt = conn.prepareStatement(sql);
+			pstmt.setInt(1, personID);
+			pstmt.setInt(2, devID);
+			Integer success = pstmt.executeUpdate();
+			
+			if(success > 0) {
+				conn.commit();
+			}else {
+				conn.rollback();
+				return false;
+			}
+			
+		}catch(SQLException e) {
+			log.warn("Error has occured while adding developer_person into the DB");
+			log.warn(e);
+		}
+		return true;
+	}
 
 	@Override
 	public Developer getById(Integer id) {

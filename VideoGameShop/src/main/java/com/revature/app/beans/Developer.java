@@ -7,6 +7,7 @@ public class Developer {
 	private Integer id;
 	private String name;
 	private String description;
+	private Integer userID;
 	private List<Game> games;
 	
 	public Integer getId() {
@@ -14,6 +15,12 @@ public class Developer {
 	}
 	public void setId(Integer id) {
 		this.id = id;
+	}
+	public Integer getUserID() {
+		return userID;
+	}
+	public void setUserID(Integer userID) {
+		this.userID = userID;
 	}
 	public String getName() {
 		return name;

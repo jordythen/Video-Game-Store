@@ -15,7 +15,10 @@ import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
 import com.revature.app.beans.Customer;
+import com.revature.app.beans.Developer;
 import com.revature.app.beans.User;
+import com.revature.app.services.DeveloperService;
+import com.revature.app.services.DeveloperServiceImpl;
 import com.revature.app.services.UserService;
 import com.revature.app.services.UserServiceImpl;
 
@@ -25,10 +28,12 @@ public class UserController {
 
 	public static Logger log = Logger.getLogger(UserController.class);
 	private UserService uServ;
+	private DeveloperService devServ;
 	
 	@Autowired
 	public UserController() {
 		uServ = new UserServiceImpl();
+		devServ = new DeveloperServiceImpl();
 	}
 	
 	@GetMapping(path="/login")
@@ -64,6 +69,29 @@ public class UserController {
 		}
 		return ResponseEntity.ok(responseUser);
 		
+	}
+	
+	@PostMapping(path="/devReg")
+	public ResponseEntity<User> registerDeveloper(
+			@RequestParam("userID") Integer userID,
+			@RequestParam("name") String devName,
+			@RequestParam("desc") String devDesc){
+		
+		log.info("Registering developer "+ devName);
+		Developer dev = new Developer();
+		dev.setName(devName);
+		dev.setDescription(devDesc);
+		
+		Integer developerID = devServ.add(dev);
+		//This specify the relationship between a person a developer(because developer might be a team)
+		Boolean success = ((DeveloperServiceImpl) devServ).addPersonToDev(userID, developerID);
+		
+		if(success) {
+			return ResponseEntity.ok().build();
+		}else {
+
+			return ResponseEntity.status(404).build();
+		}
 	}
 	
 	

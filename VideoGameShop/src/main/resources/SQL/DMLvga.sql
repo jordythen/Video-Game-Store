@@ -7,4 +7,5 @@ insert into person(roleid, username, passwd, firstname, lastname, money) values 
 
 select * from PERSON where username = 'jordythen' AND passwd = 'pass';
 select * from person order by id;
+delete from person where id > 20;
 select * from personrole;
