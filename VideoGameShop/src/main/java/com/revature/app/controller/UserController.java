@@ -1,9 +1,15 @@
 package com.revature.app.controller;
 
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
+
 import javax.servlet.http.HttpSession;
 
 import org.apache.log4j.Logger;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.DeleteMapping;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -72,10 +78,46 @@ public class UserController {
 	}
 	
 	@PostMapping(path="/register/usernameVerification")
-	public ResponseEntity<String> checkIfUsernameExist(@RequestParam("username") String username, HttpSession session){
+	public ResponseEntity<String> verifyUsername(@RequestParam("username") String username, HttpSession session){
+		List<String> usernames = (List<String>) session.getAttribute("usernames");
+		Boolean nameAlreadyExist = null;
+		if(usernames != null) { //If session is not empty
+			nameAlreadyExist = checkIfUsernameExist(username, usernames);
+		}else { //If session is not initially set up
+			usernames = uServ.retrieveAllUsernames();
+			session.setAttribute("usernames", usernames);
+			nameAlreadyExist = checkIfUsernameExist(username, usernames);
+		}
 		
-		return ResponseEntity.ok().build();
+		// Map<String,String> result = new HashMap<String,String>();
+
+		//If true then you want to return an error code because username already exists!
+		if(nameAlreadyExist) {
+
+			// result.put("message", "denied");
+			
+			return ResponseEntity.status(HttpStatus.ALREADY_REPORTED).build();
+		}else {
+			//If false then return ok!
+
+			// result.put("message", "allowed");
+			
+			return ResponseEntity.status(HttpStatus.ACCEPTED).build();
+		}
 	}
+	
+	//Returns TRUE if username already exists in DB and FALSE if not exist
+	Boolean checkIfUsernameExist(String username, List<String> usernames) {
+		for(String u: usernames) {
+			if (username.equals(u)) {
+				// Username already exists in DB
+				return true;
+			}
+		}
+		// Username doesn't exist in DB
+		return false;
+	}
+	
 	
 	@PostMapping(path="/devReg")
 	public ResponseEntity<User> registerDeveloper(

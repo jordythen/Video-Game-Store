@@ -60,4 +60,10 @@ public class UserServiceImpl implements UserService {
 		return findById(add(u));
 	}
 
+	@Override
+	public List<String> retrieveAllUsernames() {
+		// TODO Auto-generated method stub
+		return uDao.getAllUsername();
+	}
+
 }
