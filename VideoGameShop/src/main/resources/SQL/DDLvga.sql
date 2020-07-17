@@ -49,7 +49,8 @@ create table GAME_GAMESYSTEM(
 create table DEVELOPER(
 
     id number(10) primary key,
-    name varchar2(255)
+    name varchar2(255),
+    description varchar2(255)
     
 );
 
