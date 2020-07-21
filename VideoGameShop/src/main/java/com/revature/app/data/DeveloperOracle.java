@@ -16,7 +16,7 @@ import com.revature.app.utils.ConnectionUtil;
 public class DeveloperOracle implements DeveloperDAO {
 
 	ConnectionUtil cu = ConnectionUtil.getConnectionUtil(); // Our singleton class to create db connection
-	public static Logger log = Logger.getLogger(DeveloperDAO.class);
+	public static Logger log = Logger.getLogger(DeveloperOracle.class);
 
 	@Override
 	public Integer add(Developer t) {
@@ -71,6 +71,7 @@ public class DeveloperOracle implements DeveloperDAO {
 		}catch(SQLException e) {
 			log.warn("Error has occured while adding developer_person into the DB");
 			log.warn(e);
+			return false;
 		}
 		return true;
 	}
