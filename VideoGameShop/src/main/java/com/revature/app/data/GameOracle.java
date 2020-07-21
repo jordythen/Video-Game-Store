@@ -87,7 +87,7 @@ public class GameOracle implements GameDAO {
 	@Override
 	public List<Game> getAll() {
 		// TODO Auto-generated method stub
-		log.trace("Retrieving all devs from the person table");
+		log.trace("Retrieving all game from the game table");
 		List<Game> games = new LinkedList<Game>();
 		try(Connection conn = cu.getConnection()){
 			String sql = "select * from game";
