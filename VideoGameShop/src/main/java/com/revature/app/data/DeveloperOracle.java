@@ -173,7 +173,7 @@ public class DeveloperOracle implements DeveloperDAO {
 			pstmt.setInt(1, t.getId());
 			int rs = pstmt.executeUpdate();
 			if (rs > 0) {
-				log.trace("Developr: " + t.getName() + " has been deleted from DB");
+				log.trace("Developer: " + t.getName() + " has been deleted from DB");
 			} else {
 				log.trace("Cannot find developer with such id");
 				return false;
