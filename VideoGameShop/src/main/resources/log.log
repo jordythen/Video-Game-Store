@@ -11509,3 +11509,221 @@
 2020-07-16 16:32:53 TRACE UserController:52 - user is not logged in
 2020-07-16 16:32:53 INFO  UserController:47 - Checking to see if Customer session is occupied
 2020-07-16 16:32:53 TRACE UserController:52 - user is not logged in
+2020-07-16 16:33:37 INFO  UserController:47 - Checking to see if Customer session is occupied
+2020-07-16 16:33:37 TRACE UserController:52 - user is not logged in
+2020-07-16 16:33:37 INFO  UserController:47 - Checking to see if Customer session is occupied
+2020-07-16 16:33:37 TRACE UserController:52 - user is not logged in
+2020-07-16 16:33:47 INFO  UserController:47 - Checking to see if Customer session is occupied
+2020-07-16 16:33:47 TRACE UserController:52 - user is not logged in
+2020-07-16 16:33:47 INFO  UserController:47 - Checking to see if Customer session is occupied
+2020-07-16 16:33:47 TRACE UserController:52 - user is not logged in
+2020-07-16 16:33:55 INFO  UserController:47 - Checking to see if Customer session is occupied
+2020-07-16 16:33:55 TRACE UserController:52 - user is not logged in
+2020-07-16 16:33:55 INFO  UserController:47 - Checking to see if Customer session is occupied
+2020-07-16 16:33:55 TRACE UserController:52 - user is not logged in
+2020-07-16 16:34:49 INFO  UserController:47 - Checking to see if Customer session is occupied
+2020-07-16 16:34:49 TRACE UserController:52 - user is not logged in
+2020-07-16 16:34:49 INFO  UserController:47 - Checking to see if Customer session is occupied
+2020-07-16 16:34:49 TRACE UserController:52 - user is not logged in
+2020-07-16 16:34:55 INFO  UserController:47 - Checking to see if Customer session is occupied
+2020-07-16 16:34:55 TRACE UserController:52 - user is not logged in
+2020-07-16 16:34:55 INFO  UserController:47 - Checking to see if Customer session is occupied
+2020-07-16 16:34:55 TRACE UserController:52 - user is not logged in
+2020-07-16 16:36:10 INFO  UserController:47 - Checking to see if Customer session is occupied
+2020-07-16 16:36:10 TRACE UserController:52 - user is not logged in
+2020-07-16 16:36:10 INFO  UserController:47 - Checking to see if Customer session is occupied
+2020-07-16 16:36:10 TRACE UserController:52 - user is not logged in
+2020-07-16 16:37:05 INFO  UserController:47 - Checking to see if Customer session is occupied
+2020-07-16 16:37:05 TRACE UserController:52 - user is not logged in
+2020-07-16 16:37:05 INFO  UserController:47 - Checking to see if Customer session is occupied
+2020-07-16 16:37:05 TRACE UserController:52 - user is not logged in
+2020-07-16 16:37:20 INFO  UserController:47 - Checking to see if Customer session is occupied
+2020-07-16 16:37:20 TRACE UserController:52 - user is not logged in
+2020-07-16 16:37:20 INFO  UserController:47 - Checking to see if Customer session is occupied
+2020-07-16 16:37:20 TRACE UserController:52 - user is not logged in
+2020-07-16 16:37:36 INFO  UserController:47 - Checking to see if Customer session is occupied
+2020-07-16 16:37:36 TRACE UserController:52 - user is not logged in
+2020-07-16 16:37:36 INFO  UserController:47 - Checking to see if Customer session is occupied
+2020-07-16 16:37:36 TRACE UserController:52 - user is not logged in
+2020-07-16 16:38:03 INFO  UserController:47 - Checking to see if Customer session is occupied
+2020-07-16 16:38:03 TRACE UserController:52 - user is not logged in
+2020-07-16 16:38:03 INFO  UserController:47 - Checking to see if Customer session is occupied
+2020-07-16 16:38:03 TRACE UserController:52 - user is not logged in
+2020-07-16 16:38:08 INFO  UserController:47 - Checking to see if Customer session is occupied
+2020-07-16 16:38:08 TRACE UserController:52 - user is not logged in
+2020-07-16 16:38:08 INFO  UserController:47 - Checking to see if Customer session is occupied
+2020-07-16 16:38:08 TRACE UserController:52 - user is not logged in
+2020-07-16 16:38:14 INFO  UserController:47 - Checking to see if Customer session is occupied
+2020-07-16 16:38:14 TRACE UserController:52 - user is not logged in
+2020-07-16 16:38:14 INFO  UserController:47 - Checking to see if Customer session is occupied
+2020-07-16 16:38:14 TRACE UserController:52 - user is not logged in
+2020-07-16 16:39:10 INFO  UserController:47 - Checking to see if Customer session is occupied
+2020-07-16 16:39:10 TRACE UserController:52 - user is not logged in
+2020-07-16 16:39:10 INFO  UserController:47 - Checking to see if Customer session is occupied
+2020-07-16 16:39:10 TRACE UserController:52 - user is not logged in
+2020-07-16 16:40:19 INFO  UserController:47 - Checking to see if Customer session is occupied
+2020-07-16 16:40:19 TRACE UserController:52 - user is not logged in
+2020-07-16 16:40:19 INFO  UserController:47 - Checking to see if Customer session is occupied
+2020-07-16 16:40:19 TRACE UserController:52 - user is not logged in
+2020-07-16 16:40:33 INFO  UserController:47 - Checking to see if Customer session is occupied
+2020-07-16 16:40:33 TRACE UserController:52 - user is not logged in
+2020-07-16 16:40:33 INFO  UserController:47 - Checking to see if Customer session is occupied
+2020-07-16 16:40:33 TRACE UserController:52 - user is not logged in
+2020-07-16 16:41:00 INFO  UserController:47 - Checking to see if Customer session is occupied
+2020-07-16 16:41:00 TRACE UserController:52 - user is not logged in
+2020-07-16 16:41:00 INFO  UserController:47 - Checking to see if Customer session is occupied
+2020-07-16 16:41:00 TRACE UserController:52 - user is not logged in
+2020-07-16 16:41:08 INFO  UserController:47 - Checking to see if Customer session is occupied
+2020-07-16 16:41:08 TRACE UserController:52 - user is not logged in
+2020-07-16 16:41:08 INFO  UserController:47 - Checking to see if Customer session is occupied
+2020-07-16 16:41:08 TRACE UserController:52 - user is not logged in
+2020-07-16 16:41:15 INFO  UserController:47 - Checking to see if Customer session is occupied
+2020-07-16 16:41:15 TRACE UserController:52 - user is not logged in
+2020-07-16 16:41:15 INFO  UserController:47 - Checking to see if Customer session is occupied
+2020-07-16 16:41:15 TRACE UserController:52 - user is not logged in
+2020-07-16 16:41:25 INFO  UserController:47 - Checking to see if Customer session is occupied
+2020-07-16 16:41:25 TRACE UserController:52 - user is not logged in
+2020-07-16 16:41:25 INFO  UserController:47 - Checking to see if Customer session is occupied
+2020-07-16 16:41:25 TRACE UserController:52 - user is not logged in
+2020-07-16 16:42:32 INFO  UserController:47 - Checking to see if Customer session is occupied
+2020-07-16 16:42:32 TRACE UserController:52 - user is not logged in
+2020-07-16 16:42:32 INFO  UserController:47 - Checking to see if Customer session is occupied
+2020-07-16 16:42:32 TRACE UserController:52 - user is not logged in
+2020-07-16 16:42:56 INFO  UserController:47 - Checking to see if Customer session is occupied
+2020-07-16 16:42:56 TRACE UserController:52 - user is not logged in
+2020-07-16 16:42:56 INFO  UserController:47 - Checking to see if Customer session is occupied
+2020-07-16 16:42:56 TRACE UserController:52 - user is not logged in
+2020-07-16 16:43:59 INFO  UserController:47 - Checking to see if Customer session is occupied
+2020-07-16 16:43:59 TRACE UserController:52 - user is not logged in
+2020-07-16 16:43:59 INFO  UserController:47 - Checking to see if Customer session is occupied
+2020-07-16 16:43:59 TRACE UserController:52 - user is not logged in
+2020-07-16 16:44:31 INFO  UserController:47 - Checking to see if Customer session is occupied
+2020-07-16 16:44:31 TRACE UserController:52 - user is not logged in
+2020-07-16 16:44:31 INFO  UserController:47 - Checking to see if Customer session is occupied
+2020-07-16 16:44:31 TRACE UserController:52 - user is not logged in
+2020-07-16 16:44:55 INFO  UserController:47 - Checking to see if Customer session is occupied
+2020-07-16 16:44:55 TRACE UserController:52 - user is not logged in
+2020-07-16 16:44:55 INFO  UserController:47 - Checking to see if Customer session is occupied
+2020-07-16 16:44:55 TRACE UserController:52 - user is not logged in
+2020-07-16 16:46:04 INFO  UserController:47 - Checking to see if Customer session is occupied
+2020-07-16 16:46:04 TRACE UserController:52 - user is not logged in
+2020-07-16 16:46:04 INFO  UserController:47 - Checking to see if Customer session is occupied
+2020-07-16 16:46:04 TRACE UserController:52 - user is not logged in
+2020-07-16 21:25:39 INFO  UserController:47 - Checking to see if Customer session is occupied
+2020-07-16 21:25:39 TRACE UserController:52 - user is not logged in
+2020-07-16 21:25:39 INFO  UserController:47 - Checking to see if Customer session is occupied
+2020-07-16 21:25:39 TRACE UserController:52 - user is not logged in
+2020-07-16 21:26:50 TRACE UserOracle:172 - Retrieving all usernames from the person table
+2020-07-16 22:00:47 TRACE UserOracle:172 - Retrieving all usernames from the person table
+2020-07-16 22:00:47 TRACE UserOracle:172 - Retrieving all usernames from the person table
+2020-07-16 22:00:47 TRACE UserOracle:172 - Retrieving all usernames from the person table
+2020-07-16 22:04:16 INFO  UserController:47 - Checking to see if Customer session is occupied
+2020-07-16 22:04:16 TRACE UserController:52 - user is not logged in
+2020-07-16 22:04:16 INFO  UserController:47 - Checking to see if Customer session is occupied
+2020-07-16 22:04:16 TRACE UserController:52 - user is not logged in
+2020-07-16 22:20:09 INFO  UserController:47 - Checking to see if Customer session is occupied
+2020-07-16 22:20:09 TRACE UserController:52 - user is not logged in
+2020-07-16 22:20:09 INFO  UserController:47 - Checking to see if Customer session is occupied
+2020-07-16 22:20:09 TRACE UserController:52 - user is not logged in
+2020-07-16 22:23:01 INFO  UserController:47 - Checking to see if Customer session is occupied
+2020-07-16 22:23:01 TRACE UserController:52 - user is not logged in
+2020-07-16 22:23:01 INFO  UserController:47 - Checking to see if Customer session is occupied
+2020-07-16 22:23:01 TRACE UserController:52 - user is not logged in
+2020-07-16 22:23:07 TRACE UserController:153 - User is not in session, attempting to log in with username jordythen and password pass
+2020-07-16 22:23:07 TRACE UserOracle:275 - Retrieving person by username and password
+2020-07-16 22:23:08 TRACE UserOracle:285 - Person with username jordythen was found!
+2020-07-16 22:23:08 TRACE UserOracle:289 - This person is a customer
+2020-07-16 22:23:08 INFO  UserController:156 - User was found!
+2020-07-16 22:23:23 INFO  UserController:169 - User has been logged out
+2020-07-16 22:23:24 INFO  UserController:47 - Checking to see if Customer session is occupied
+2020-07-16 22:23:24 TRACE UserController:52 - user is not logged in
+2020-07-16 22:23:24 INFO  UserController:47 - Checking to see if Customer session is occupied
+2020-07-16 22:23:24 TRACE UserController:52 - user is not logged in
+2020-07-16 22:23:47 TRACE UserController:153 - User is not in session, attempting to log in with username jordythen and password pass
+2020-07-16 22:23:47 TRACE UserOracle:275 - Retrieving person by username and password
+2020-07-16 22:23:48 TRACE UserOracle:285 - Person with username jordythen was found!
+2020-07-16 22:23:48 TRACE UserOracle:289 - This person is a customer
+2020-07-16 22:23:48 INFO  UserController:156 - User was found!
+2020-07-16 23:43:53 INFO  UserController:47 - Checking to see if Customer session is occupied
+2020-07-16 23:43:53 TRACE UserController:52 - user is not logged in
+2020-07-16 23:43:53 INFO  UserController:47 - Checking to see if Customer session is occupied
+2020-07-16 23:43:53 TRACE UserController:52 - user is not logged in
+2020-07-17 00:27:19 TRACE UserOracle:172 - Retrieving all usernames from the person table
+2020-07-17 00:31:35 INFO  UserController:47 - Checking to see if Customer session is occupied
+2020-07-17 00:31:35 TRACE UserController:52 - user is not logged in
+2020-07-17 00:31:36 INFO  UserController:47 - Checking to see if Customer session is occupied
+2020-07-17 00:31:36 TRACE UserController:52 - user is not logged in
+2020-07-17 12:11:46 INFO  UserController:47 - Checking to see if Customer session is occupied
+2020-07-17 12:11:46 TRACE UserController:52 - user is not logged in
+2020-07-17 12:11:46 INFO  UserController:47 - Checking to see if Customer session is occupied
+2020-07-17 12:11:46 TRACE UserController:52 - user is not logged in
+2020-07-17 12:11:57 TRACE UserController:153 - User is not in session, attempting to log in with username pintadriver and password pass
+2020-07-17 12:11:57 TRACE UserOracle:275 - Retrieving person by username and password
+2020-07-17 12:11:58 TRACE UserOracle:303 - Cannot find person with username and password
+2020-07-17 12:11:58 INFO  UserController:159 - No user found with username and password
+2020-07-17 12:12:22 INFO  UserController:47 - Checking to see if Customer session is occupied
+2020-07-17 12:12:22 TRACE UserController:52 - user is not logged in
+2020-07-17 12:12:22 INFO  UserController:47 - Checking to see if Customer session is occupied
+2020-07-17 12:12:22 TRACE UserController:52 - user is not logged in
+2020-07-17 12:12:32 TRACE UserController:153 - User is not in session, attempting to log in with username pintadriver and password pass
+2020-07-17 12:12:32 TRACE UserOracle:275 - Retrieving person by username and password
+2020-07-17 12:12:34 TRACE UserOracle:303 - Cannot find person with username and password
+2020-07-17 12:12:34 INFO  UserController:159 - No user found with username and password
+2020-07-17 12:12:51 TRACE UserController:153 - User is not in session, attempting to log in with username jordythen and password pass
+2020-07-17 12:12:51 TRACE UserOracle:275 - Retrieving person by username and password
+2020-07-17 12:12:52 TRACE UserOracle:285 - Person with username jordythen was found!
+2020-07-17 12:12:52 TRACE UserOracle:289 - This person is a customer
+2020-07-17 12:12:53 INFO  UserController:156 - User was found!
+2020-07-17 12:12:59 INFO  UserController:47 - Checking to see if Customer session is occupied
+2020-07-17 12:12:59 TRACE UserController:50 - user already logged in
+2020-07-17 12:13:03 INFO  UserController:47 - Checking to see if Customer session is occupied
+2020-07-17 12:13:03 TRACE UserController:50 - user already logged in
+2020-07-17 12:13:06 INFO  UserController:169 - User has been logged out
+2020-07-17 12:13:07 INFO  UserController:47 - Checking to see if Customer session is occupied
+2020-07-17 12:13:07 TRACE UserController:52 - user is not logged in
+2020-07-17 12:13:07 INFO  UserController:47 - Checking to see if Customer session is occupied
+2020-07-17 12:13:07 TRACE UserController:52 - user is not logged in
+2020-07-17 12:49:01 TRACE UserController:153 - User is not in session, attempting to log in with username jordythen and password pass
+2020-07-17 12:49:01 TRACE UserOracle:275 - Retrieving person by username and password
+2020-07-17 12:49:02 TRACE UserOracle:285 - Person with username jordythen was found!
+2020-07-17 12:49:02 TRACE UserOracle:289 - This person is a customer
+2020-07-17 12:49:02 INFO  UserController:156 - User was found!
+2020-07-17 12:49:04 INFO  UserController:169 - User has been logged out
+2020-07-17 12:49:05 INFO  UserController:47 - Checking to see if Customer session is occupied
+2020-07-17 12:49:05 TRACE UserController:52 - user is not logged in
+2020-07-17 12:49:05 INFO  UserController:47 - Checking to see if Customer session is occupied
+2020-07-17 12:49:05 TRACE UserController:52 - user is not logged in
+2020-07-17 12:49:17 TRACE UserController:153 - User is not in session, attempting to log in with username fa and password bo
+2020-07-17 12:49:17 TRACE UserOracle:275 - Retrieving person by username and password
+2020-07-17 12:49:17 TRACE UserOracle:303 - Cannot find person with username and password
+2020-07-17 12:49:17 INFO  UserController:159 - No user found with username and password
+2020-07-17 12:55:58 INFO  UserController:47 - Checking to see if Customer session is occupied
+2020-07-17 12:55:58 TRACE UserController:52 - user is not logged in
+2020-07-17 13:10:20 INFO  UserController:47 - Checking to see if Customer session is occupied
+2020-07-17 13:10:20 TRACE UserController:52 - user is not logged in
+2020-07-17 13:23:44 INFO  UserController:47 - Checking to see if Customer session is occupied
+2020-07-17 13:23:44 TRACE UserController:52 - user is not logged in
+2020-07-17 13:23:50 INFO  UserController:47 - Checking to see if Customer session is occupied
+2020-07-17 13:23:50 TRACE UserController:52 - user is not logged in
+2020-07-17 13:26:35 INFO  UserController:47 - Checking to see if Customer session is occupied
+2020-07-17 13:26:35 TRACE UserController:52 - user is not logged in
+2020-07-17 13:27:00 TRACE UserOracle:172 - Retrieving all usernames from the person table
+2020-07-17 13:27:59 INFO  UserController:47 - Checking to see if Customer session is occupied
+2020-07-17 13:27:59 TRACE UserController:52 - user is not logged in
+2020-07-17 13:56:20 INFO  UserController:64 - Registering user swilson
+2020-07-17 13:56:20 TRACE UserOracle:27 - Adding user Steven Wilson into the database.
+2020-07-17 13:56:23 TRACE UserOracle:58 - Successfully added user Steven Wilson into the database.
+2020-07-17 13:56:23 TRACE UserOracle:78 - Retrieving person with ID: 66 from DB
+2020-07-17 13:56:24 TRACE UserOracle:87 - person with ID: 66 was found!
+2020-07-17 13:56:24 TRACE UserOracle:91 - This person is a customer
+2020-07-17 13:57:02 INFO  UserController:128 - Registering developer Wilson Games
+2020-07-17 13:57:02 TRACE DeveloperDAO:25 - Adding category [Wilson Games] into the DB
+2020-07-17 13:57:04 TRACE DeveloperDAO:37 - Successfully added developer Wilson Games into the DB.
+2020-07-17 13:57:04 TRACE DeveloperDAO:55 - Adding to DEVELOPER_PERSON many to many table
+2020-07-17 13:57:58 INFO  UserController:169 - User has been logged out
+2020-07-17 13:57:59 INFO  UserController:47 - Checking to see if Customer session is occupied
+2020-07-17 13:57:59 TRACE UserController:52 - user is not logged in
+2020-07-17 13:57:59 INFO  UserController:47 - Checking to see if Customer session is occupied
+2020-07-17 13:57:59 TRACE UserController:52 - user is not logged in
+2020-07-17 13:58:10 TRACE UserOracle:172 - Retrieving all usernames from the person table
+2020-07-17 13:58:11 TRACE UserOracle:172 - Retrieving all usernames from the person table
