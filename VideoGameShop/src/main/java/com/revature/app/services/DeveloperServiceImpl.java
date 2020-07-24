@@ -30,6 +30,10 @@ public class DeveloperServiceImpl implements DeveloperService {
 		// TODO Auto-generated method stub
 		return dDao.getById(id);
 	}
+	
+	public List<Developer> findAllDevForGameID(Integer gameID){
+		return dDao.getAllDevForGameID(gameID);
+	}
 
 	@Override
 	public List<Developer> findAll() {

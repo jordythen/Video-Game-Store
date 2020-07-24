@@ -75,7 +75,34 @@ public class DeveloperOracle implements DeveloperDAO {
 		}
 		return true;
 	}
-
+	
+	//We will use this later when adding games
+	public Boolean addDevToGame(Integer devID, Integer gameID) {
+		
+		log.trace("Adding to DEVELOPER_GAME many to many table");
+		try(Connection conn = cu.getConnection()){
+			conn.setAutoCommit(false);
+			String sql = "insert into DEVELOPER_GAME(developerID, gameID) values (?,?)";
+			PreparedStatement pstmt = conn.prepareStatement(sql);
+			pstmt.setInt(1, devID);
+			pstmt.setInt(2, gameID);
+			Integer success = pstmt.executeUpdate();
+			
+			if(success > 0) {
+				conn.commit();
+			}else {
+				conn.rollback();
+				return false;
+			}
+			
+		}catch(SQLException e) {
+			log.warn("Error has occured while adding developer_game into the DB");
+			log.warn(e);
+			return false;
+		}
+		return true;
+	}
+	
 	@Override
 	public Developer getById(Integer id) {
 		// TODO Auto-generated method stub
@@ -135,6 +162,32 @@ public class DeveloperOracle implements DeveloperDAO {
 		}
 		return null;
 	}
+	
+	public List<Developer> getAllDevForGameID(Integer gameID){
+		log.trace("Retrieving all developers that is related to game with ID " + gameID);
+		List<Developer> devs = new LinkedList<Developer>();
+		try(Connection conn = cu.getConnection()){
+			String sql = "select * from developer_game where gameID = ?";
+			PreparedStatement pstmt = conn.prepareStatement(sql);
+			pstmt.setInt(1, gameID);
+			
+			ResultSet rs = pstmt.executeQuery();
+			while(rs.next()) {
+				Developer d = new Developer();
+				d = getById(rs.getInt("developerID"));
+				devs.add(d);
+			}
+		}catch(SQLException e) {
+			log.warn("Error has occured while retrieving developers from DB");
+			log.warn(e);
+		}
+		
+		if(!devs.isEmpty()) {
+			return devs;
+		}
+		return null;
+	}
+
 
 	@Override
 	public Boolean update(Developer t) {

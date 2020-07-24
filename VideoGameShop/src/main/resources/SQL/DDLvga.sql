@@ -54,6 +54,16 @@ create table DEVELOPER(
     
 );
 
+create table DEVELOPER_PERSON(
+    
+    devID number(10),
+    personID number(10),
+    
+    foreign key (devID) references DEVELOPER(id),
+    foreign key (personID) references PERSON(id)
+
+);
+
 create table DEVELOPER_GAME (
     
     gameID number(10),
@@ -111,15 +121,6 @@ create table GAMEDETAILS(
     foreign key (gameID) references GAME(id)
 );
 
-create table GAME_GAMEDETAILS(
-
-    gameID number(10),
-    detailID number(10),
-    
-    foreign key (gameID) references GAME(id),
-    foreign key (detailID) references GAMEDETAILS(id)
-    
-);
 
 create table PERSONROLE(
 

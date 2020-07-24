@@ -1,10 +1,10 @@
 Manifest-Version: 1.0
-Built-By: raul
-Build-Jdk: 13.0.2
 Implementation-Title: Video Game Shop
 Implementation-Version: 0.0.1-SNAPSHOT
+Built-By: Jordy Then
 Implementation-Vendor-Id: com.revature
-Implementation-URL: https://projects.spring.io/spring-boot/#/spring-boot
- -starter-parent/VideoGameShop
+Build-Jdk: 1.8.0_231
+Implementation-URL: https://projects.spring.io/spring-boot/#/spring-bo
+ ot-starter-parent/VideoGameShop
 Created-By: Maven Integration for Eclipse
 
