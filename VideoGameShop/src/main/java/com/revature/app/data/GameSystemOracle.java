@@ -8,6 +8,7 @@ import java.sql.Statement;
 import java.util.LinkedList;
 import java.util.List;
 
+import com.revature.app.beans.Developer;
 import com.revature.app.beans.GameSystem;
 import com.revature.app.beans.GameSystem;
 import com.revature.app.utils.ConnectionUtil;
@@ -102,6 +103,31 @@ public class GameSystemOracle implements GameSystemDAO {
 
 		if (!GameSystems.isEmpty()) {
 			return GameSystems;
+		}
+		return null;
+	}
+	
+	public List<GameSystem> getAllSystemForGameID(Integer gameID){
+		log.trace("Retrieving all systems that is related to game with ID " + gameID);
+		List<GameSystem> systems = new LinkedList<GameSystem>();
+		try(Connection conn = cu.getConnection()){
+			String sql = "select * from game_gamesystem where gameID = ?";
+			PreparedStatement pstmt = conn.prepareStatement(sql);
+			pstmt.setInt(1, gameID);
+			
+			ResultSet rs = pstmt.executeQuery();
+			while(rs.next()) {
+				GameSystem gs = new GameSystem();
+				gs = getById(rs.getInt("systemid"));
+				systems.add(gs);
+			}
+		}catch(SQLException e) {
+			log.warn("Error has occured while retrieving systems from DB");
+			log.warn(e);
+		}
+		
+		if(!systems.isEmpty()) {
+			return systems;
 		}
 		return null;
 	}

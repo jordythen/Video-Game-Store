@@ -208,6 +208,7 @@ drop trigger orderdetails_trig;
 drop trigger person_trig;
 drop trigger publisher_trig;
 drop trigger role_trig;
+drop trigger category_trig;
 
 create sequence role_seq;
 create sequence game_seq;
@@ -315,6 +316,17 @@ for each row
 begin
     if INSERTING then
         select ROLE_SEQ.nextval into :new.id from dual;
+    elsif UPDATING then
+        select :old.id into :new.id from dual;
+    end if;
+end;
+/
+create or replace trigger CATEGORY_TRIG
+before insert or update on GAMECATEGORY
+for each row
+begin
+    if INSERTING then
+        select CATEGORY_SEQ.nextval into :new.id from dual;
     elsif UPDATING then
         select :old.id into :new.id from dual;
     end if;

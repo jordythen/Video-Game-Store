@@ -46,4 +46,10 @@ public class PublisherServiceImpl implements PublisherService {
 		return pDao.delete(t);
 	}
 
+	@Override
+	public List<Publisher> findAllPublishersForGameID(Integer gameID) {
+		// TODO Auto-generated method stub
+		return pDao.getAllPublishersForGameID(gameID);
+	}
+
 }

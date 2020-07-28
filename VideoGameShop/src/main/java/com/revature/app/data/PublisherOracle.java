@@ -74,6 +74,31 @@ public class PublisherOracle implements PublisherDAO {
 		}
 		return true;
 	}
+	
+	public List<Publisher> getAllPublishersForGameID(Integer gameID){
+		log.trace("Retrieving all publishers that is related to game with ID " + gameID);
+		List<Publisher> publishers = new LinkedList<Publisher>();
+		try(Connection conn = cu.getConnection()){
+			String sql = "select * from publisher_game where gameID = ?";
+			PreparedStatement pstmt = conn.prepareStatement(sql);
+			pstmt.setInt(1, gameID);
+			
+			ResultSet rs = pstmt.executeQuery();
+			while(rs.next()) {
+				Publisher p = new Publisher();
+				p = getById(rs.getInt("publisherID"));
+				publishers.add(p);
+			}
+		}catch(SQLException e) {
+			log.warn("Error has occured while retrieving publishers from DB");
+			log.warn(e);
+		}
+
+		if(!publishers.isEmpty()) {
+			return publishers;
+		}
+		return null;
+	}
 
 	@Override
 	public Publisher getById(Integer id) {

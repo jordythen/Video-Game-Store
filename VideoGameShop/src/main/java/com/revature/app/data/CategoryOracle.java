@@ -81,6 +81,33 @@ public class CategoryOracle implements CategoryDAO {
 		
 		return u;
 	}
+	
+	@Override
+	public List<Category> getAllCategoryForGameID(Integer gameID) {
+		// TODO Auto-generated method stub
+		log.trace("Retrieving all categories that is related to game with ID " + gameID);
+		List<Category> categories = new LinkedList<Category>();
+		try(Connection conn = cu.getConnection()){
+			String sql = "select * from game_gamecategory where gameID = ?";
+			PreparedStatement pstmt = conn.prepareStatement(sql);
+			pstmt.setInt(1, gameID);
+			
+			ResultSet rs = pstmt.executeQuery();
+			while(rs.next()) {
+				Category d = new Category();
+				d = getById(rs.getInt("categoryID"));
+				categories.add(d);
+			}
+		}catch(SQLException e) {
+			log.warn("Error has occured while retrieving categories from DB");
+			log.warn(e);
+		}
+		
+		if(!categories.isEmpty()) {
+			return categories;
+		}
+		return null;
+	}
 
 	@Override
 	public List<Category> getAll() {

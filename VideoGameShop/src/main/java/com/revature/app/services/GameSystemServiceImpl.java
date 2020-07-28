@@ -46,4 +46,10 @@ public class GameSystemServiceImpl implements GameSystemService {
 		return gsDao.delete(t);
 	}
 
+	@Override
+	public List<GameSystem> findAllSystemForGameID(Integer gameID) {
+		// TODO Auto-generated method stub
+		return gsDao.getAllSystemForGameID(gameID);
+	}
+
 }

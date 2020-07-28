@@ -46,4 +46,10 @@ public class GameDetailsServiceImpl implements GameDetailsService {
 		return gdDao.delete(t);
 	}
 
+	@Override
+	public List<GameDetails> findAllDetailsForGameID(Integer gameID) {
+		// TODO Auto-generated method stub
+		return gdDao.getAllDetailsForGameID(gameID);
+	}
+
 }

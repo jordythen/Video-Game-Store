@@ -4,13 +4,18 @@ import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
 
+import com.revature.app.beans.Category;
 import com.revature.app.beans.Developer;
 import com.revature.app.beans.Game;
+import com.revature.app.beans.GameDetails;
+import com.revature.app.beans.GameSystem;
+import com.revature.app.beans.Publisher;
 
 public class CompleteGameServiceImpl implements CompleteGameService{
 
 	private static GameService gameService;
 	private static GameDetailsService gameDetailsService;
+	private static CategoryService categoryService;
 	private static DeveloperService devService;
 	private static PublisherService	publisherService;
 	private static GameSystemService  gameSystemService;
@@ -22,6 +27,7 @@ public class CompleteGameServiceImpl implements CompleteGameService{
 		gameDetailsService = new GameDetailsServiceImpl();
 		devService = new DeveloperServiceImpl();
 		publisherService = new PublisherServiceImpl();
+		categoryService = new CategoryServiceImpl();
 	}
 	
 	@Override
@@ -39,9 +45,19 @@ public class CompleteGameServiceImpl implements CompleteGameService{
 		List<Developer> devs = devService.findAllDevForGameID(g.getId());
 		g.setDevelopers(devs);
 		
+		List<Publisher> publishers = publisherService.findAllPublishersForGameID(g.getId());
+		g.setPublishers(publishers);
 		
+		List<GameSystem> gamesystems = gameSystemService.findAllSystemForGameID(g.getId());
+		g.setSystems(gamesystems);
 		
-		return null;
+		List<GameDetails> gamedetails = gameDetailsService.findAllDetailsForGameID(g.getId());
+		g.setDetails(gamedetails);
+		
+		List<Category> categories = categoryService.findAllCategoriesForGameID(g.getId());
+		g.setCategory(categories);
+		
+		return g;
 	}
 
 	@Override
