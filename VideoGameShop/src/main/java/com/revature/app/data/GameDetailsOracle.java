@@ -90,7 +90,7 @@ public class GameDetailsOracle implements GameDetailsDAO{
 		
 		return gd;
 	}
-
+	
 	@Override
 	public List<GameDetails> getAllDetailsForGameID(Integer gameID) {
 		// TODO Auto-generated method stub
@@ -109,6 +109,36 @@ public class GameDetailsOracle implements GameDetailsDAO{
 				gd.setQuantity(rs.getInt("quantity"));
 				gd.setPrice(rs.getDouble("price"));
 				gd.setGame(gDao.getById(rs.getInt("gameID")));
+				details.add(gd);
+			}
+		}catch(SQLException e) {
+			log.warn("Error has occured while retrieving details from DB");
+			log.warn(e);
+		}
+		
+		if(!details.isEmpty()) {
+			return details;
+		}
+		
+		return null;
+	}
+	
+	public List<GameDetails> getAllDetailsForGameIDLightweight(Integer gameID) {
+		// TODO Auto-generated method stub
+		log.trace("Retrieving all details that is related to game with ID " + gameID);
+		List<GameDetails> details = new LinkedList<GameDetails>();
+		try(Connection conn = cu.getConnection()){
+			String sql = "select * from gamedetails where gameID = ?";
+			PreparedStatement pstmt = conn.prepareStatement(sql);
+			pstmt.setInt(1, gameID);
+			
+			ResultSet rs = pstmt.executeQuery();
+			while(rs.next()) {
+				GameDetails gd = new GameDetails();
+				gd.setId(rs.getInt("id"));
+				gd.setStatus(rs.getString("status"));
+				gd.setQuantity(rs.getInt("quantity"));
+				gd.setPrice(rs.getDouble("price"));
 				details.add(gd);
 			}
 		}catch(SQLException e) {

@@ -52,4 +52,10 @@ public class GameDetailsServiceImpl implements GameDetailsService {
 		return gdDao.getAllDetailsForGameID(gameID);
 	}
 
+	@Override
+	public List<GameDetails> findAllDetailsForGameIDLightweight(Integer gameID) {
+		// TODO Auto-generated method stub
+		return gdDao.getAllDetailsForGameIDLightweight(gameID);
+	}
+
 }

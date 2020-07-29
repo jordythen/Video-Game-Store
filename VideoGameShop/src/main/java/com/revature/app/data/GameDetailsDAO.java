@@ -6,5 +6,5 @@ import com.revature.app.beans.GameDetails;
 
 public interface GameDetailsDAO extends GenericDAO<GameDetails>{
 	public List<GameDetails> getAllDetailsForGameID(Integer gameID);
-
+	public List<GameDetails> getAllDetailsForGameIDLightweight(Integer gameID);
 }

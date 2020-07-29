@@ -1,7 +1,12 @@
 package com.revature.app.controller;
 
+import java.util.List;
+
+import javax.servlet.http.HttpSession;
+
 import org.apache.log4j.Logger;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
@@ -24,11 +29,23 @@ public class GameController {
 		cgServ = new CompleteGameServiceImpl();
 	}
 	
-	/*
-	public ResponseEntity<List<Game>> retrieveAllGameTitlesAndDevs(){
+	@GetMapping(path="/games")
+	public ResponseEntity<List<Game>> retrieveAllGamesLightweight(HttpSession session){
+		log.trace("Retrieving all games from inventory...");
+		List<Game> games = (List<Game>) session.getAttribute("games");
+		if(games != null) {
+			log.trace("Session already hold stored games");
+		}else { //if session is not yet set up
+			log.trace("Session does not hold stored games, retrieving from DB");
+			games = cgServ.findAllBasic();
+			session.setAttribute("games", games);
+		}
 		
-		return null;
-	}*/
+		if(games.isEmpty()) {
+			return ResponseEntity.status(HttpStatus.NO_CONTENT).build();
+		}
+		return ResponseEntity.ok(games);
+	}
 	
 	@GetMapping(path="/game/{id}")
 	public ResponseEntity<Game> retrieveGameByID(@PathVariable("id") Integer id){
