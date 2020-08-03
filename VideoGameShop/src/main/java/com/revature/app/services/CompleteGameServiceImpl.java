@@ -72,10 +72,39 @@ public class CompleteGameServiceImpl implements CompleteGameService{
 		for(Game g: games) {
 			List<Developer> devs = devService.findAllDevForGameID(g.getId());
 			g.setDevelopers(devs);
+			/*
+			List<Publisher> publishers = publisherService.findAllPublishersForGameID(g.getId());
+			g.setPublishers(publishers);
+			*/
+			List<GameSystem> gamesystems = gameSystemService.findAllSystemForGameID(g.getId());
+			g.setSystems(gamesystems);
+			/*
+			List<GameDetails> gamedetails = gameDetailsService.findAllDetailsForGameIDLightweight(g.getId());
+			g.setDetails(gamedetails);
+			
+			List<Category> categories = categoryService.findAllCategoriesForGameID(g.getId());
+			g.setCategory(categories);
+			*/
+			completeGames.add(g);
+		}
+		
+		return completeGames;
+	}
+
+	
+	@Override
+	public List<Game> findAll() {
+		// TODO Auto-generated method stub
+		List<Game> games = gameService.findAll();
+		List<Game> completeGames = new LinkedList<Game>();
+		
+		for(Game g: games) {
+			List<Developer> devs = devService.findAllDevForGameID(g.getId());
+			g.setDevelopers(devs);
 			
 			List<Publisher> publishers = publisherService.findAllPublishersForGameID(g.getId());
 			g.setPublishers(publishers);
-			
+		
 			List<GameSystem> gamesystems = gameSystemService.findAllSystemForGameID(g.getId());
 			g.setSystems(gamesystems);
 			
@@ -89,13 +118,6 @@ public class CompleteGameServiceImpl implements CompleteGameService{
 		}
 		
 		return completeGames;
-	}
-
-	
-	@Override
-	public List<Game> findAll() {
-		// TODO Auto-generated method stub
-		return null;
 	}
 
 	@Override

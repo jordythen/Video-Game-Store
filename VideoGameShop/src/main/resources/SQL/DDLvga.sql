@@ -22,8 +22,9 @@ create table GAME (
     name varchar2(255),
     dateReleased timestamp,
     esrbRating varchar2(10),
-    playerLimit varchar2(100)
-    
+    playerLimit varchar2(100),
+    description varchar2(255),
+    mainImg varchar2(255)
 );
 
 create table GAMESYSTEM(

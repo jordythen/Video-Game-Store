@@ -19,8 +19,12 @@ delete from developer_person;
 -------------------------------- game stuff 
 
 insert into game(name, datereleased, esrbrating, playerlimit) values ('CrimeWave', '03-MAR-25 06.11.30.951000000 PM', 'T', '1');
+update game set description = 'Post-Apocalyptic action story of uncontrollable technologies, status and hope.', mainimg = 'https://imgur.com/0vpiIm7.png' where id = 1;
 insert into game(name, datereleased, esrbrating, playerlimit) values ('Garbage Collector', '02-FEB-21 02.10.30.435000000 PM', 'T', '1');
+update game set description = 'I see garbage. I pick up.', mainimg = 'https://d2uhsaoc6ysewq.cloudfront.net/50674/Garbage-Trucks-Mack-MRU613-14299924.jpg' where id = 2;
 insert into game(name, datereleased, esrbrating, playerlimit) values ('FunCraft', '11-JUN-18 02.10.30.951000000 PM', 'E', '1-16');
+update game set description = 'Minecraft with lower budget', mainimg = 'https://patch.com/img/cdn/users/592440/2013/04/raw/256c25efb3fa1dbc4cd960ce80b19a7c.png' where id = 3;
+
 select * from game;
 
 insert into developer(name, description) values ('Jordy Now', 'Solo indie developer from Pennsylvania. Interested in action pack pixel art 2D side scrollers. Looking for Unity2D Developers.');

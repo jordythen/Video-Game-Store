@@ -16415,3 +16415,1645 @@
 2020-07-28 23:31:30 TRACE UserController:49 - user is not logged in
 2020-07-28 23:31:30 TRACE GameController:34 - Retrieving all games from inventory...
 2020-07-28 23:31:30 TRACE GameController:37 - Session already hold stored games
+2020-07-29 13:03:27 TRACE GameController:34 - Retrieving all games from inventory...
+2020-07-29 13:03:27 INFO  UserController:44 - Checking to see if Customer session is occupied
+2020-07-29 13:03:27 TRACE GameController:39 - Session does not hold stored games, retrieving from DB
+2020-07-29 13:03:27 TRACE UserController:49 - user is not logged in
+2020-07-29 13:03:27 TRACE GameOracle:90 - Retrieving all game from the game table
+2020-07-29 13:03:27 TRACE DeveloperOracle:167 - Retrieving all developers that is related to game with ID 1
+2020-07-29 13:03:28 TRACE DeveloperOracle:109 - Retrieving category with ID: 41 from DB
+2020-07-29 13:03:28 TRACE DeveloperOracle:119 - Successfully retrieved developer with id: 41
+2020-07-29 13:03:28 TRACE PublisherOracle:79 - Retrieving all publishers that is related to game with ID 1
+2020-07-29 13:03:28 TRACE PublisherOracle:106 - Retrieving publisher with ID: 1 from DB
+2020-07-29 13:03:29 TRACE PublisherOracle:116 - Successfully retrieved publisher with id: 1
+2020-07-29 13:03:29 TRACE GameSystemOracle:111 - Retrieving all systems that is related to game with ID 1
+2020-07-29 13:03:29 TRACE GameSystemOracle:55 - Retrieving game system with ID: 1 from DB
+2020-07-29 13:03:30 TRACE GameSystemOracle:65 - Successfully retrieved game system with id: 1
+2020-07-29 13:03:30 TRACE GameSystemOracle:55 - Retrieving game system with ID: 3 from DB
+2020-07-29 13:03:30 TRACE GameSystemOracle:65 - Successfully retrieved game system with id: 3
+2020-07-29 13:03:30 TRACE GameDetailsOracle:128 - Retrieving all details that is related to game with ID 1
+2020-07-29 13:03:31 TRACE CategoryOracle:88 - Retrieving all categories that is related to game with ID 1
+2020-07-29 13:03:31 TRACE CategoryOracle:58 - Retrieving category with ID: 1 from DB
+2020-07-29 13:03:31 TRACE CategoryOracle:68 - Successfully retrieved category with id: 1
+2020-07-29 13:03:31 TRACE DeveloperOracle:167 - Retrieving all developers that is related to game with ID 2
+2020-07-29 13:03:32 TRACE DeveloperOracle:109 - Retrieving category with ID: 5 from DB
+2020-07-29 13:03:32 TRACE DeveloperOracle:119 - Successfully retrieved developer with id: 5
+2020-07-29 13:03:32 TRACE PublisherOracle:79 - Retrieving all publishers that is related to game with ID 2
+2020-07-29 13:03:33 TRACE GameSystemOracle:111 - Retrieving all systems that is related to game with ID 2
+2020-07-29 13:03:33 TRACE GameSystemOracle:55 - Retrieving game system with ID: 1 from DB
+2020-07-29 13:03:33 TRACE GameSystemOracle:65 - Successfully retrieved game system with id: 1
+2020-07-29 13:03:33 TRACE GameDetailsOracle:128 - Retrieving all details that is related to game with ID 2
+2020-07-29 13:03:34 TRACE CategoryOracle:88 - Retrieving all categories that is related to game with ID 2
+2020-07-29 13:03:34 TRACE CategoryOracle:58 - Retrieving category with ID: 2 from DB
+2020-07-29 13:03:35 TRACE CategoryOracle:68 - Successfully retrieved category with id: 2
+2020-07-29 13:03:35 TRACE DeveloperOracle:167 - Retrieving all developers that is related to game with ID 3
+2020-07-29 13:03:35 TRACE DeveloperOracle:109 - Retrieving category with ID: 21 from DB
+2020-07-29 13:03:35 TRACE DeveloperOracle:119 - Successfully retrieved developer with id: 21
+2020-07-29 13:03:35 TRACE PublisherOracle:79 - Retrieving all publishers that is related to game with ID 3
+2020-07-29 13:03:36 TRACE GameSystemOracle:111 - Retrieving all systems that is related to game with ID 3
+2020-07-29 13:03:36 TRACE GameSystemOracle:55 - Retrieving game system with ID: 1 from DB
+2020-07-29 13:03:37 TRACE GameSystemOracle:65 - Successfully retrieved game system with id: 1
+2020-07-29 13:03:37 TRACE GameDetailsOracle:128 - Retrieving all details that is related to game with ID 3
+2020-07-29 13:03:37 TRACE CategoryOracle:88 - Retrieving all categories that is related to game with ID 3
+2020-07-29 13:03:37 TRACE CategoryOracle:58 - Retrieving category with ID: 3 from DB
+2020-07-29 13:03:38 TRACE CategoryOracle:68 - Successfully retrieved category with id: 3
+2020-07-29 13:03:38 TRACE DeveloperOracle:167 - Retrieving all developers that is related to game with ID 4
+2020-07-29 13:03:38 TRACE PublisherOracle:79 - Retrieving all publishers that is related to game with ID 4
+2020-07-29 13:03:39 TRACE GameSystemOracle:111 - Retrieving all systems that is related to game with ID 4
+2020-07-29 13:03:39 TRACE GameDetailsOracle:128 - Retrieving all details that is related to game with ID 4
+2020-07-29 13:03:40 TRACE CategoryOracle:88 - Retrieving all categories that is related to game with ID 4
+2020-07-29 14:03:04 TRACE GameController:34 - Retrieving all games from inventory...
+2020-07-29 14:03:04 INFO  UserController:44 - Checking to see if Customer session is occupied
+2020-07-29 14:03:04 TRACE UserController:49 - user is not logged in
+2020-07-29 14:03:04 TRACE GameController:39 - Session does not hold stored games, retrieving from DB
+2020-07-29 14:03:04 TRACE GameOracle:94 - Retrieving all game from the game table
+2020-07-29 14:03:05 TRACE DeveloperOracle:167 - Retrieving all developers that is related to game with ID 1
+2020-07-29 14:03:05 TRACE DeveloperOracle:109 - Retrieving category with ID: 41 from DB
+2020-07-29 14:03:06 TRACE DeveloperOracle:119 - Successfully retrieved developer with id: 41
+2020-07-29 14:03:06 TRACE PublisherOracle:79 - Retrieving all publishers that is related to game with ID 1
+2020-07-29 14:03:06 TRACE PublisherOracle:106 - Retrieving publisher with ID: 1 from DB
+2020-07-29 14:03:07 TRACE PublisherOracle:116 - Successfully retrieved publisher with id: 1
+2020-07-29 14:03:07 TRACE GameSystemOracle:111 - Retrieving all systems that is related to game with ID 1
+2020-07-29 14:03:08 TRACE GameSystemOracle:55 - Retrieving game system with ID: 1 from DB
+2020-07-29 14:03:08 TRACE GameSystemOracle:65 - Successfully retrieved game system with id: 1
+2020-07-29 14:03:08 TRACE GameSystemOracle:55 - Retrieving game system with ID: 3 from DB
+2020-07-29 14:03:09 TRACE GameSystemOracle:65 - Successfully retrieved game system with id: 3
+2020-07-29 14:03:09 TRACE GameDetailsOracle:128 - Retrieving all details that is related to game with ID 1
+2020-07-29 14:03:09 TRACE CategoryOracle:88 - Retrieving all categories that is related to game with ID 1
+2020-07-29 14:03:10 TRACE CategoryOracle:58 - Retrieving category with ID: 1 from DB
+2020-07-29 14:03:10 TRACE CategoryOracle:68 - Successfully retrieved category with id: 1
+2020-07-29 14:03:10 TRACE DeveloperOracle:167 - Retrieving all developers that is related to game with ID 2
+2020-07-29 14:03:11 TRACE DeveloperOracle:109 - Retrieving category with ID: 5 from DB
+2020-07-29 14:03:11 TRACE DeveloperOracle:119 - Successfully retrieved developer with id: 5
+2020-07-29 14:03:11 TRACE PublisherOracle:79 - Retrieving all publishers that is related to game with ID 2
+2020-07-29 14:03:11 TRACE GameSystemOracle:111 - Retrieving all systems that is related to game with ID 2
+2020-07-29 14:03:12 TRACE GameSystemOracle:55 - Retrieving game system with ID: 1 from DB
+2020-07-29 14:03:12 TRACE GameSystemOracle:65 - Successfully retrieved game system with id: 1
+2020-07-29 14:03:12 TRACE GameDetailsOracle:128 - Retrieving all details that is related to game with ID 2
+2020-07-29 14:03:13 TRACE CategoryOracle:88 - Retrieving all categories that is related to game with ID 2
+2020-07-29 14:03:13 TRACE CategoryOracle:58 - Retrieving category with ID: 2 from DB
+2020-07-29 14:03:14 TRACE CategoryOracle:68 - Successfully retrieved category with id: 2
+2020-07-29 14:03:14 TRACE DeveloperOracle:167 - Retrieving all developers that is related to game with ID 3
+2020-07-29 14:03:14 TRACE DeveloperOracle:109 - Retrieving category with ID: 21 from DB
+2020-07-29 14:03:15 TRACE DeveloperOracle:119 - Successfully retrieved developer with id: 21
+2020-07-29 14:03:15 TRACE PublisherOracle:79 - Retrieving all publishers that is related to game with ID 3
+2020-07-29 14:03:15 TRACE GameSystemOracle:111 - Retrieving all systems that is related to game with ID 3
+2020-07-29 14:03:16 TRACE GameSystemOracle:55 - Retrieving game system with ID: 1 from DB
+2020-07-29 14:03:16 TRACE GameSystemOracle:65 - Successfully retrieved game system with id: 1
+2020-07-29 14:03:16 TRACE GameDetailsOracle:128 - Retrieving all details that is related to game with ID 3
+2020-07-29 14:03:17 TRACE CategoryOracle:88 - Retrieving all categories that is related to game with ID 3
+2020-07-29 14:03:17 TRACE CategoryOracle:58 - Retrieving category with ID: 3 from DB
+2020-07-29 14:03:17 TRACE CategoryOracle:68 - Successfully retrieved category with id: 3
+2020-07-29 14:03:17 TRACE DeveloperOracle:167 - Retrieving all developers that is related to game with ID 4
+2020-07-29 14:03:18 TRACE PublisherOracle:79 - Retrieving all publishers that is related to game with ID 4
+2020-07-29 14:03:18 TRACE GameSystemOracle:111 - Retrieving all systems that is related to game with ID 4
+2020-07-29 14:03:19 TRACE GameDetailsOracle:128 - Retrieving all details that is related to game with ID 4
+2020-07-29 14:03:19 TRACE CategoryOracle:88 - Retrieving all categories that is related to game with ID 4
+2020-07-29 14:03:44 INFO  UserController:44 - Checking to see if Customer session is occupied
+2020-07-29 14:03:44 TRACE UserController:49 - user is not logged in
+2020-07-29 14:03:44 TRACE GameController:34 - Retrieving all games from inventory...
+2020-07-29 14:03:44 TRACE GameController:37 - Session already hold stored games
+2020-07-29 14:07:47 INFO  UserController:44 - Checking to see if Customer session is occupied
+2020-07-29 14:07:47 TRACE GameController:34 - Retrieving all games from inventory...
+2020-07-29 14:07:47 TRACE UserController:49 - user is not logged in
+2020-07-29 14:07:47 TRACE GameController:39 - Session does not hold stored games, retrieving from DB
+2020-07-29 14:07:47 TRACE GameOracle:94 - Retrieving all game from the game table
+2020-07-29 14:07:48 TRACE DeveloperOracle:167 - Retrieving all developers that is related to game with ID 1
+2020-07-29 14:07:48 TRACE DeveloperOracle:109 - Retrieving category with ID: 41 from DB
+2020-07-29 14:07:48 TRACE DeveloperOracle:119 - Successfully retrieved developer with id: 41
+2020-07-29 14:07:49 TRACE PublisherOracle:79 - Retrieving all publishers that is related to game with ID 1
+2020-07-29 14:07:49 TRACE PublisherOracle:106 - Retrieving publisher with ID: 1 from DB
+2020-07-29 14:07:49 TRACE PublisherOracle:116 - Successfully retrieved publisher with id: 1
+2020-07-29 14:07:49 TRACE GameSystemOracle:111 - Retrieving all systems that is related to game with ID 1
+2020-07-29 14:07:50 TRACE GameSystemOracle:55 - Retrieving game system with ID: 1 from DB
+2020-07-29 14:07:50 TRACE GameSystemOracle:65 - Successfully retrieved game system with id: 1
+2020-07-29 14:07:50 TRACE GameSystemOracle:55 - Retrieving game system with ID: 3 from DB
+2020-07-29 14:07:51 TRACE GameSystemOracle:65 - Successfully retrieved game system with id: 3
+2020-07-29 14:07:51 TRACE GameDetailsOracle:128 - Retrieving all details that is related to game with ID 1
+2020-07-29 14:07:51 TRACE CategoryOracle:88 - Retrieving all categories that is related to game with ID 1
+2020-07-29 14:07:51 TRACE CategoryOracle:58 - Retrieving category with ID: 1 from DB
+2020-07-29 14:07:52 TRACE CategoryOracle:68 - Successfully retrieved category with id: 1
+2020-07-29 14:07:52 TRACE DeveloperOracle:167 - Retrieving all developers that is related to game with ID 2
+2020-07-29 14:07:52 TRACE DeveloperOracle:109 - Retrieving category with ID: 5 from DB
+2020-07-29 14:07:53 TRACE DeveloperOracle:119 - Successfully retrieved developer with id: 5
+2020-07-29 14:07:53 TRACE PublisherOracle:79 - Retrieving all publishers that is related to game with ID 2
+2020-07-29 14:07:53 TRACE GameSystemOracle:111 - Retrieving all systems that is related to game with ID 2
+2020-07-29 14:07:54 TRACE GameSystemOracle:55 - Retrieving game system with ID: 1 from DB
+2020-07-29 14:07:54 TRACE GameSystemOracle:65 - Successfully retrieved game system with id: 1
+2020-07-29 14:07:54 TRACE GameDetailsOracle:128 - Retrieving all details that is related to game with ID 2
+2020-07-29 14:07:54 TRACE CategoryOracle:88 - Retrieving all categories that is related to game with ID 2
+2020-07-29 14:07:55 TRACE CategoryOracle:58 - Retrieving category with ID: 2 from DB
+2020-07-29 14:07:55 TRACE CategoryOracle:68 - Successfully retrieved category with id: 2
+2020-07-29 14:07:55 TRACE DeveloperOracle:167 - Retrieving all developers that is related to game with ID 3
+2020-07-29 14:07:56 TRACE DeveloperOracle:109 - Retrieving category with ID: 21 from DB
+2020-07-29 14:07:56 TRACE DeveloperOracle:119 - Successfully retrieved developer with id: 21
+2020-07-29 14:07:56 TRACE PublisherOracle:79 - Retrieving all publishers that is related to game with ID 3
+2020-07-29 14:07:56 TRACE GameSystemOracle:111 - Retrieving all systems that is related to game with ID 3
+2020-07-29 14:07:57 TRACE GameSystemOracle:55 - Retrieving game system with ID: 1 from DB
+2020-07-29 14:07:57 TRACE GameSystemOracle:65 - Successfully retrieved game system with id: 1
+2020-07-29 14:07:57 TRACE GameDetailsOracle:128 - Retrieving all details that is related to game with ID 3
+2020-07-29 14:07:58 TRACE CategoryOracle:88 - Retrieving all categories that is related to game with ID 3
+2020-07-29 14:07:58 TRACE CategoryOracle:58 - Retrieving category with ID: 3 from DB
+2020-07-29 14:07:58 TRACE CategoryOracle:68 - Successfully retrieved category with id: 3
+2020-07-29 14:07:58 TRACE DeveloperOracle:167 - Retrieving all developers that is related to game with ID 4
+2020-07-29 14:07:59 TRACE PublisherOracle:79 - Retrieving all publishers that is related to game with ID 4
+2020-07-29 14:07:59 TRACE GameSystemOracle:111 - Retrieving all systems that is related to game with ID 4
+2020-07-29 14:08:00 TRACE GameDetailsOracle:128 - Retrieving all details that is related to game with ID 4
+2020-07-29 14:08:00 TRACE CategoryOracle:88 - Retrieving all categories that is related to game with ID 4
+2020-07-29 14:10:06 INFO  UserController:44 - Checking to see if Customer session is occupied
+2020-07-29 14:10:06 TRACE UserController:49 - user is not logged in
+2020-07-29 14:10:07 TRACE GameController:34 - Retrieving all games from inventory...
+2020-07-29 14:10:07 TRACE GameController:37 - Session already hold stored games
+2020-07-29 14:10:28 INFO  UserController:44 - Checking to see if Customer session is occupied
+2020-07-29 14:10:28 TRACE UserController:49 - user is not logged in
+2020-07-29 14:10:28 TRACE GameController:34 - Retrieving all games from inventory...
+2020-07-29 14:10:28 TRACE GameController:37 - Session already hold stored games
+2020-07-29 14:10:33 INFO  UserController:44 - Checking to see if Customer session is occupied
+2020-07-29 14:10:33 TRACE UserController:49 - user is not logged in
+2020-07-29 14:10:33 TRACE GameController:34 - Retrieving all games from inventory...
+2020-07-29 14:10:33 TRACE GameController:37 - Session already hold stored games
+2020-07-29 14:10:54 INFO  UserController:44 - Checking to see if Customer session is occupied
+2020-07-29 14:10:54 TRACE UserController:49 - user is not logged in
+2020-07-29 14:10:54 TRACE GameController:34 - Retrieving all games from inventory...
+2020-07-29 14:10:54 TRACE GameController:37 - Session already hold stored games
+2020-07-29 14:11:21 INFO  UserController:44 - Checking to see if Customer session is occupied
+2020-07-29 14:11:21 TRACE UserController:49 - user is not logged in
+2020-07-29 14:11:21 TRACE GameController:34 - Retrieving all games from inventory...
+2020-07-29 14:11:21 TRACE GameController:37 - Session already hold stored games
+2020-07-29 14:11:30 INFO  UserController:44 - Checking to see if Customer session is occupied
+2020-07-29 14:11:30 TRACE UserController:49 - user is not logged in
+2020-07-29 14:11:30 TRACE GameController:34 - Retrieving all games from inventory...
+2020-07-29 14:11:30 TRACE GameController:37 - Session already hold stored games
+2020-07-29 14:11:33 INFO  UserController:44 - Checking to see if Customer session is occupied
+2020-07-29 14:11:33 TRACE UserController:49 - user is not logged in
+2020-07-29 14:11:33 TRACE GameController:34 - Retrieving all games from inventory...
+2020-07-29 14:11:33 TRACE GameController:37 - Session already hold stored games
+2020-07-29 14:11:35 INFO  UserController:44 - Checking to see if Customer session is occupied
+2020-07-29 14:11:35 TRACE UserController:49 - user is not logged in
+2020-07-29 14:11:35 TRACE GameController:34 - Retrieving all games from inventory...
+2020-07-29 14:11:35 TRACE GameController:37 - Session already hold stored games
+2020-07-29 14:11:37 INFO  UserController:44 - Checking to see if Customer session is occupied
+2020-07-29 14:11:37 TRACE UserController:49 - user is not logged in
+2020-07-29 14:11:37 TRACE GameController:34 - Retrieving all games from inventory...
+2020-07-29 14:11:37 TRACE GameController:37 - Session already hold stored games
+2020-07-29 14:12:23 INFO  UserController:44 - Checking to see if Customer session is occupied
+2020-07-29 14:12:23 TRACE UserController:49 - user is not logged in
+2020-07-29 14:12:23 TRACE GameController:34 - Retrieving all games from inventory...
+2020-07-29 14:12:23 TRACE GameController:37 - Session already hold stored games
+2020-07-29 14:13:34 INFO  UserController:44 - Checking to see if Customer session is occupied
+2020-07-29 14:13:34 TRACE UserController:49 - user is not logged in
+2020-07-29 14:13:34 TRACE GameController:34 - Retrieving all games from inventory...
+2020-07-29 14:13:34 TRACE GameController:37 - Session already hold stored games
+2020-07-29 14:13:47 INFO  UserController:44 - Checking to see if Customer session is occupied
+2020-07-29 14:13:47 TRACE UserController:49 - user is not logged in
+2020-07-29 14:13:47 TRACE GameController:34 - Retrieving all games from inventory...
+2020-07-29 14:13:47 TRACE GameController:37 - Session already hold stored games
+2020-07-29 14:13:50 INFO  UserController:44 - Checking to see if Customer session is occupied
+2020-07-29 14:13:50 TRACE UserController:49 - user is not logged in
+2020-07-29 14:13:51 TRACE GameController:34 - Retrieving all games from inventory...
+2020-07-29 14:13:51 TRACE GameController:37 - Session already hold stored games
+2020-07-29 14:13:54 INFO  UserController:44 - Checking to see if Customer session is occupied
+2020-07-29 14:13:54 TRACE UserController:49 - user is not logged in
+2020-07-29 14:13:54 TRACE GameController:34 - Retrieving all games from inventory...
+2020-07-29 14:13:54 TRACE GameController:37 - Session already hold stored games
+2020-07-29 14:14:24 INFO  UserController:44 - Checking to see if Customer session is occupied
+2020-07-29 14:14:24 TRACE UserController:49 - user is not logged in
+2020-07-29 14:14:24 TRACE GameController:34 - Retrieving all games from inventory...
+2020-07-29 14:14:24 TRACE GameController:37 - Session already hold stored games
+2020-07-29 14:14:28 INFO  UserController:44 - Checking to see if Customer session is occupied
+2020-07-29 14:14:28 TRACE UserController:49 - user is not logged in
+2020-07-29 14:14:28 TRACE GameController:34 - Retrieving all games from inventory...
+2020-07-29 14:14:28 TRACE GameController:37 - Session already hold stored games
+2020-07-29 14:14:35 INFO  UserController:44 - Checking to see if Customer session is occupied
+2020-07-29 14:14:35 TRACE UserController:49 - user is not logged in
+2020-07-29 14:14:35 TRACE GameController:34 - Retrieving all games from inventory...
+2020-07-29 14:14:35 TRACE GameController:37 - Session already hold stored games
+2020-07-30 00:09:12 TRACE GameController:34 - Retrieving all games from inventory...
+2020-07-30 00:09:12 INFO  UserController:44 - Checking to see if Customer session is occupied
+2020-07-30 00:09:12 TRACE UserController:49 - user is not logged in
+2020-07-30 00:09:12 TRACE GameController:39 - Session does not hold stored games, retrieving from DB
+2020-07-30 00:09:12 TRACE GameOracle:94 - Retrieving all game from the game table
+2020-07-30 00:09:12 TRACE DeveloperOracle:167 - Retrieving all developers that is related to game with ID 1
+2020-07-30 00:09:13 TRACE DeveloperOracle:109 - Retrieving category with ID: 41 from DB
+2020-07-30 00:09:13 TRACE DeveloperOracle:119 - Successfully retrieved developer with id: 41
+2020-07-30 00:09:13 TRACE PublisherOracle:79 - Retrieving all publishers that is related to game with ID 1
+2020-07-30 00:09:14 TRACE PublisherOracle:106 - Retrieving publisher with ID: 1 from DB
+2020-07-30 00:09:14 TRACE PublisherOracle:116 - Successfully retrieved publisher with id: 1
+2020-07-30 00:09:14 TRACE GameSystemOracle:111 - Retrieving all systems that is related to game with ID 1
+2020-07-30 00:09:14 TRACE GameSystemOracle:55 - Retrieving game system with ID: 1 from DB
+2020-07-30 00:09:15 TRACE GameSystemOracle:65 - Successfully retrieved game system with id: 1
+2020-07-30 00:09:15 TRACE GameSystemOracle:55 - Retrieving game system with ID: 3 from DB
+2020-07-30 00:09:15 TRACE GameSystemOracle:65 - Successfully retrieved game system with id: 3
+2020-07-30 00:09:15 TRACE GameDetailsOracle:128 - Retrieving all details that is related to game with ID 1
+2020-07-30 00:09:16 TRACE CategoryOracle:88 - Retrieving all categories that is related to game with ID 1
+2020-07-30 00:09:16 TRACE CategoryOracle:58 - Retrieving category with ID: 1 from DB
+2020-07-30 00:09:16 TRACE CategoryOracle:68 - Successfully retrieved category with id: 1
+2020-07-30 00:09:16 TRACE DeveloperOracle:167 - Retrieving all developers that is related to game with ID 2
+2020-07-30 00:09:17 TRACE DeveloperOracle:109 - Retrieving category with ID: 5 from DB
+2020-07-30 00:09:17 TRACE DeveloperOracle:119 - Successfully retrieved developer with id: 5
+2020-07-30 00:09:17 TRACE PublisherOracle:79 - Retrieving all publishers that is related to game with ID 2
+2020-07-30 00:09:17 TRACE GameSystemOracle:111 - Retrieving all systems that is related to game with ID 2
+2020-07-30 00:09:18 TRACE GameSystemOracle:55 - Retrieving game system with ID: 1 from DB
+2020-07-30 00:09:18 TRACE GameSystemOracle:65 - Successfully retrieved game system with id: 1
+2020-07-30 00:09:18 TRACE GameDetailsOracle:128 - Retrieving all details that is related to game with ID 2
+2020-07-30 00:09:19 TRACE CategoryOracle:88 - Retrieving all categories that is related to game with ID 2
+2020-07-30 00:09:19 TRACE CategoryOracle:58 - Retrieving category with ID: 2 from DB
+2020-07-30 00:09:20 TRACE CategoryOracle:68 - Successfully retrieved category with id: 2
+2020-07-30 00:09:20 TRACE DeveloperOracle:167 - Retrieving all developers that is related to game with ID 3
+2020-07-30 00:09:20 TRACE DeveloperOracle:109 - Retrieving category with ID: 21 from DB
+2020-07-30 00:09:21 TRACE DeveloperOracle:119 - Successfully retrieved developer with id: 21
+2020-07-30 00:09:21 TRACE PublisherOracle:79 - Retrieving all publishers that is related to game with ID 3
+2020-07-30 00:09:21 TRACE GameSystemOracle:111 - Retrieving all systems that is related to game with ID 3
+2020-07-30 00:09:22 TRACE GameSystemOracle:55 - Retrieving game system with ID: 1 from DB
+2020-07-30 00:09:22 TRACE GameSystemOracle:65 - Successfully retrieved game system with id: 1
+2020-07-30 00:09:22 TRACE GameDetailsOracle:128 - Retrieving all details that is related to game with ID 3
+2020-07-30 00:09:22 TRACE CategoryOracle:88 - Retrieving all categories that is related to game with ID 3
+2020-07-30 00:09:23 TRACE CategoryOracle:58 - Retrieving category with ID: 3 from DB
+2020-07-30 00:09:23 TRACE CategoryOracle:68 - Successfully retrieved category with id: 3
+2020-07-30 00:09:23 TRACE DeveloperOracle:167 - Retrieving all developers that is related to game with ID 4
+2020-07-30 00:09:24 TRACE PublisherOracle:79 - Retrieving all publishers that is related to game with ID 4
+2020-07-30 00:09:24 TRACE GameSystemOracle:111 - Retrieving all systems that is related to game with ID 4
+2020-07-30 00:09:24 TRACE GameDetailsOracle:128 - Retrieving all details that is related to game with ID 4
+2020-07-30 00:09:25 TRACE CategoryOracle:88 - Retrieving all categories that is related to game with ID 4
+2020-07-30 00:11:13 INFO  UserController:44 - Checking to see if Customer session is occupied
+2020-07-30 00:11:13 TRACE UserController:49 - user is not logged in
+2020-07-30 00:11:13 TRACE GameController:34 - Retrieving all games from inventory...
+2020-07-30 00:11:13 TRACE GameController:37 - Session already hold stored games
+2020-07-30 00:13:34 INFO  UserController:44 - Checking to see if Customer session is occupied
+2020-07-30 00:13:34 TRACE UserController:49 - user is not logged in
+2020-07-30 00:13:34 TRACE GameController:34 - Retrieving all games from inventory...
+2020-07-30 00:13:34 TRACE GameController:37 - Session already hold stored games
+2020-07-30 00:13:37 INFO  UserController:44 - Checking to see if Customer session is occupied
+2020-07-30 00:13:37 TRACE UserController:49 - user is not logged in
+2020-07-30 00:13:37 TRACE GameController:34 - Retrieving all games from inventory...
+2020-07-30 00:13:37 TRACE GameController:37 - Session already hold stored games
+2020-07-30 00:14:26 INFO  UserController:44 - Checking to see if Customer session is occupied
+2020-07-30 00:14:26 TRACE UserController:49 - user is not logged in
+2020-07-30 00:14:26 TRACE GameController:34 - Retrieving all games from inventory...
+2020-07-30 00:14:26 TRACE GameController:37 - Session already hold stored games
+2020-07-30 00:14:41 INFO  UserController:44 - Checking to see if Customer session is occupied
+2020-07-30 00:14:41 TRACE UserController:49 - user is not logged in
+2020-07-30 00:14:41 TRACE GameController:34 - Retrieving all games from inventory...
+2020-07-30 00:14:41 TRACE GameController:37 - Session already hold stored games
+2020-07-30 00:15:31 INFO  UserController:44 - Checking to see if Customer session is occupied
+2020-07-30 00:15:31 TRACE UserController:49 - user is not logged in
+2020-07-30 00:15:31 TRACE GameController:34 - Retrieving all games from inventory...
+2020-07-30 00:15:31 TRACE GameController:37 - Session already hold stored games
+2020-07-30 00:15:35 INFO  UserController:44 - Checking to see if Customer session is occupied
+2020-07-30 00:15:35 TRACE UserController:49 - user is not logged in
+2020-07-30 00:15:35 TRACE GameController:34 - Retrieving all games from inventory...
+2020-07-30 00:15:35 TRACE GameController:37 - Session already hold stored games
+2020-07-30 00:16:07 INFO  UserController:44 - Checking to see if Customer session is occupied
+2020-07-30 00:16:07 TRACE UserController:49 - user is not logged in
+2020-07-30 00:16:07 TRACE GameController:34 - Retrieving all games from inventory...
+2020-07-30 00:16:07 TRACE GameController:37 - Session already hold stored games
+2020-07-30 00:16:13 INFO  UserController:44 - Checking to see if Customer session is occupied
+2020-07-30 00:16:13 TRACE UserController:49 - user is not logged in
+2020-07-30 00:16:13 TRACE GameController:34 - Retrieving all games from inventory...
+2020-07-30 00:16:13 TRACE GameController:37 - Session already hold stored games
+2020-07-30 00:16:32 INFO  UserController:44 - Checking to see if Customer session is occupied
+2020-07-30 00:16:32 TRACE UserController:49 - user is not logged in
+2020-07-30 00:16:32 TRACE GameController:34 - Retrieving all games from inventory...
+2020-07-30 00:16:32 TRACE GameController:37 - Session already hold stored games
+2020-07-30 00:16:39 INFO  UserController:44 - Checking to see if Customer session is occupied
+2020-07-30 00:16:39 TRACE UserController:49 - user is not logged in
+2020-07-30 00:16:40 TRACE GameController:34 - Retrieving all games from inventory...
+2020-07-30 00:16:40 TRACE GameController:37 - Session already hold stored games
+2020-07-30 00:16:48 INFO  UserController:44 - Checking to see if Customer session is occupied
+2020-07-30 00:16:48 TRACE UserController:49 - user is not logged in
+2020-07-30 00:16:48 TRACE GameController:34 - Retrieving all games from inventory...
+2020-07-30 00:16:48 TRACE GameController:37 - Session already hold stored games
+2020-07-30 00:16:54 INFO  UserController:44 - Checking to see if Customer session is occupied
+2020-07-30 00:16:54 TRACE UserController:49 - user is not logged in
+2020-07-30 00:16:54 TRACE GameController:34 - Retrieving all games from inventory...
+2020-07-30 00:16:54 TRACE GameController:37 - Session already hold stored games
+2020-07-30 00:17:06 INFO  UserController:44 - Checking to see if Customer session is occupied
+2020-07-30 00:17:06 TRACE UserController:49 - user is not logged in
+2020-07-30 00:17:06 TRACE GameController:34 - Retrieving all games from inventory...
+2020-07-30 00:17:06 TRACE GameController:37 - Session already hold stored games
+2020-07-30 00:17:10 INFO  UserController:44 - Checking to see if Customer session is occupied
+2020-07-30 00:17:10 TRACE UserController:49 - user is not logged in
+2020-07-30 00:17:10 TRACE GameController:34 - Retrieving all games from inventory...
+2020-07-30 00:17:10 TRACE GameController:37 - Session already hold stored games
+2020-07-30 00:17:28 INFO  UserController:44 - Checking to see if Customer session is occupied
+2020-07-30 00:17:28 TRACE UserController:49 - user is not logged in
+2020-07-30 00:17:28 TRACE GameController:34 - Retrieving all games from inventory...
+2020-07-30 00:17:28 TRACE GameController:37 - Session already hold stored games
+2020-07-30 00:17:42 INFO  UserController:44 - Checking to see if Customer session is occupied
+2020-07-30 00:17:42 TRACE UserController:49 - user is not logged in
+2020-07-30 00:17:42 TRACE GameController:34 - Retrieving all games from inventory...
+2020-07-30 00:17:42 TRACE GameController:37 - Session already hold stored games
+2020-07-30 00:18:07 INFO  UserController:44 - Checking to see if Customer session is occupied
+2020-07-30 00:18:07 TRACE UserController:49 - user is not logged in
+2020-07-30 00:18:07 TRACE GameController:34 - Retrieving all games from inventory...
+2020-07-30 00:18:07 TRACE GameController:37 - Session already hold stored games
+2020-07-30 00:18:12 INFO  UserController:44 - Checking to see if Customer session is occupied
+2020-07-30 00:18:12 TRACE UserController:49 - user is not logged in
+2020-07-30 00:18:12 TRACE GameController:34 - Retrieving all games from inventory...
+2020-07-30 00:18:12 TRACE GameController:37 - Session already hold stored games
+2020-07-30 00:18:17 INFO  UserController:44 - Checking to see if Customer session is occupied
+2020-07-30 00:18:17 TRACE UserController:49 - user is not logged in
+2020-07-30 00:18:17 TRACE GameController:34 - Retrieving all games from inventory...
+2020-07-30 00:18:17 TRACE GameController:37 - Session already hold stored games
+2020-07-30 00:18:24 INFO  UserController:44 - Checking to see if Customer session is occupied
+2020-07-30 00:18:24 TRACE UserController:49 - user is not logged in
+2020-07-30 00:18:24 TRACE GameController:34 - Retrieving all games from inventory...
+2020-07-30 00:18:24 TRACE GameController:37 - Session already hold stored games
+2020-07-30 00:19:03 INFO  UserController:44 - Checking to see if Customer session is occupied
+2020-07-30 00:19:03 TRACE UserController:49 - user is not logged in
+2020-07-30 00:19:03 TRACE GameController:34 - Retrieving all games from inventory...
+2020-07-30 00:19:03 TRACE GameController:37 - Session already hold stored games
+2020-07-30 00:19:09 INFO  UserController:44 - Checking to see if Customer session is occupied
+2020-07-30 00:19:09 TRACE UserController:49 - user is not logged in
+2020-07-30 00:19:09 TRACE GameController:34 - Retrieving all games from inventory...
+2020-07-30 00:19:09 TRACE GameController:37 - Session already hold stored games
+2020-07-30 00:19:14 INFO  UserController:44 - Checking to see if Customer session is occupied
+2020-07-30 00:19:14 TRACE UserController:49 - user is not logged in
+2020-07-30 00:19:14 TRACE GameController:34 - Retrieving all games from inventory...
+2020-07-30 00:19:14 TRACE GameController:37 - Session already hold stored games
+2020-07-30 00:19:25 INFO  UserController:44 - Checking to see if Customer session is occupied
+2020-07-30 00:19:25 TRACE UserController:49 - user is not logged in
+2020-07-30 00:19:25 TRACE GameController:34 - Retrieving all games from inventory...
+2020-07-30 00:19:25 TRACE GameController:37 - Session already hold stored games
+2020-07-30 00:21:11 INFO  UserController:44 - Checking to see if Customer session is occupied
+2020-07-30 00:21:11 TRACE UserController:49 - user is not logged in
+2020-07-30 00:21:11 TRACE GameController:34 - Retrieving all games from inventory...
+2020-07-30 00:21:11 TRACE GameController:37 - Session already hold stored games
+2020-07-30 00:22:07 INFO  UserController:44 - Checking to see if Customer session is occupied
+2020-07-30 00:22:07 TRACE UserController:49 - user is not logged in
+2020-07-30 00:22:08 TRACE GameController:34 - Retrieving all games from inventory...
+2020-07-30 00:22:08 TRACE GameController:37 - Session already hold stored games
+2020-07-30 00:22:12 INFO  UserController:44 - Checking to see if Customer session is occupied
+2020-07-30 00:22:12 TRACE UserController:49 - user is not logged in
+2020-07-30 00:22:12 TRACE GameController:34 - Retrieving all games from inventory...
+2020-07-30 00:22:12 TRACE GameController:37 - Session already hold stored games
+2020-07-30 00:24:40 INFO  UserController:44 - Checking to see if Customer session is occupied
+2020-07-30 00:24:40 TRACE UserController:49 - user is not logged in
+2020-07-30 00:24:40 TRACE GameController:34 - Retrieving all games from inventory...
+2020-07-30 00:24:40 TRACE GameController:37 - Session already hold stored games
+2020-07-30 00:24:52 INFO  UserController:44 - Checking to see if Customer session is occupied
+2020-07-30 00:24:52 TRACE UserController:49 - user is not logged in
+2020-07-30 00:24:52 TRACE GameController:34 - Retrieving all games from inventory...
+2020-07-30 00:24:52 TRACE GameController:37 - Session already hold stored games
+2020-07-30 00:27:40 INFO  UserController:44 - Checking to see if Customer session is occupied
+2020-07-30 00:27:40 TRACE UserController:49 - user is not logged in
+2020-07-30 00:27:40 TRACE GameController:34 - Retrieving all games from inventory...
+2020-07-30 00:27:40 TRACE GameController:37 - Session already hold stored games
+2020-07-30 00:30:50 INFO  UserController:44 - Checking to see if Customer session is occupied
+2020-07-30 00:30:50 TRACE UserController:49 - user is not logged in
+2020-07-30 00:30:50 TRACE GameController:34 - Retrieving all games from inventory...
+2020-07-30 00:30:50 TRACE GameController:37 - Session already hold stored games
+2020-07-30 00:30:56 INFO  UserController:44 - Checking to see if Customer session is occupied
+2020-07-30 00:30:56 TRACE UserController:49 - user is not logged in
+2020-07-30 00:30:56 TRACE GameController:34 - Retrieving all games from inventory...
+2020-07-30 00:30:56 TRACE GameController:37 - Session already hold stored games
+2020-07-30 00:31:04 INFO  UserController:44 - Checking to see if Customer session is occupied
+2020-07-30 00:31:04 TRACE UserController:49 - user is not logged in
+2020-07-30 00:31:04 TRACE GameController:34 - Retrieving all games from inventory...
+2020-07-30 00:31:04 TRACE GameController:37 - Session already hold stored games
+2020-07-30 00:33:52 INFO  UserController:44 - Checking to see if Customer session is occupied
+2020-07-30 00:33:52 TRACE UserController:49 - user is not logged in
+2020-07-30 00:33:53 TRACE GameController:34 - Retrieving all games from inventory...
+2020-07-30 00:33:53 TRACE GameController:37 - Session already hold stored games
+2020-07-30 00:33:58 INFO  UserController:44 - Checking to see if Customer session is occupied
+2020-07-30 00:33:58 TRACE UserController:49 - user is not logged in
+2020-07-30 00:33:58 TRACE GameController:34 - Retrieving all games from inventory...
+2020-07-30 00:33:58 TRACE GameController:37 - Session already hold stored games
+2020-07-30 00:34:30 INFO  UserController:44 - Checking to see if Customer session is occupied
+2020-07-30 00:34:30 TRACE UserController:49 - user is not logged in
+2020-07-30 00:34:30 TRACE GameController:34 - Retrieving all games from inventory...
+2020-07-30 00:34:30 TRACE GameController:37 - Session already hold stored games
+2020-07-30 00:51:18 INFO  UserController:44 - Checking to see if Customer session is occupied
+2020-07-30 00:51:18 TRACE UserController:49 - user is not logged in
+2020-07-30 00:51:18 TRACE GameController:34 - Retrieving all games from inventory...
+2020-07-30 00:51:18 TRACE GameController:37 - Session already hold stored games
+2020-07-30 00:53:11 INFO  UserController:44 - Checking to see if Customer session is occupied
+2020-07-30 00:53:11 TRACE UserController:49 - user is not logged in
+2020-07-30 00:53:11 TRACE GameController:34 - Retrieving all games from inventory...
+2020-07-30 00:53:11 TRACE GameController:37 - Session already hold stored games
+2020-07-30 00:53:29 INFO  UserController:44 - Checking to see if Customer session is occupied
+2020-07-30 00:53:29 TRACE UserController:49 - user is not logged in
+2020-07-30 00:53:29 TRACE GameController:34 - Retrieving all games from inventory...
+2020-07-30 00:53:29 TRACE GameController:37 - Session already hold stored games
+2020-07-30 00:53:32 INFO  UserController:44 - Checking to see if Customer session is occupied
+2020-07-30 00:53:32 TRACE UserController:49 - user is not logged in
+2020-07-30 00:53:32 TRACE GameController:34 - Retrieving all games from inventory...
+2020-07-30 00:53:32 TRACE GameController:37 - Session already hold stored games
+2020-07-30 00:53:43 INFO  UserController:44 - Checking to see if Customer session is occupied
+2020-07-30 00:53:43 TRACE UserController:49 - user is not logged in
+2020-07-30 00:53:44 TRACE GameController:34 - Retrieving all games from inventory...
+2020-07-30 00:53:44 TRACE GameController:37 - Session already hold stored games
+2020-07-30 00:54:10 INFO  UserController:44 - Checking to see if Customer session is occupied
+2020-07-30 00:54:10 TRACE UserController:49 - user is not logged in
+2020-07-30 00:54:10 TRACE GameController:34 - Retrieving all games from inventory...
+2020-07-30 00:54:10 TRACE GameController:37 - Session already hold stored games
+2020-07-30 00:54:36 INFO  UserController:44 - Checking to see if Customer session is occupied
+2020-07-30 00:54:36 TRACE UserController:49 - user is not logged in
+2020-07-30 00:54:36 TRACE GameController:34 - Retrieving all games from inventory...
+2020-07-30 00:54:36 TRACE GameController:37 - Session already hold stored games
+2020-07-30 00:54:40 INFO  UserController:44 - Checking to see if Customer session is occupied
+2020-07-30 00:54:40 TRACE UserController:49 - user is not logged in
+2020-07-30 00:54:41 TRACE GameController:34 - Retrieving all games from inventory...
+2020-07-30 00:54:41 TRACE GameController:37 - Session already hold stored games
+2020-07-30 00:54:46 INFO  UserController:44 - Checking to see if Customer session is occupied
+2020-07-30 00:54:46 TRACE UserController:49 - user is not logged in
+2020-07-30 00:54:46 TRACE GameController:34 - Retrieving all games from inventory...
+2020-07-30 00:54:46 TRACE GameController:37 - Session already hold stored games
+2020-07-30 00:54:51 INFO  UserController:44 - Checking to see if Customer session is occupied
+2020-07-30 00:54:51 TRACE UserController:49 - user is not logged in
+2020-07-30 00:54:51 TRACE GameController:34 - Retrieving all games from inventory...
+2020-07-30 00:54:51 TRACE GameController:37 - Session already hold stored games
+2020-07-30 00:54:54 INFO  UserController:44 - Checking to see if Customer session is occupied
+2020-07-30 00:54:54 TRACE UserController:49 - user is not logged in
+2020-07-30 00:54:54 TRACE GameController:34 - Retrieving all games from inventory...
+2020-07-30 00:54:54 TRACE GameController:37 - Session already hold stored games
+2020-07-30 00:55:20 INFO  UserController:44 - Checking to see if Customer session is occupied
+2020-07-30 00:55:20 TRACE UserController:49 - user is not logged in
+2020-07-30 00:55:20 TRACE GameController:34 - Retrieving all games from inventory...
+2020-07-30 00:55:20 TRACE GameController:37 - Session already hold stored games
+2020-07-30 00:55:34 INFO  UserController:44 - Checking to see if Customer session is occupied
+2020-07-30 00:55:34 TRACE UserController:49 - user is not logged in
+2020-07-30 00:55:34 TRACE GameController:34 - Retrieving all games from inventory...
+2020-07-30 00:55:34 TRACE GameController:37 - Session already hold stored games
+2020-07-30 00:55:36 INFO  UserController:44 - Checking to see if Customer session is occupied
+2020-07-30 00:55:36 TRACE UserController:49 - user is not logged in
+2020-07-30 00:55:36 TRACE GameController:34 - Retrieving all games from inventory...
+2020-07-30 00:55:36 TRACE GameController:37 - Session already hold stored games
+2020-07-30 00:55:38 INFO  UserController:44 - Checking to see if Customer session is occupied
+2020-07-30 00:55:38 TRACE UserController:49 - user is not logged in
+2020-07-30 00:55:38 TRACE GameController:34 - Retrieving all games from inventory...
+2020-07-30 00:55:38 TRACE GameController:37 - Session already hold stored games
+2020-07-30 00:55:48 INFO  UserController:44 - Checking to see if Customer session is occupied
+2020-07-30 00:55:48 TRACE UserController:49 - user is not logged in
+2020-07-30 00:55:48 TRACE GameController:34 - Retrieving all games from inventory...
+2020-07-30 00:55:48 TRACE GameController:37 - Session already hold stored games
+2020-07-30 00:55:57 INFO  UserController:44 - Checking to see if Customer session is occupied
+2020-07-30 00:55:57 TRACE UserController:49 - user is not logged in
+2020-07-30 00:55:57 TRACE GameController:34 - Retrieving all games from inventory...
+2020-07-30 00:55:57 TRACE GameController:37 - Session already hold stored games
+2020-07-30 00:56:24 INFO  UserController:44 - Checking to see if Customer session is occupied
+2020-07-30 00:56:24 TRACE UserController:49 - user is not logged in
+2020-07-30 00:56:24 TRACE GameController:34 - Retrieving all games from inventory...
+2020-07-30 00:56:24 TRACE GameController:37 - Session already hold stored games
+2020-07-30 00:56:40 INFO  UserController:44 - Checking to see if Customer session is occupied
+2020-07-30 00:56:40 TRACE UserController:49 - user is not logged in
+2020-07-30 00:56:40 TRACE GameController:34 - Retrieving all games from inventory...
+2020-07-30 00:56:40 TRACE GameController:37 - Session already hold stored games
+2020-07-30 00:56:47 INFO  UserController:44 - Checking to see if Customer session is occupied
+2020-07-30 00:56:47 TRACE UserController:49 - user is not logged in
+2020-07-30 00:56:47 TRACE GameController:34 - Retrieving all games from inventory...
+2020-07-30 00:56:47 TRACE GameController:37 - Session already hold stored games
+2020-07-30 00:57:23 INFO  UserController:44 - Checking to see if Customer session is occupied
+2020-07-30 00:57:23 TRACE UserController:49 - user is not logged in
+2020-07-30 00:57:23 TRACE GameController:34 - Retrieving all games from inventory...
+2020-07-30 00:57:23 TRACE GameController:37 - Session already hold stored games
+2020-07-30 00:57:33 INFO  UserController:44 - Checking to see if Customer session is occupied
+2020-07-30 00:57:33 TRACE UserController:49 - user is not logged in
+2020-07-30 00:57:33 TRACE GameController:34 - Retrieving all games from inventory...
+2020-07-30 00:57:33 TRACE GameController:37 - Session already hold stored games
+2020-07-30 00:58:00 INFO  UserController:44 - Checking to see if Customer session is occupied
+2020-07-30 00:58:00 TRACE UserController:49 - user is not logged in
+2020-07-30 00:58:00 TRACE GameController:34 - Retrieving all games from inventory...
+2020-07-30 00:58:00 TRACE GameController:37 - Session already hold stored games
+2020-07-30 00:59:55 INFO  UserController:44 - Checking to see if Customer session is occupied
+2020-07-30 00:59:55 TRACE UserController:49 - user is not logged in
+2020-07-30 00:59:55 TRACE GameController:34 - Retrieving all games from inventory...
+2020-07-30 00:59:55 TRACE GameController:37 - Session already hold stored games
+2020-07-30 01:00:00 INFO  UserController:44 - Checking to see if Customer session is occupied
+2020-07-30 01:00:00 TRACE UserController:49 - user is not logged in
+2020-07-30 01:00:01 TRACE GameController:34 - Retrieving all games from inventory...
+2020-07-30 01:00:01 TRACE GameController:37 - Session already hold stored games
+2020-07-30 01:00:29 INFO  UserController:44 - Checking to see if Customer session is occupied
+2020-07-30 01:00:29 TRACE UserController:49 - user is not logged in
+2020-07-30 01:00:29 TRACE GameController:34 - Retrieving all games from inventory...
+2020-07-30 01:00:29 TRACE GameController:37 - Session already hold stored games
+2020-07-30 01:00:38 INFO  UserController:44 - Checking to see if Customer session is occupied
+2020-07-30 01:00:38 TRACE UserController:49 - user is not logged in
+2020-07-30 01:00:38 TRACE GameController:34 - Retrieving all games from inventory...
+2020-07-30 01:00:38 TRACE GameController:37 - Session already hold stored games
+2020-07-30 01:01:09 INFO  UserController:44 - Checking to see if Customer session is occupied
+2020-07-30 01:01:09 TRACE UserController:49 - user is not logged in
+2020-07-30 01:01:09 TRACE GameController:34 - Retrieving all games from inventory...
+2020-07-30 01:01:09 TRACE GameController:37 - Session already hold stored games
+2020-07-30 01:01:17 INFO  UserController:44 - Checking to see if Customer session is occupied
+2020-07-30 01:01:17 TRACE UserController:49 - user is not logged in
+2020-07-30 01:01:17 TRACE GameController:34 - Retrieving all games from inventory...
+2020-07-30 01:01:17 TRACE GameController:37 - Session already hold stored games
+2020-07-30 01:01:27 INFO  UserController:44 - Checking to see if Customer session is occupied
+2020-07-30 01:01:27 TRACE UserController:49 - user is not logged in
+2020-07-30 01:01:28 TRACE GameController:34 - Retrieving all games from inventory...
+2020-07-30 01:01:28 TRACE GameController:37 - Session already hold stored games
+2020-07-30 01:01:34 INFO  UserController:44 - Checking to see if Customer session is occupied
+2020-07-30 01:01:34 TRACE UserController:49 - user is not logged in
+2020-07-30 01:01:34 TRACE GameController:34 - Retrieving all games from inventory...
+2020-07-30 01:01:34 TRACE GameController:37 - Session already hold stored games
+2020-07-30 01:07:16 INFO  UserController:44 - Checking to see if Customer session is occupied
+2020-07-30 01:07:16 TRACE UserController:49 - user is not logged in
+2020-07-30 01:07:17 TRACE GameController:34 - Retrieving all games from inventory...
+2020-07-30 01:07:17 TRACE GameController:37 - Session already hold stored games
+2020-07-30 01:08:26 INFO  UserController:44 - Checking to see if Customer session is occupied
+2020-07-30 01:08:26 TRACE UserController:49 - user is not logged in
+2020-07-30 01:08:27 TRACE GameController:34 - Retrieving all games from inventory...
+2020-07-30 01:08:27 TRACE GameController:37 - Session already hold stored games
+2020-07-30 01:08:30 INFO  UserController:44 - Checking to see if Customer session is occupied
+2020-07-30 01:08:30 TRACE UserController:49 - user is not logged in
+2020-07-30 01:08:30 TRACE GameController:34 - Retrieving all games from inventory...
+2020-07-30 01:08:30 TRACE GameController:37 - Session already hold stored games
+2020-07-30 01:08:48 INFO  UserController:44 - Checking to see if Customer session is occupied
+2020-07-30 01:08:48 TRACE UserController:49 - user is not logged in
+2020-07-30 01:08:48 TRACE GameController:34 - Retrieving all games from inventory...
+2020-07-30 01:08:48 TRACE GameController:37 - Session already hold stored games
+2020-07-30 01:09:01 INFO  UserController:44 - Checking to see if Customer session is occupied
+2020-07-30 01:09:01 TRACE UserController:49 - user is not logged in
+2020-07-30 01:09:01 TRACE GameController:34 - Retrieving all games from inventory...
+2020-07-30 01:09:01 TRACE GameController:37 - Session already hold stored games
+2020-07-30 01:12:07 INFO  UserController:44 - Checking to see if Customer session is occupied
+2020-07-30 01:12:07 TRACE UserController:49 - user is not logged in
+2020-07-30 01:12:07 TRACE GameController:34 - Retrieving all games from inventory...
+2020-07-30 01:12:07 TRACE GameController:37 - Session already hold stored games
+2020-07-30 01:15:44 INFO  UserController:44 - Checking to see if Customer session is occupied
+2020-07-30 01:15:44 TRACE UserController:49 - user is not logged in
+2020-07-30 01:15:50 INFO  UserController:44 - Checking to see if Customer session is occupied
+2020-07-30 01:15:50 TRACE UserController:49 - user is not logged in
+2020-07-30 01:16:01 INFO  UserController:44 - Checking to see if Customer session is occupied
+2020-07-30 01:16:01 TRACE UserController:49 - user is not logged in
+2020-07-30 01:17:09 INFO  UserController:44 - Checking to see if Customer session is occupied
+2020-07-30 01:17:09 TRACE UserController:49 - user is not logged in
+2020-07-30 01:17:13 INFO  UserController:44 - Checking to see if Customer session is occupied
+2020-07-30 01:17:13 TRACE UserController:49 - user is not logged in
+2020-07-30 01:17:53 INFO  UserController:44 - Checking to see if Customer session is occupied
+2020-07-30 01:17:53 TRACE UserController:49 - user is not logged in
+2020-07-30 01:17:56 INFO  UserController:44 - Checking to see if Customer session is occupied
+2020-07-30 01:17:56 TRACE UserController:49 - user is not logged in
+2020-07-30 01:18:07 INFO  UserController:44 - Checking to see if Customer session is occupied
+2020-07-30 01:18:07 TRACE UserController:49 - user is not logged in
+2020-07-30 01:18:07 TRACE GameController:34 - Retrieving all games from inventory...
+2020-07-30 01:18:07 TRACE GameController:37 - Session already hold stored games
+2020-07-30 01:18:15 INFO  UserController:44 - Checking to see if Customer session is occupied
+2020-07-30 01:18:15 TRACE UserController:49 - user is not logged in
+2020-07-30 01:18:15 TRACE GameController:34 - Retrieving all games from inventory...
+2020-07-30 01:18:15 TRACE GameController:37 - Session already hold stored games
+2020-07-30 01:19:56 INFO  UserController:44 - Checking to see if Customer session is occupied
+2020-07-30 01:19:56 TRACE UserController:49 - user is not logged in
+2020-07-30 01:19:56 TRACE GameController:34 - Retrieving all games from inventory...
+2020-07-30 01:19:56 TRACE GameController:37 - Session already hold stored games
+2020-07-30 01:20:16 INFO  UserController:44 - Checking to see if Customer session is occupied
+2020-07-30 01:20:16 TRACE UserController:49 - user is not logged in
+2020-07-30 01:20:16 TRACE GameController:34 - Retrieving all games from inventory...
+2020-07-30 01:20:16 TRACE GameController:37 - Session already hold stored games
+2020-07-30 01:20:39 INFO  UserController:44 - Checking to see if Customer session is occupied
+2020-07-30 01:20:39 TRACE UserController:49 - user is not logged in
+2020-07-30 01:20:39 TRACE GameController:34 - Retrieving all games from inventory...
+2020-07-30 01:20:39 TRACE GameController:37 - Session already hold stored games
+2020-07-30 01:20:46 INFO  UserController:44 - Checking to see if Customer session is occupied
+2020-07-30 01:20:46 TRACE UserController:49 - user is not logged in
+2020-07-30 01:20:46 TRACE GameController:34 - Retrieving all games from inventory...
+2020-07-30 01:20:46 TRACE GameController:37 - Session already hold stored games
+2020-07-30 01:20:53 INFO  UserController:44 - Checking to see if Customer session is occupied
+2020-07-30 01:20:53 TRACE UserController:49 - user is not logged in
+2020-07-30 01:20:53 TRACE GameController:34 - Retrieving all games from inventory...
+2020-07-30 01:20:53 TRACE GameController:37 - Session already hold stored games
+2020-07-30 01:20:57 INFO  UserController:44 - Checking to see if Customer session is occupied
+2020-07-30 01:20:57 TRACE UserController:49 - user is not logged in
+2020-07-30 01:20:57 TRACE GameController:34 - Retrieving all games from inventory...
+2020-07-30 01:20:57 TRACE GameController:37 - Session already hold stored games
+2020-07-30 01:21:04 INFO  UserController:44 - Checking to see if Customer session is occupied
+2020-07-30 01:21:04 TRACE UserController:49 - user is not logged in
+2020-07-30 01:21:04 TRACE GameController:34 - Retrieving all games from inventory...
+2020-07-30 01:21:04 TRACE GameController:37 - Session already hold stored games
+2020-07-30 01:21:57 INFO  UserController:44 - Checking to see if Customer session is occupied
+2020-07-30 01:21:57 TRACE UserController:49 - user is not logged in
+2020-07-30 01:21:58 TRACE GameController:34 - Retrieving all games from inventory...
+2020-07-30 01:21:58 TRACE GameController:37 - Session already hold stored games
+2020-07-30 01:22:05 INFO  UserController:44 - Checking to see if Customer session is occupied
+2020-07-30 01:22:05 TRACE UserController:49 - user is not logged in
+2020-07-30 01:22:05 TRACE GameController:34 - Retrieving all games from inventory...
+2020-07-30 01:22:05 TRACE GameController:37 - Session already hold stored games
+2020-07-30 01:22:17 INFO  UserController:44 - Checking to see if Customer session is occupied
+2020-07-30 01:22:17 TRACE UserController:49 - user is not logged in
+2020-07-30 01:22:17 TRACE GameController:34 - Retrieving all games from inventory...
+2020-07-30 01:22:17 TRACE GameController:37 - Session already hold stored games
+2020-07-30 01:22:39 INFO  UserController:44 - Checking to see if Customer session is occupied
+2020-07-30 01:22:39 TRACE UserController:49 - user is not logged in
+2020-07-30 01:22:39 TRACE GameController:34 - Retrieving all games from inventory...
+2020-07-30 01:22:39 TRACE GameController:37 - Session already hold stored games
+2020-07-30 01:22:43 INFO  UserController:44 - Checking to see if Customer session is occupied
+2020-07-30 01:22:43 TRACE UserController:49 - user is not logged in
+2020-07-30 01:22:43 TRACE GameController:34 - Retrieving all games from inventory...
+2020-07-30 01:22:43 TRACE GameController:37 - Session already hold stored games
+2020-07-30 01:22:48 INFO  UserController:44 - Checking to see if Customer session is occupied
+2020-07-30 01:22:48 TRACE UserController:49 - user is not logged in
+2020-07-30 01:22:48 TRACE GameController:34 - Retrieving all games from inventory...
+2020-07-30 01:22:48 TRACE GameController:37 - Session already hold stored games
+2020-07-30 01:22:54 INFO  UserController:44 - Checking to see if Customer session is occupied
+2020-07-30 01:22:54 TRACE UserController:49 - user is not logged in
+2020-07-30 01:22:54 TRACE GameController:34 - Retrieving all games from inventory...
+2020-07-30 01:22:54 TRACE GameController:37 - Session already hold stored games
+2020-07-30 01:23:07 INFO  UserController:44 - Checking to see if Customer session is occupied
+2020-07-30 01:23:07 TRACE UserController:49 - user is not logged in
+2020-07-30 01:23:07 TRACE GameController:34 - Retrieving all games from inventory...
+2020-07-30 01:23:07 TRACE GameController:37 - Session already hold stored games
+2020-07-30 01:23:13 INFO  UserController:44 - Checking to see if Customer session is occupied
+2020-07-30 01:23:13 TRACE UserController:49 - user is not logged in
+2020-07-30 01:23:13 TRACE GameController:34 - Retrieving all games from inventory...
+2020-07-30 01:23:13 TRACE GameController:37 - Session already hold stored games
+2020-07-30 01:23:33 INFO  UserController:44 - Checking to see if Customer session is occupied
+2020-07-30 01:23:33 TRACE UserController:49 - user is not logged in
+2020-07-30 01:23:33 TRACE GameController:34 - Retrieving all games from inventory...
+2020-07-30 01:23:33 TRACE GameController:37 - Session already hold stored games
+2020-07-30 01:23:49 INFO  UserController:44 - Checking to see if Customer session is occupied
+2020-07-30 01:23:49 TRACE UserController:49 - user is not logged in
+2020-07-30 01:23:49 TRACE GameController:34 - Retrieving all games from inventory...
+2020-07-30 01:23:49 TRACE GameController:37 - Session already hold stored games
+2020-07-30 01:25:33 INFO  UserController:44 - Checking to see if Customer session is occupied
+2020-07-30 01:25:33 TRACE UserController:49 - user is not logged in
+2020-07-30 01:25:33 TRACE GameController:34 - Retrieving all games from inventory...
+2020-07-30 01:25:33 TRACE GameController:37 - Session already hold stored games
+2020-07-30 01:25:37 INFO  UserController:44 - Checking to see if Customer session is occupied
+2020-07-30 01:25:37 TRACE UserController:49 - user is not logged in
+2020-07-30 01:25:37 TRACE GameController:34 - Retrieving all games from inventory...
+2020-07-30 01:25:37 TRACE GameController:37 - Session already hold stored games
+2020-07-30 01:25:42 INFO  UserController:44 - Checking to see if Customer session is occupied
+2020-07-30 01:25:42 TRACE UserController:49 - user is not logged in
+2020-07-30 01:25:43 TRACE GameController:34 - Retrieving all games from inventory...
+2020-07-30 01:25:43 TRACE GameController:37 - Session already hold stored games
+2020-07-30 01:25:52 INFO  UserController:44 - Checking to see if Customer session is occupied
+2020-07-30 01:25:52 TRACE UserController:49 - user is not logged in
+2020-07-30 01:25:52 TRACE GameController:34 - Retrieving all games from inventory...
+2020-07-30 01:25:52 TRACE GameController:37 - Session already hold stored games
+2020-07-30 01:26:29 INFO  UserController:44 - Checking to see if Customer session is occupied
+2020-07-30 01:26:29 TRACE UserController:49 - user is not logged in
+2020-07-30 01:26:29 TRACE GameController:34 - Retrieving all games from inventory...
+2020-07-30 01:26:29 TRACE GameController:37 - Session already hold stored games
+2020-07-30 01:26:48 INFO  UserController:44 - Checking to see if Customer session is occupied
+2020-07-30 01:26:48 TRACE UserController:49 - user is not logged in
+2020-07-30 01:26:49 TRACE GameController:34 - Retrieving all games from inventory...
+2020-07-30 01:26:49 TRACE GameController:37 - Session already hold stored games
+2020-07-30 01:27:24 INFO  UserController:44 - Checking to see if Customer session is occupied
+2020-07-30 01:27:24 TRACE UserController:49 - user is not logged in
+2020-07-30 01:27:24 TRACE GameController:34 - Retrieving all games from inventory...
+2020-07-30 01:27:24 TRACE GameController:37 - Session already hold stored games
+2020-07-30 01:27:51 INFO  UserController:44 - Checking to see if Customer session is occupied
+2020-07-30 01:27:51 TRACE UserController:49 - user is not logged in
+2020-07-30 01:27:51 TRACE GameController:34 - Retrieving all games from inventory...
+2020-07-30 01:27:51 TRACE GameController:37 - Session already hold stored games
+2020-07-30 01:27:59 INFO  UserController:44 - Checking to see if Customer session is occupied
+2020-07-30 01:27:59 TRACE UserController:49 - user is not logged in
+2020-07-30 01:27:59 TRACE GameController:34 - Retrieving all games from inventory...
+2020-07-30 01:27:59 TRACE GameController:37 - Session already hold stored games
+2020-07-30 01:28:07 INFO  UserController:44 - Checking to see if Customer session is occupied
+2020-07-30 01:28:07 TRACE UserController:49 - user is not logged in
+2020-07-30 01:28:07 TRACE GameController:34 - Retrieving all games from inventory...
+2020-07-30 01:28:07 TRACE GameController:37 - Session already hold stored games
+2020-07-30 01:28:18 INFO  UserController:44 - Checking to see if Customer session is occupied
+2020-07-30 01:28:18 TRACE UserController:49 - user is not logged in
+2020-07-30 01:28:18 TRACE GameController:34 - Retrieving all games from inventory...
+2020-07-30 01:28:18 TRACE GameController:37 - Session already hold stored games
+2020-07-30 01:28:28 INFO  UserController:44 - Checking to see if Customer session is occupied
+2020-07-30 01:28:28 TRACE UserController:49 - user is not logged in
+2020-07-30 01:28:52 INFO  UserController:44 - Checking to see if Customer session is occupied
+2020-07-30 01:28:52 TRACE UserController:49 - user is not logged in
+2020-07-30 01:29:03 INFO  UserController:44 - Checking to see if Customer session is occupied
+2020-07-30 01:29:03 TRACE UserController:49 - user is not logged in
+2020-07-30 01:29:03 TRACE GameController:34 - Retrieving all games from inventory...
+2020-07-30 01:29:03 TRACE GameController:37 - Session already hold stored games
+2020-07-30 01:29:08 INFO  UserController:44 - Checking to see if Customer session is occupied
+2020-07-30 01:29:08 TRACE UserController:49 - user is not logged in
+2020-07-30 01:29:08 TRACE GameController:34 - Retrieving all games from inventory...
+2020-07-30 01:29:08 TRACE GameController:37 - Session already hold stored games
+2020-07-30 01:29:25 INFO  UserController:44 - Checking to see if Customer session is occupied
+2020-07-30 01:29:25 TRACE UserController:49 - user is not logged in
+2020-07-30 01:29:25 TRACE GameController:34 - Retrieving all games from inventory...
+2020-07-30 01:29:25 TRACE GameController:37 - Session already hold stored games
+2020-07-30 01:29:42 INFO  UserController:44 - Checking to see if Customer session is occupied
+2020-07-30 01:29:42 TRACE UserController:49 - user is not logged in
+2020-07-30 01:29:42 TRACE GameController:34 - Retrieving all games from inventory...
+2020-07-30 01:29:42 TRACE GameController:37 - Session already hold stored games
+2020-07-30 01:29:46 INFO  UserController:44 - Checking to see if Customer session is occupied
+2020-07-30 01:29:46 TRACE UserController:49 - user is not logged in
+2020-07-30 01:29:46 TRACE GameController:34 - Retrieving all games from inventory...
+2020-07-30 01:29:46 TRACE GameController:37 - Session already hold stored games
+2020-07-30 01:29:50 INFO  UserController:44 - Checking to see if Customer session is occupied
+2020-07-30 01:29:50 TRACE UserController:49 - user is not logged in
+2020-07-30 01:29:50 TRACE GameController:34 - Retrieving all games from inventory...
+2020-07-30 01:29:50 TRACE GameController:37 - Session already hold stored games
+2020-07-30 01:30:18 INFO  UserController:44 - Checking to see if Customer session is occupied
+2020-07-30 01:30:18 TRACE UserController:49 - user is not logged in
+2020-07-30 01:30:18 TRACE GameController:34 - Retrieving all games from inventory...
+2020-07-30 01:30:18 TRACE GameController:37 - Session already hold stored games
+2020-07-30 01:30:30 INFO  UserController:44 - Checking to see if Customer session is occupied
+2020-07-30 01:30:30 TRACE UserController:49 - user is not logged in
+2020-07-30 01:30:30 TRACE GameController:34 - Retrieving all games from inventory...
+2020-07-30 01:30:30 TRACE GameController:37 - Session already hold stored games
+2020-07-30 01:30:54 INFO  UserController:44 - Checking to see if Customer session is occupied
+2020-07-30 01:30:54 TRACE UserController:49 - user is not logged in
+2020-07-30 01:30:54 TRACE GameController:34 - Retrieving all games from inventory...
+2020-07-30 01:30:54 TRACE GameController:37 - Session already hold stored games
+2020-07-30 01:31:01 INFO  UserController:44 - Checking to see if Customer session is occupied
+2020-07-30 01:31:01 TRACE UserController:49 - user is not logged in
+2020-07-30 01:31:12 INFO  UserController:44 - Checking to see if Customer session is occupied
+2020-07-30 01:31:12 TRACE UserController:49 - user is not logged in
+2020-07-30 01:31:17 INFO  UserController:44 - Checking to see if Customer session is occupied
+2020-07-30 01:31:17 TRACE UserController:49 - user is not logged in
+2020-07-30 01:31:32 INFO  UserController:44 - Checking to see if Customer session is occupied
+2020-07-30 01:31:32 TRACE UserController:49 - user is not logged in
+2020-07-30 01:31:47 INFO  UserController:44 - Checking to see if Customer session is occupied
+2020-07-30 01:31:47 TRACE UserController:49 - user is not logged in
+2020-07-30 01:31:47 TRACE GameController:34 - Retrieving all games from inventory...
+2020-07-30 01:31:47 TRACE GameController:37 - Session already hold stored games
+2020-07-30 01:32:06 INFO  UserController:44 - Checking to see if Customer session is occupied
+2020-07-30 01:32:06 TRACE UserController:49 - user is not logged in
+2020-07-30 01:32:06 TRACE GameController:34 - Retrieving all games from inventory...
+2020-07-30 01:32:06 TRACE GameController:37 - Session already hold stored games
+2020-07-30 01:32:18 INFO  UserController:44 - Checking to see if Customer session is occupied
+2020-07-30 01:32:18 TRACE UserController:49 - user is not logged in
+2020-07-30 01:32:18 TRACE GameController:34 - Retrieving all games from inventory...
+2020-07-30 01:32:18 TRACE GameController:37 - Session already hold stored games
+2020-07-30 01:32:24 INFO  UserController:44 - Checking to see if Customer session is occupied
+2020-07-30 01:32:24 TRACE UserController:49 - user is not logged in
+2020-07-30 01:32:24 TRACE GameController:34 - Retrieving all games from inventory...
+2020-07-30 01:32:24 TRACE GameController:37 - Session already hold stored games
+2020-07-30 01:32:36 INFO  UserController:44 - Checking to see if Customer session is occupied
+2020-07-30 01:32:36 TRACE UserController:49 - user is not logged in
+2020-07-30 01:32:36 TRACE GameController:34 - Retrieving all games from inventory...
+2020-07-30 01:32:36 TRACE GameController:37 - Session already hold stored games
+2020-07-30 01:36:05 INFO  UserController:44 - Checking to see if Customer session is occupied
+2020-07-30 01:36:05 TRACE UserController:49 - user is not logged in
+2020-07-30 01:36:05 TRACE GameController:34 - Retrieving all games from inventory...
+2020-07-30 01:36:05 TRACE GameController:37 - Session already hold stored games
+2020-07-30 01:37:19 INFO  UserController:44 - Checking to see if Customer session is occupied
+2020-07-30 01:37:19 TRACE UserController:49 - user is not logged in
+2020-07-30 01:37:19 TRACE GameController:34 - Retrieving all games from inventory...
+2020-07-30 01:37:19 TRACE GameController:37 - Session already hold stored games
+2020-07-30 01:37:39 INFO  UserController:44 - Checking to see if Customer session is occupied
+2020-07-30 01:37:39 TRACE UserController:49 - user is not logged in
+2020-07-30 01:37:39 TRACE GameController:34 - Retrieving all games from inventory...
+2020-07-30 01:37:39 TRACE GameController:37 - Session already hold stored games
+2020-07-30 01:37:41 INFO  UserController:44 - Checking to see if Customer session is occupied
+2020-07-30 01:37:41 TRACE UserController:49 - user is not logged in
+2020-07-30 01:37:41 TRACE GameController:34 - Retrieving all games from inventory...
+2020-07-30 01:37:41 TRACE GameController:37 - Session already hold stored games
+2020-07-30 01:37:43 INFO  UserController:44 - Checking to see if Customer session is occupied
+2020-07-30 01:37:43 TRACE UserController:49 - user is not logged in
+2020-07-30 01:37:43 TRACE GameController:34 - Retrieving all games from inventory...
+2020-07-30 01:37:43 TRACE GameController:37 - Session already hold stored games
+2020-07-30 01:38:01 INFO  UserController:44 - Checking to see if Customer session is occupied
+2020-07-30 01:38:01 TRACE UserController:49 - user is not logged in
+2020-07-30 01:38:01 INFO  UserController:44 - Checking to see if Customer session is occupied
+2020-07-30 01:38:01 TRACE UserController:49 - user is not logged in
+2020-07-30 01:38:02 TRACE GameController:34 - Retrieving all games from inventory...
+2020-07-30 01:38:02 TRACE GameController:37 - Session already hold stored games
+2020-07-30 01:38:50 INFO  UserController:44 - Checking to see if Customer session is occupied
+2020-07-30 01:38:50 TRACE UserController:49 - user is not logged in
+2020-07-30 01:38:50 TRACE GameController:34 - Retrieving all games from inventory...
+2020-07-30 01:38:50 TRACE GameController:37 - Session already hold stored games
+2020-07-30 01:39:08 INFO  UserController:44 - Checking to see if Customer session is occupied
+2020-07-30 01:39:08 TRACE UserController:49 - user is not logged in
+2020-07-30 01:39:08 TRACE GameController:34 - Retrieving all games from inventory...
+2020-07-30 01:39:08 TRACE GameController:37 - Session already hold stored games
+2020-07-30 01:39:29 INFO  UserController:44 - Checking to see if Customer session is occupied
+2020-07-30 01:39:29 TRACE UserController:49 - user is not logged in
+2020-07-30 01:39:29 TRACE GameController:34 - Retrieving all games from inventory...
+2020-07-30 01:39:29 TRACE GameController:37 - Session already hold stored games
+2020-07-30 01:39:34 INFO  UserController:44 - Checking to see if Customer session is occupied
+2020-07-30 01:39:34 TRACE UserController:49 - user is not logged in
+2020-07-30 01:39:34 TRACE GameController:34 - Retrieving all games from inventory...
+2020-07-30 01:39:34 TRACE GameController:37 - Session already hold stored games
+2020-07-30 01:39:42 INFO  UserController:44 - Checking to see if Customer session is occupied
+2020-07-30 01:39:42 TRACE UserController:49 - user is not logged in
+2020-07-30 01:39:42 TRACE GameController:34 - Retrieving all games from inventory...
+2020-07-30 01:39:42 TRACE GameController:37 - Session already hold stored games
+2020-07-30 01:40:04 INFO  UserController:44 - Checking to see if Customer session is occupied
+2020-07-30 01:40:04 TRACE UserController:49 - user is not logged in
+2020-07-30 01:40:04 TRACE GameController:34 - Retrieving all games from inventory...
+2020-07-30 01:40:04 TRACE GameController:37 - Session already hold stored games
+2020-07-30 01:45:12 INFO  UserController:44 - Checking to see if Customer session is occupied
+2020-07-30 01:45:12 TRACE UserController:49 - user is not logged in
+2020-07-30 01:45:12 TRACE GameController:34 - Retrieving all games from inventory...
+2020-07-30 01:45:12 TRACE GameController:37 - Session already hold stored games
+2020-07-30 01:45:13 INFO  UserController:44 - Checking to see if Customer session is occupied
+2020-07-30 01:45:13 TRACE UserController:49 - user is not logged in
+2020-07-30 01:45:19 TRACE GameController:34 - Retrieving all games from inventory...
+2020-07-30 01:45:19 TRACE GameController:37 - Session already hold stored games
+2020-07-30 01:45:21 INFO  UserController:44 - Checking to see if Customer session is occupied
+2020-07-30 01:45:21 TRACE UserController:49 - user is not logged in
+2020-07-30 01:45:22 TRACE GameController:34 - Retrieving all games from inventory...
+2020-07-30 01:45:22 TRACE GameController:37 - Session already hold stored games
+2020-07-30 01:45:40 INFO  UserController:44 - Checking to see if Customer session is occupied
+2020-07-30 01:45:40 TRACE UserController:49 - user is not logged in
+2020-07-30 01:45:40 TRACE GameController:34 - Retrieving all games from inventory...
+2020-07-30 01:45:40 TRACE GameController:37 - Session already hold stored games
+2020-07-30 01:45:47 INFO  UserController:44 - Checking to see if Customer session is occupied
+2020-07-30 01:45:47 TRACE UserController:49 - user is not logged in
+2020-07-30 01:45:47 TRACE GameController:34 - Retrieving all games from inventory...
+2020-07-30 01:45:47 TRACE GameController:37 - Session already hold stored games
+2020-07-30 01:45:49 INFO  UserController:44 - Checking to see if Customer session is occupied
+2020-07-30 01:45:49 TRACE UserController:49 - user is not logged in
+2020-07-30 01:46:00 INFO  UserController:44 - Checking to see if Customer session is occupied
+2020-07-30 01:46:00 TRACE UserController:49 - user is not logged in
+2020-07-30 01:46:57 INFO  UserController:44 - Checking to see if Customer session is occupied
+2020-07-30 01:46:57 TRACE UserController:49 - user is not logged in
+2020-07-30 01:46:57 TRACE GameController:34 - Retrieving all games from inventory...
+2020-07-30 01:46:57 TRACE GameController:37 - Session already hold stored games
+2020-07-30 01:47:15 INFO  UserController:44 - Checking to see if Customer session is occupied
+2020-07-30 01:47:15 TRACE UserController:49 - user is not logged in
+2020-07-30 01:47:15 TRACE GameController:34 - Retrieving all games from inventory...
+2020-07-30 01:47:15 TRACE GameController:37 - Session already hold stored games
+2020-07-30 01:47:25 INFO  UserController:44 - Checking to see if Customer session is occupied
+2020-07-30 01:47:25 TRACE UserController:49 - user is not logged in
+2020-07-30 01:47:26 TRACE GameController:34 - Retrieving all games from inventory...
+2020-07-30 01:47:26 TRACE GameController:37 - Session already hold stored games
+2020-07-30 01:47:31 INFO  UserController:44 - Checking to see if Customer session is occupied
+2020-07-30 01:47:31 TRACE UserController:49 - user is not logged in
+2020-07-30 01:47:32 TRACE GameController:34 - Retrieving all games from inventory...
+2020-07-30 01:47:32 TRACE GameController:37 - Session already hold stored games
+2020-07-30 01:48:01 INFO  UserController:44 - Checking to see if Customer session is occupied
+2020-07-30 01:48:01 TRACE UserController:49 - user is not logged in
+2020-07-30 01:48:02 TRACE GameController:34 - Retrieving all games from inventory...
+2020-07-30 01:48:02 TRACE GameController:37 - Session already hold stored games
+2020-07-30 01:48:05 INFO  UserController:44 - Checking to see if Customer session is occupied
+2020-07-30 01:48:05 TRACE UserController:49 - user is not logged in
+2020-07-30 01:48:05 TRACE GameController:34 - Retrieving all games from inventory...
+2020-07-30 01:48:05 TRACE GameController:37 - Session already hold stored games
+2020-07-30 01:48:06 INFO  UserController:44 - Checking to see if Customer session is occupied
+2020-07-30 01:48:06 TRACE UserController:49 - user is not logged in
+2020-07-30 01:48:08 TRACE GameController:34 - Retrieving all games from inventory...
+2020-07-30 01:48:08 TRACE GameController:37 - Session already hold stored games
+2020-07-30 01:48:09 INFO  UserController:44 - Checking to see if Customer session is occupied
+2020-07-30 01:48:09 TRACE UserController:49 - user is not logged in
+2020-07-30 01:48:18 TRACE GameController:34 - Retrieving all games from inventory...
+2020-07-30 01:48:18 TRACE GameController:37 - Session already hold stored games
+2020-07-30 01:48:19 INFO  UserController:44 - Checking to see if Customer session is occupied
+2020-07-30 01:48:19 TRACE UserController:49 - user is not logged in
+2020-07-30 01:48:20 TRACE GameController:34 - Retrieving all games from inventory...
+2020-07-30 01:48:20 TRACE GameController:37 - Session already hold stored games
+2020-07-30 01:48:50 INFO  UserController:44 - Checking to see if Customer session is occupied
+2020-07-30 01:48:50 TRACE UserController:49 - user is not logged in
+2020-07-30 01:48:50 TRACE GameController:34 - Retrieving all games from inventory...
+2020-07-30 01:48:50 TRACE GameController:37 - Session already hold stored games
+2020-07-30 01:48:54 TRACE GameController:34 - Retrieving all games from inventory...
+2020-07-30 01:48:54 TRACE GameController:37 - Session already hold stored games
+2020-07-30 01:48:56 TRACE GameController:34 - Retrieving all games from inventory...
+2020-07-30 01:48:56 TRACE GameController:37 - Session already hold stored games
+2020-07-30 01:48:59 TRACE GameController:34 - Retrieving all games from inventory...
+2020-07-30 01:48:59 TRACE GameController:37 - Session already hold stored games
+2020-07-30 01:49:06 TRACE GameController:34 - Retrieving all games from inventory...
+2020-07-30 01:49:06 TRACE GameController:37 - Session already hold stored games
+2020-07-30 13:23:55 INFO  UserController:44 - Checking to see if Customer session is occupied
+2020-07-30 13:23:55 TRACE GameController:34 - Retrieving all games from inventory...
+2020-07-30 13:23:55 TRACE UserController:49 - user is not logged in
+2020-07-30 13:23:55 TRACE GameController:39 - Session does not hold stored games, retrieving from DB
+2020-07-30 13:23:55 TRACE GameOracle:94 - Retrieving all game from the game table
+2020-07-30 13:23:56 TRACE DeveloperOracle:167 - Retrieving all developers that is related to game with ID 1
+2020-07-30 13:23:56 TRACE DeveloperOracle:109 - Retrieving category with ID: 41 from DB
+2020-07-30 13:23:57 TRACE DeveloperOracle:119 - Successfully retrieved developer with id: 41
+2020-07-30 13:23:57 TRACE PublisherOracle:79 - Retrieving all publishers that is related to game with ID 1
+2020-07-30 13:23:57 TRACE PublisherOracle:106 - Retrieving publisher with ID: 1 from DB
+2020-07-30 13:23:58 TRACE PublisherOracle:116 - Successfully retrieved publisher with id: 1
+2020-07-30 13:23:58 TRACE GameSystemOracle:111 - Retrieving all systems that is related to game with ID 1
+2020-07-30 13:23:58 TRACE GameSystemOracle:55 - Retrieving game system with ID: 1 from DB
+2020-07-30 13:23:59 TRACE GameSystemOracle:65 - Successfully retrieved game system with id: 1
+2020-07-30 13:23:59 TRACE GameSystemOracle:55 - Retrieving game system with ID: 3 from DB
+2020-07-30 13:24:00 TRACE GameSystemOracle:65 - Successfully retrieved game system with id: 3
+2020-07-30 13:24:00 TRACE GameDetailsOracle:128 - Retrieving all details that is related to game with ID 1
+2020-07-30 13:24:00 TRACE CategoryOracle:88 - Retrieving all categories that is related to game with ID 1
+2020-07-30 13:24:00 TRACE CategoryOracle:58 - Retrieving category with ID: 1 from DB
+2020-07-30 13:24:01 TRACE CategoryOracle:68 - Successfully retrieved category with id: 1
+2020-07-30 13:24:01 TRACE DeveloperOracle:167 - Retrieving all developers that is related to game with ID 2
+2020-07-30 13:24:01 TRACE DeveloperOracle:109 - Retrieving category with ID: 5 from DB
+2020-07-30 13:24:02 TRACE DeveloperOracle:119 - Successfully retrieved developer with id: 5
+2020-07-30 13:24:02 TRACE PublisherOracle:79 - Retrieving all publishers that is related to game with ID 2
+2020-07-30 13:24:03 TRACE GameSystemOracle:111 - Retrieving all systems that is related to game with ID 2
+2020-07-30 13:24:03 TRACE GameSystemOracle:55 - Retrieving game system with ID: 1 from DB
+2020-07-30 13:24:03 TRACE GameSystemOracle:65 - Successfully retrieved game system with id: 1
+2020-07-30 13:24:04 TRACE GameDetailsOracle:128 - Retrieving all details that is related to game with ID 2
+2020-07-30 13:24:04 TRACE CategoryOracle:88 - Retrieving all categories that is related to game with ID 2
+2020-07-30 13:24:04 TRACE CategoryOracle:58 - Retrieving category with ID: 2 from DB
+2020-07-30 13:24:05 TRACE CategoryOracle:68 - Successfully retrieved category with id: 2
+2020-07-30 13:24:05 TRACE DeveloperOracle:167 - Retrieving all developers that is related to game with ID 3
+2020-07-30 13:24:05 TRACE DeveloperOracle:109 - Retrieving category with ID: 21 from DB
+2020-07-30 13:24:06 TRACE DeveloperOracle:119 - Successfully retrieved developer with id: 21
+2020-07-30 13:24:06 TRACE PublisherOracle:79 - Retrieving all publishers that is related to game with ID 3
+2020-07-30 13:24:06 TRACE GameSystemOracle:111 - Retrieving all systems that is related to game with ID 3
+2020-07-30 13:24:07 TRACE GameSystemOracle:55 - Retrieving game system with ID: 1 from DB
+2020-07-30 13:24:07 TRACE GameSystemOracle:65 - Successfully retrieved game system with id: 1
+2020-07-30 13:24:07 TRACE GameDetailsOracle:128 - Retrieving all details that is related to game with ID 3
+2020-07-30 13:24:07 TRACE CategoryOracle:88 - Retrieving all categories that is related to game with ID 3
+2020-07-30 13:24:08 TRACE CategoryOracle:58 - Retrieving category with ID: 3 from DB
+2020-07-30 13:24:08 TRACE CategoryOracle:68 - Successfully retrieved category with id: 3
+2020-07-30 13:24:08 TRACE DeveloperOracle:167 - Retrieving all developers that is related to game with ID 4
+2020-07-30 13:24:09 TRACE PublisherOracle:79 - Retrieving all publishers that is related to game with ID 4
+2020-07-30 13:24:09 TRACE GameSystemOracle:111 - Retrieving all systems that is related to game with ID 4
+2020-07-30 13:24:10 TRACE GameDetailsOracle:128 - Retrieving all details that is related to game with ID 4
+2020-07-30 13:24:10 TRACE CategoryOracle:88 - Retrieving all categories that is related to game with ID 4
+2020-07-30 13:24:57 INFO  UserController:44 - Checking to see if Customer session is occupied
+2020-07-30 13:24:57 TRACE UserController:49 - user is not logged in
+2020-07-30 13:24:57 TRACE GameController:34 - Retrieving all games from inventory...
+2020-07-30 13:24:57 TRACE GameController:37 - Session already hold stored games
+2020-07-30 13:25:05 INFO  UserController:44 - Checking to see if Customer session is occupied
+2020-07-30 13:25:05 TRACE UserController:49 - user is not logged in
+2020-07-30 13:25:05 TRACE GameController:34 - Retrieving all games from inventory...
+2020-07-30 13:25:05 TRACE GameController:37 - Session already hold stored games
+2020-07-30 13:25:17 INFO  UserController:44 - Checking to see if Customer session is occupied
+2020-07-30 13:25:17 TRACE UserController:49 - user is not logged in
+2020-07-30 13:25:17 TRACE GameController:34 - Retrieving all games from inventory...
+2020-07-30 13:25:17 TRACE GameController:37 - Session already hold stored games
+2020-07-30 13:26:00 INFO  UserController:44 - Checking to see if Customer session is occupied
+2020-07-30 13:26:00 TRACE UserController:49 - user is not logged in
+2020-07-30 13:26:00 TRACE GameController:34 - Retrieving all games from inventory...
+2020-07-30 13:26:00 TRACE GameController:37 - Session already hold stored games
+2020-07-30 13:28:04 INFO  UserController:44 - Checking to see if Customer session is occupied
+2020-07-30 13:28:04 TRACE UserController:49 - user is not logged in
+2020-07-30 13:28:04 TRACE GameController:34 - Retrieving all games from inventory...
+2020-07-30 13:28:04 TRACE GameController:37 - Session already hold stored games
+2020-07-30 13:28:07 INFO  UserController:44 - Checking to see if Customer session is occupied
+2020-07-30 13:28:07 TRACE UserController:49 - user is not logged in
+2020-07-30 13:28:08 TRACE GameController:34 - Retrieving all games from inventory...
+2020-07-30 13:28:08 TRACE GameController:37 - Session already hold stored games
+2020-07-30 13:28:37 INFO  UserController:44 - Checking to see if Customer session is occupied
+2020-07-30 13:28:37 TRACE UserController:49 - user is not logged in
+2020-07-30 13:28:37 TRACE GameController:34 - Retrieving all games from inventory...
+2020-07-30 13:28:37 TRACE GameController:37 - Session already hold stored games
+2020-07-30 13:28:45 INFO  UserController:44 - Checking to see if Customer session is occupied
+2020-07-30 13:28:45 TRACE UserController:49 - user is not logged in
+2020-07-30 13:28:45 TRACE GameController:34 - Retrieving all games from inventory...
+2020-07-30 13:28:45 TRACE GameController:37 - Session already hold stored games
+2020-07-30 13:28:52 INFO  UserController:44 - Checking to see if Customer session is occupied
+2020-07-30 13:28:52 TRACE UserController:49 - user is not logged in
+2020-07-30 13:28:52 TRACE GameController:34 - Retrieving all games from inventory...
+2020-07-30 13:28:52 TRACE GameController:37 - Session already hold stored games
+2020-07-30 13:28:57 INFO  UserController:44 - Checking to see if Customer session is occupied
+2020-07-30 13:28:57 TRACE UserController:49 - user is not logged in
+2020-07-30 13:28:57 TRACE GameController:34 - Retrieving all games from inventory...
+2020-07-30 13:28:57 TRACE GameController:37 - Session already hold stored games
+2020-07-30 13:34:10 INFO  UserController:44 - Checking to see if Customer session is occupied
+2020-07-30 13:34:10 TRACE UserController:49 - user is not logged in
+2020-07-30 13:34:10 TRACE GameController:34 - Retrieving all games from inventory...
+2020-07-30 13:34:10 TRACE GameController:37 - Session already hold stored games
+2020-07-30 13:44:31 INFO  UserController:44 - Checking to see if Customer session is occupied
+2020-07-30 13:44:31 TRACE UserController:49 - user is not logged in
+2020-07-30 13:44:32 TRACE GameController:34 - Retrieving all games from inventory...
+2020-07-30 13:44:32 TRACE GameController:37 - Session already hold stored games
+2020-07-30 13:44:47 INFO  UserController:44 - Checking to see if Customer session is occupied
+2020-07-30 13:44:47 TRACE UserController:49 - user is not logged in
+2020-07-30 13:44:47 TRACE GameController:34 - Retrieving all games from inventory...
+2020-07-30 13:44:47 TRACE GameController:37 - Session already hold stored games
+2020-07-30 13:44:57 INFO  UserController:44 - Checking to see if Customer session is occupied
+2020-07-30 13:44:57 TRACE UserController:49 - user is not logged in
+2020-07-30 13:44:57 TRACE GameController:34 - Retrieving all games from inventory...
+2020-07-30 13:44:57 TRACE GameController:37 - Session already hold stored games
+2020-07-30 13:45:03 INFO  UserController:44 - Checking to see if Customer session is occupied
+2020-07-30 13:45:03 TRACE UserController:49 - user is not logged in
+2020-07-30 13:45:03 TRACE GameController:34 - Retrieving all games from inventory...
+2020-07-30 13:45:03 TRACE GameController:37 - Session already hold stored games
+2020-07-30 18:06:26 TRACE GameController:34 - Retrieving all games from inventory...
+2020-07-30 18:06:26 INFO  UserController:44 - Checking to see if Customer session is occupied
+2020-07-30 18:06:26 TRACE GameController:39 - Session does not hold stored games, retrieving from DB
+2020-07-30 18:06:26 TRACE GameOracle:94 - Retrieving all game from the game table
+2020-07-30 18:06:26 TRACE UserController:49 - user is not logged in
+2020-07-30 18:06:26 TRACE DeveloperOracle:167 - Retrieving all developers that is related to game with ID 1
+2020-07-30 18:06:27 TRACE DeveloperOracle:109 - Retrieving category with ID: 41 from DB
+2020-07-30 18:06:27 TRACE DeveloperOracle:119 - Successfully retrieved developer with id: 41
+2020-07-30 18:06:27 TRACE PublisherOracle:79 - Retrieving all publishers that is related to game with ID 1
+2020-07-30 18:06:28 TRACE PublisherOracle:106 - Retrieving publisher with ID: 1 from DB
+2020-07-30 18:06:28 TRACE PublisherOracle:116 - Successfully retrieved publisher with id: 1
+2020-07-30 18:06:28 TRACE GameSystemOracle:111 - Retrieving all systems that is related to game with ID 1
+2020-07-30 18:06:28 TRACE GameSystemOracle:55 - Retrieving game system with ID: 1 from DB
+2020-07-30 18:06:29 TRACE GameSystemOracle:65 - Successfully retrieved game system with id: 1
+2020-07-30 18:06:29 TRACE GameSystemOracle:55 - Retrieving game system with ID: 3 from DB
+2020-07-30 18:06:29 TRACE GameSystemOracle:65 - Successfully retrieved game system with id: 3
+2020-07-30 18:06:29 TRACE GameDetailsOracle:128 - Retrieving all details that is related to game with ID 1
+2020-07-30 18:06:30 TRACE CategoryOracle:88 - Retrieving all categories that is related to game with ID 1
+2020-07-30 18:06:30 TRACE CategoryOracle:58 - Retrieving category with ID: 1 from DB
+2020-07-30 18:06:30 TRACE CategoryOracle:68 - Successfully retrieved category with id: 1
+2020-07-30 18:06:30 TRACE DeveloperOracle:167 - Retrieving all developers that is related to game with ID 2
+2020-07-30 18:06:31 TRACE DeveloperOracle:109 - Retrieving category with ID: 5 from DB
+2020-07-30 18:06:31 TRACE DeveloperOracle:119 - Successfully retrieved developer with id: 5
+2020-07-30 18:06:31 TRACE PublisherOracle:79 - Retrieving all publishers that is related to game with ID 2
+2020-07-30 18:06:32 TRACE GameSystemOracle:111 - Retrieving all systems that is related to game with ID 2
+2020-07-30 18:06:32 TRACE GameSystemOracle:55 - Retrieving game system with ID: 1 from DB
+2020-07-30 18:06:33 TRACE GameSystemOracle:65 - Successfully retrieved game system with id: 1
+2020-07-30 18:06:33 TRACE GameDetailsOracle:128 - Retrieving all details that is related to game with ID 2
+2020-07-30 18:06:33 TRACE CategoryOracle:88 - Retrieving all categories that is related to game with ID 2
+2020-07-30 18:06:33 TRACE CategoryOracle:58 - Retrieving category with ID: 2 from DB
+2020-07-30 18:06:34 TRACE CategoryOracle:68 - Successfully retrieved category with id: 2
+2020-07-30 18:06:34 TRACE DeveloperOracle:167 - Retrieving all developers that is related to game with ID 3
+2020-07-30 18:06:34 TRACE DeveloperOracle:109 - Retrieving category with ID: 21 from DB
+2020-07-30 18:06:34 TRACE DeveloperOracle:119 - Successfully retrieved developer with id: 21
+2020-07-30 18:06:34 TRACE PublisherOracle:79 - Retrieving all publishers that is related to game with ID 3
+2020-07-30 18:06:35 TRACE GameSystemOracle:111 - Retrieving all systems that is related to game with ID 3
+2020-07-30 18:06:35 TRACE GameSystemOracle:55 - Retrieving game system with ID: 1 from DB
+2020-07-30 18:06:36 TRACE GameSystemOracle:65 - Successfully retrieved game system with id: 1
+2020-07-30 18:06:36 TRACE GameDetailsOracle:128 - Retrieving all details that is related to game with ID 3
+2020-07-30 18:06:36 TRACE CategoryOracle:88 - Retrieving all categories that is related to game with ID 3
+2020-07-30 18:06:37 TRACE CategoryOracle:58 - Retrieving category with ID: 3 from DB
+2020-07-30 18:06:37 TRACE CategoryOracle:68 - Successfully retrieved category with id: 3
+2020-07-30 18:06:37 TRACE DeveloperOracle:167 - Retrieving all developers that is related to game with ID 4
+2020-07-30 18:06:37 TRACE PublisherOracle:79 - Retrieving all publishers that is related to game with ID 4
+2020-07-30 18:06:38 TRACE GameSystemOracle:111 - Retrieving all systems that is related to game with ID 4
+2020-07-30 18:06:38 TRACE GameDetailsOracle:128 - Retrieving all details that is related to game with ID 4
+2020-07-30 18:06:38 TRACE CategoryOracle:88 - Retrieving all categories that is related to game with ID 4
+2020-07-30 18:08:10 TRACE GameController:34 - Retrieving all games from inventory...
+2020-07-30 18:08:10 TRACE GameController:37 - Session already hold stored games
+2020-07-30 18:08:15 INFO  UserController:44 - Checking to see if Customer session is occupied
+2020-07-30 18:08:15 TRACE UserController:49 - user is not logged in
+2020-07-30 18:08:15 TRACE GameController:34 - Retrieving all games from inventory...
+2020-07-30 18:08:15 TRACE GameController:37 - Session already hold stored games
+2020-07-30 18:09:10 TRACE GameController:34 - Retrieving all games from inventory...
+2020-07-30 18:09:10 TRACE GameController:37 - Session already hold stored games
+2020-07-30 18:10:18 INFO  UserController:44 - Checking to see if Customer session is occupied
+2020-07-30 18:10:18 TRACE UserController:49 - user is not logged in
+2020-07-30 18:10:19 TRACE GameController:34 - Retrieving all games from inventory...
+2020-07-30 18:10:19 TRACE GameController:37 - Session already hold stored games
+2020-07-30 18:10:21 INFO  UserController:44 - Checking to see if Customer session is occupied
+2020-07-30 18:10:21 TRACE UserController:49 - user is not logged in
+2020-07-30 18:10:22 TRACE GameController:34 - Retrieving all games from inventory...
+2020-07-30 18:10:22 TRACE GameController:37 - Session already hold stored games
+2020-07-30 18:10:32 INFO  UserController:44 - Checking to see if Customer session is occupied
+2020-07-30 18:10:32 TRACE UserController:49 - user is not logged in
+2020-07-30 18:10:33 TRACE GameController:34 - Retrieving all games from inventory...
+2020-07-30 18:10:33 TRACE GameController:37 - Session already hold stored games
+2020-07-30 18:10:34 INFO  UserController:44 - Checking to see if Customer session is occupied
+2020-07-30 18:10:34 TRACE UserController:49 - user is not logged in
+2020-07-30 18:10:35 TRACE GameController:34 - Retrieving all games from inventory...
+2020-07-30 18:10:35 TRACE GameController:37 - Session already hold stored games
+2020-07-30 18:10:36 INFO  UserController:44 - Checking to see if Customer session is occupied
+2020-07-30 18:10:36 TRACE UserController:49 - user is not logged in
+2020-07-30 18:10:41 TRACE UserOracle:172 - Retrieving all usernames from the person table
+2020-07-30 18:10:56 TRACE GameController:34 - Retrieving all games from inventory...
+2020-07-30 18:10:56 TRACE GameController:37 - Session already hold stored games
+2020-07-30 18:13:04 TRACE GameController:34 - Retrieving all games from inventory...
+2020-07-30 18:13:04 TRACE GameController:37 - Session already hold stored games
+2020-07-30 19:00:49 TRACE GameController:34 - Retrieving all games from inventory...
+2020-07-30 19:00:49 TRACE GameController:39 - Session does not hold stored games, retrieving from DB
+2020-07-30 19:00:49 TRACE GameOracle:94 - Retrieving all game from the game table
+2020-07-30 19:00:50 TRACE DeveloperOracle:167 - Retrieving all developers that is related to game with ID 1
+2020-07-30 19:00:50 TRACE DeveloperOracle:109 - Retrieving category with ID: 41 from DB
+2020-07-30 19:00:51 TRACE DeveloperOracle:119 - Successfully retrieved developer with id: 41
+2020-07-30 19:00:51 TRACE PublisherOracle:79 - Retrieving all publishers that is related to game with ID 1
+2020-07-30 19:00:51 INFO  UserController:44 - Checking to see if Customer session is occupied
+2020-07-30 19:00:51 TRACE UserController:49 - user is not logged in
+2020-07-30 19:00:51 TRACE PublisherOracle:106 - Retrieving publisher with ID: 1 from DB
+2020-07-30 19:00:51 TRACE PublisherOracle:116 - Successfully retrieved publisher with id: 1
+2020-07-30 19:00:51 TRACE GameSystemOracle:111 - Retrieving all systems that is related to game with ID 1
+2020-07-30 19:00:52 TRACE GameSystemOracle:55 - Retrieving game system with ID: 1 from DB
+2020-07-30 19:00:52 TRACE GameSystemOracle:65 - Successfully retrieved game system with id: 1
+2020-07-30 19:00:52 TRACE GameSystemOracle:55 - Retrieving game system with ID: 3 from DB
+2020-07-30 19:00:53 TRACE GameSystemOracle:65 - Successfully retrieved game system with id: 3
+2020-07-30 19:00:53 TRACE GameDetailsOracle:128 - Retrieving all details that is related to game with ID 1
+2020-07-30 19:00:53 TRACE CategoryOracle:88 - Retrieving all categories that is related to game with ID 1
+2020-07-30 19:00:53 TRACE CategoryOracle:58 - Retrieving category with ID: 1 from DB
+2020-07-30 19:00:54 TRACE CategoryOracle:68 - Successfully retrieved category with id: 1
+2020-07-30 19:00:54 TRACE DeveloperOracle:167 - Retrieving all developers that is related to game with ID 2
+2020-07-30 19:00:54 TRACE DeveloperOracle:109 - Retrieving category with ID: 5 from DB
+2020-07-30 19:00:54 TRACE DeveloperOracle:119 - Successfully retrieved developer with id: 5
+2020-07-30 19:00:55 TRACE PublisherOracle:79 - Retrieving all publishers that is related to game with ID 2
+2020-07-30 19:00:55 TRACE GameSystemOracle:111 - Retrieving all systems that is related to game with ID 2
+2020-07-30 19:00:55 TRACE GameSystemOracle:55 - Retrieving game system with ID: 1 from DB
+2020-07-30 19:00:56 TRACE GameSystemOracle:65 - Successfully retrieved game system with id: 1
+2020-07-30 19:00:56 TRACE GameDetailsOracle:128 - Retrieving all details that is related to game with ID 2
+2020-07-30 19:00:56 TRACE CategoryOracle:88 - Retrieving all categories that is related to game with ID 2
+2020-07-30 19:00:56 TRACE CategoryOracle:58 - Retrieving category with ID: 2 from DB
+2020-07-30 19:00:57 TRACE CategoryOracle:68 - Successfully retrieved category with id: 2
+2020-07-30 19:00:57 TRACE DeveloperOracle:167 - Retrieving all developers that is related to game with ID 3
+2020-07-30 19:00:57 TRACE DeveloperOracle:109 - Retrieving category with ID: 21 from DB
+2020-07-30 19:00:57 TRACE DeveloperOracle:119 - Successfully retrieved developer with id: 21
+2020-07-30 19:00:57 TRACE PublisherOracle:79 - Retrieving all publishers that is related to game with ID 3
+2020-07-30 19:00:58 TRACE GameSystemOracle:111 - Retrieving all systems that is related to game with ID 3
+2020-07-30 19:00:58 TRACE GameSystemOracle:55 - Retrieving game system with ID: 1 from DB
+2020-07-30 19:00:59 TRACE GameSystemOracle:65 - Successfully retrieved game system with id: 1
+2020-07-30 19:00:59 TRACE GameDetailsOracle:128 - Retrieving all details that is related to game with ID 3
+2020-07-30 19:00:59 TRACE CategoryOracle:88 - Retrieving all categories that is related to game with ID 3
+2020-07-30 19:00:59 TRACE CategoryOracle:58 - Retrieving category with ID: 3 from DB
+2020-07-30 19:01:00 TRACE CategoryOracle:68 - Successfully retrieved category with id: 3
+2020-07-30 19:01:00 TRACE DeveloperOracle:167 - Retrieving all developers that is related to game with ID 4
+2020-07-30 19:01:00 TRACE PublisherOracle:79 - Retrieving all publishers that is related to game with ID 4
+2020-07-30 19:01:00 TRACE GameSystemOracle:111 - Retrieving all systems that is related to game with ID 4
+2020-07-30 19:01:01 TRACE GameDetailsOracle:128 - Retrieving all details that is related to game with ID 4
+2020-07-30 19:01:01 TRACE CategoryOracle:88 - Retrieving all categories that is related to game with ID 4
+2020-07-30 19:01:02 TRACE GameController:34 - Retrieving all games from inventory...
+2020-07-30 19:01:02 TRACE GameController:39 - Session does not hold stored games, retrieving from DB
+2020-07-30 19:01:02 TRACE GameOracle:94 - Retrieving all game from the game table
+2020-07-30 19:01:02 TRACE DeveloperOracle:167 - Retrieving all developers that is related to game with ID 1
+2020-07-30 19:01:02 TRACE DeveloperOracle:109 - Retrieving category with ID: 41 from DB
+2020-07-30 19:01:03 TRACE DeveloperOracle:119 - Successfully retrieved developer with id: 41
+2020-07-30 19:01:03 TRACE PublisherOracle:79 - Retrieving all publishers that is related to game with ID 1
+2020-07-30 19:01:03 TRACE PublisherOracle:106 - Retrieving publisher with ID: 1 from DB
+2020-07-30 19:01:03 TRACE PublisherOracle:116 - Successfully retrieved publisher with id: 1
+2020-07-30 19:01:04 TRACE GameSystemOracle:111 - Retrieving all systems that is related to game with ID 1
+2020-07-30 19:01:04 TRACE GameSystemOracle:55 - Retrieving game system with ID: 1 from DB
+2020-07-30 19:01:04 TRACE GameSystemOracle:65 - Successfully retrieved game system with id: 1
+2020-07-30 19:01:04 TRACE GameSystemOracle:55 - Retrieving game system with ID: 3 from DB
+2020-07-30 19:01:05 TRACE GameSystemOracle:65 - Successfully retrieved game system with id: 3
+2020-07-30 19:01:05 TRACE GameDetailsOracle:128 - Retrieving all details that is related to game with ID 1
+2020-07-30 19:01:05 TRACE CategoryOracle:88 - Retrieving all categories that is related to game with ID 1
+2020-07-30 19:01:06 TRACE CategoryOracle:58 - Retrieving category with ID: 1 from DB
+2020-07-30 19:01:06 TRACE CategoryOracle:68 - Successfully retrieved category with id: 1
+2020-07-30 19:01:06 TRACE DeveloperOracle:167 - Retrieving all developers that is related to game with ID 2
+2020-07-30 19:01:06 TRACE DeveloperOracle:109 - Retrieving category with ID: 5 from DB
+2020-07-30 19:01:07 TRACE DeveloperOracle:119 - Successfully retrieved developer with id: 5
+2020-07-30 19:01:07 TRACE PublisherOracle:79 - Retrieving all publishers that is related to game with ID 2
+2020-07-30 19:01:07 TRACE GameSystemOracle:111 - Retrieving all systems that is related to game with ID 2
+2020-07-30 19:01:07 TRACE GameSystemOracle:55 - Retrieving game system with ID: 1 from DB
+2020-07-30 19:01:08 TRACE GameSystemOracle:65 - Successfully retrieved game system with id: 1
+2020-07-30 19:01:08 TRACE GameDetailsOracle:128 - Retrieving all details that is related to game with ID 2
+2020-07-30 19:01:08 TRACE CategoryOracle:88 - Retrieving all categories that is related to game with ID 2
+2020-07-30 19:01:09 TRACE CategoryOracle:58 - Retrieving category with ID: 2 from DB
+2020-07-30 19:01:09 TRACE CategoryOracle:68 - Successfully retrieved category with id: 2
+2020-07-30 19:01:09 TRACE DeveloperOracle:167 - Retrieving all developers that is related to game with ID 3
+2020-07-30 19:01:09 TRACE DeveloperOracle:109 - Retrieving category with ID: 21 from DB
+2020-07-30 19:01:10 TRACE DeveloperOracle:119 - Successfully retrieved developer with id: 21
+2020-07-30 19:01:10 TRACE PublisherOracle:79 - Retrieving all publishers that is related to game with ID 3
+2020-07-30 19:01:10 TRACE GameSystemOracle:111 - Retrieving all systems that is related to game with ID 3
+2020-07-30 19:01:10 TRACE GameSystemOracle:55 - Retrieving game system with ID: 1 from DB
+2020-07-30 19:01:11 TRACE GameSystemOracle:65 - Successfully retrieved game system with id: 1
+2020-07-30 19:01:11 TRACE GameDetailsOracle:128 - Retrieving all details that is related to game with ID 3
+2020-07-30 19:01:11 TRACE CategoryOracle:88 - Retrieving all categories that is related to game with ID 3
+2020-07-30 19:01:11 TRACE CategoryOracle:58 - Retrieving category with ID: 3 from DB
+2020-07-30 19:01:12 TRACE CategoryOracle:68 - Successfully retrieved category with id: 3
+2020-07-30 19:01:12 TRACE DeveloperOracle:167 - Retrieving all developers that is related to game with ID 4
+2020-07-30 19:01:12 TRACE PublisherOracle:79 - Retrieving all publishers that is related to game with ID 4
+2020-07-30 19:01:13 TRACE GameSystemOracle:111 - Retrieving all systems that is related to game with ID 4
+2020-07-30 19:01:13 TRACE GameDetailsOracle:128 - Retrieving all details that is related to game with ID 4
+2020-07-30 19:01:13 TRACE CategoryOracle:88 - Retrieving all categories that is related to game with ID 4
+2020-07-30 19:01:26 INFO  UserController:44 - Checking to see if Customer session is occupied
+2020-07-30 19:01:26 TRACE UserController:49 - user is not logged in
+2020-07-30 19:01:27 TRACE GameController:34 - Retrieving all games from inventory...
+2020-07-30 19:01:27 TRACE GameController:37 - Session already hold stored games
+2020-07-30 23:18:28 INFO  UserController:44 - Checking to see if Customer session is occupied
+2020-07-30 23:18:28 TRACE UserController:49 - user is not logged in
+2020-07-30 23:18:29 TRACE GameController:34 - Retrieving all games from inventory...
+2020-07-30 23:18:29 TRACE GameController:39 - Session does not hold stored games, retrieving from DB
+2020-07-30 23:18:29 TRACE GameOracle:94 - Retrieving all game from the game table
+2020-07-30 23:18:29 TRACE DeveloperOracle:167 - Retrieving all developers that is related to game with ID 1
+2020-07-30 23:18:29 TRACE DeveloperOracle:109 - Retrieving category with ID: 41 from DB
+2020-07-30 23:18:30 TRACE DeveloperOracle:119 - Successfully retrieved developer with id: 41
+2020-07-30 23:18:30 TRACE PublisherOracle:79 - Retrieving all publishers that is related to game with ID 1
+2020-07-30 23:18:30 TRACE PublisherOracle:106 - Retrieving publisher with ID: 1 from DB
+2020-07-30 23:18:30 TRACE PublisherOracle:116 - Successfully retrieved publisher with id: 1
+2020-07-30 23:18:30 TRACE GameSystemOracle:111 - Retrieving all systems that is related to game with ID 1
+2020-07-30 23:18:31 TRACE GameSystemOracle:55 - Retrieving game system with ID: 1 from DB
+2020-07-30 23:18:31 TRACE GameSystemOracle:65 - Successfully retrieved game system with id: 1
+2020-07-30 23:18:31 TRACE GameSystemOracle:55 - Retrieving game system with ID: 3 from DB
+2020-07-30 23:18:31 TRACE GameSystemOracle:65 - Successfully retrieved game system with id: 3
+2020-07-30 23:18:32 TRACE GameDetailsOracle:128 - Retrieving all details that is related to game with ID 1
+2020-07-30 23:18:32 TRACE CategoryOracle:88 - Retrieving all categories that is related to game with ID 1
+2020-07-30 23:18:33 TRACE CategoryOracle:58 - Retrieving category with ID: 1 from DB
+2020-07-30 23:18:33 TRACE CategoryOracle:68 - Successfully retrieved category with id: 1
+2020-07-30 23:18:33 TRACE DeveloperOracle:167 - Retrieving all developers that is related to game with ID 2
+2020-07-30 23:18:33 TRACE DeveloperOracle:109 - Retrieving category with ID: 5 from DB
+2020-07-30 23:18:34 TRACE DeveloperOracle:119 - Successfully retrieved developer with id: 5
+2020-07-30 23:18:34 TRACE PublisherOracle:79 - Retrieving all publishers that is related to game with ID 2
+2020-07-30 23:18:34 TRACE GameSystemOracle:111 - Retrieving all systems that is related to game with ID 2
+2020-07-30 23:18:34 TRACE GameSystemOracle:55 - Retrieving game system with ID: 1 from DB
+2020-07-30 23:18:35 TRACE GameSystemOracle:65 - Successfully retrieved game system with id: 1
+2020-07-30 23:18:35 TRACE GameDetailsOracle:128 - Retrieving all details that is related to game with ID 2
+2020-07-30 23:18:35 TRACE CategoryOracle:88 - Retrieving all categories that is related to game with ID 2
+2020-07-30 23:18:36 TRACE CategoryOracle:58 - Retrieving category with ID: 2 from DB
+2020-07-30 23:18:36 TRACE CategoryOracle:68 - Successfully retrieved category with id: 2
+2020-07-30 23:18:36 TRACE DeveloperOracle:167 - Retrieving all developers that is related to game with ID 3
+2020-07-30 23:18:36 TRACE DeveloperOracle:109 - Retrieving category with ID: 21 from DB
+2020-07-30 23:18:37 TRACE DeveloperOracle:119 - Successfully retrieved developer with id: 21
+2020-07-30 23:18:37 TRACE PublisherOracle:79 - Retrieving all publishers that is related to game with ID 3
+2020-07-30 23:18:37 TRACE GameSystemOracle:111 - Retrieving all systems that is related to game with ID 3
+2020-07-30 23:18:37 TRACE GameSystemOracle:55 - Retrieving game system with ID: 1 from DB
+2020-07-30 23:18:38 TRACE GameSystemOracle:65 - Successfully retrieved game system with id: 1
+2020-07-30 23:18:38 TRACE GameDetailsOracle:128 - Retrieving all details that is related to game with ID 3
+2020-07-30 23:18:38 TRACE CategoryOracle:88 - Retrieving all categories that is related to game with ID 3
+2020-07-30 23:18:38 TRACE CategoryOracle:58 - Retrieving category with ID: 3 from DB
+2020-07-30 23:18:39 TRACE CategoryOracle:68 - Successfully retrieved category with id: 3
+2020-07-30 23:18:39 TRACE DeveloperOracle:167 - Retrieving all developers that is related to game with ID 4
+2020-07-30 23:18:39 TRACE PublisherOracle:79 - Retrieving all publishers that is related to game with ID 4
+2020-07-30 23:18:40 TRACE GameSystemOracle:111 - Retrieving all systems that is related to game with ID 4
+2020-07-30 23:18:40 TRACE GameDetailsOracle:128 - Retrieving all details that is related to game with ID 4
+2020-07-30 23:18:40 TRACE CategoryOracle:88 - Retrieving all categories that is related to game with ID 4
+2020-07-30 23:20:21 INFO  UserController:44 - Checking to see if Customer session is occupied
+2020-07-30 23:20:21 TRACE UserController:49 - user is not logged in
+2020-07-30 23:20:21 TRACE GameController:34 - Retrieving all games from inventory...
+2020-07-30 23:20:21 TRACE GameController:39 - Session does not hold stored games, retrieving from DB
+2020-07-30 23:20:21 TRACE GameOracle:94 - Retrieving all game from the game table
+2020-07-30 23:20:21 TRACE DeveloperOracle:167 - Retrieving all developers that is related to game with ID 1
+2020-07-30 23:20:22 TRACE DeveloperOracle:109 - Retrieving category with ID: 41 from DB
+2020-07-30 23:20:22 TRACE DeveloperOracle:119 - Successfully retrieved developer with id: 41
+2020-07-30 23:20:22 TRACE GameSystemOracle:111 - Retrieving all systems that is related to game with ID 1
+2020-07-30 23:20:22 TRACE GameSystemOracle:55 - Retrieving game system with ID: 1 from DB
+2020-07-30 23:20:23 TRACE GameSystemOracle:65 - Successfully retrieved game system with id: 1
+2020-07-30 23:20:23 TRACE GameSystemOracle:55 - Retrieving game system with ID: 3 from DB
+2020-07-30 23:20:23 TRACE GameSystemOracle:65 - Successfully retrieved game system with id: 3
+2020-07-30 23:20:23 TRACE DeveloperOracle:167 - Retrieving all developers that is related to game with ID 2
+2020-07-30 23:20:23 TRACE DeveloperOracle:109 - Retrieving category with ID: 5 from DB
+2020-07-30 23:20:24 TRACE DeveloperOracle:119 - Successfully retrieved developer with id: 5
+2020-07-30 23:20:24 TRACE GameSystemOracle:111 - Retrieving all systems that is related to game with ID 2
+2020-07-30 23:20:24 TRACE GameSystemOracle:55 - Retrieving game system with ID: 1 from DB
+2020-07-30 23:20:24 TRACE GameSystemOracle:65 - Successfully retrieved game system with id: 1
+2020-07-30 23:20:24 TRACE DeveloperOracle:167 - Retrieving all developers that is related to game with ID 3
+2020-07-30 23:20:25 TRACE DeveloperOracle:109 - Retrieving category with ID: 21 from DB
+2020-07-30 23:20:25 TRACE DeveloperOracle:119 - Successfully retrieved developer with id: 21
+2020-07-30 23:20:25 TRACE GameSystemOracle:111 - Retrieving all systems that is related to game with ID 3
+2020-07-30 23:20:26 TRACE GameSystemOracle:55 - Retrieving game system with ID: 1 from DB
+2020-07-30 23:20:26 TRACE GameSystemOracle:65 - Successfully retrieved game system with id: 1
+2020-07-30 23:20:26 TRACE DeveloperOracle:167 - Retrieving all developers that is related to game with ID 4
+2020-07-30 23:20:26 TRACE GameSystemOracle:111 - Retrieving all systems that is related to game with ID 4
+2020-07-31 00:18:43 INFO  UserController:44 - Checking to see if Customer session is occupied
+2020-07-31 00:18:43 TRACE UserController:49 - user is not logged in
+2020-07-31 12:58:23 INFO  UserController:44 - Checking to see if Customer session is occupied
+2020-07-31 12:58:24 TRACE UserController:49 - user is not logged in
+2020-07-31 13:23:10 INFO  UserController:44 - Checking to see if Customer session is occupied
+2020-07-31 13:23:10 TRACE UserController:49 - user is not logged in
+2020-07-31 13:23:19 INFO  UserController:44 - Checking to see if Customer session is occupied
+2020-07-31 13:23:19 TRACE UserController:49 - user is not logged in
+2020-07-31 13:23:24 INFO  UserController:44 - Checking to see if Customer session is occupied
+2020-07-31 13:23:24 TRACE UserController:49 - user is not logged in
+2020-07-31 13:23:29 INFO  UserController:44 - Checking to see if Customer session is occupied
+2020-07-31 13:23:29 TRACE UserController:49 - user is not logged in
+2020-07-31 13:23:38 INFO  UserController:44 - Checking to see if Customer session is occupied
+2020-07-31 13:23:38 TRACE UserController:49 - user is not logged in
+2020-07-31 13:23:48 INFO  UserController:44 - Checking to see if Customer session is occupied
+2020-07-31 13:23:48 TRACE UserController:49 - user is not logged in
+2020-07-31 13:24:01 INFO  UserController:44 - Checking to see if Customer session is occupied
+2020-07-31 13:24:01 TRACE UserController:49 - user is not logged in
+2020-07-31 13:24:05 TRACE GameController:34 - Retrieving all games from inventory...
+2020-07-31 13:24:05 TRACE GameController:39 - Session does not hold stored games, retrieving from DB
+2020-07-31 13:24:05 TRACE GameOracle:94 - Retrieving all game from the game table
+2020-07-31 13:24:06 TRACE DeveloperOracle:167 - Retrieving all developers that is related to game with ID 1
+2020-07-31 13:24:06 TRACE DeveloperOracle:109 - Retrieving category with ID: 41 from DB
+2020-07-31 13:24:07 TRACE DeveloperOracle:119 - Successfully retrieved developer with id: 41
+2020-07-31 13:24:07 TRACE GameSystemOracle:111 - Retrieving all systems that is related to game with ID 1
+2020-07-31 13:24:07 TRACE GameSystemOracle:55 - Retrieving game system with ID: 1 from DB
+2020-07-31 13:24:07 TRACE GameSystemOracle:65 - Successfully retrieved game system with id: 1
+2020-07-31 13:24:07 TRACE GameSystemOracle:55 - Retrieving game system with ID: 3 from DB
+2020-07-31 13:24:08 TRACE GameSystemOracle:65 - Successfully retrieved game system with id: 3
+2020-07-31 13:24:08 TRACE DeveloperOracle:167 - Retrieving all developers that is related to game with ID 2
+2020-07-31 13:24:08 TRACE DeveloperOracle:109 - Retrieving category with ID: 5 from DB
+2020-07-31 13:24:08 TRACE DeveloperOracle:119 - Successfully retrieved developer with id: 5
+2020-07-31 13:24:08 TRACE GameSystemOracle:111 - Retrieving all systems that is related to game with ID 2
+2020-07-31 13:24:09 TRACE GameSystemOracle:55 - Retrieving game system with ID: 1 from DB
+2020-07-31 13:24:09 TRACE GameSystemOracle:65 - Successfully retrieved game system with id: 1
+2020-07-31 13:24:09 TRACE DeveloperOracle:167 - Retrieving all developers that is related to game with ID 3
+2020-07-31 13:24:09 TRACE DeveloperOracle:109 - Retrieving category with ID: 21 from DB
+2020-07-31 13:24:10 TRACE DeveloperOracle:119 - Successfully retrieved developer with id: 21
+2020-07-31 13:24:10 TRACE GameSystemOracle:111 - Retrieving all systems that is related to game with ID 3
+2020-07-31 13:24:10 TRACE GameSystemOracle:55 - Retrieving game system with ID: 1 from DB
+2020-07-31 13:24:10 TRACE GameSystemOracle:65 - Successfully retrieved game system with id: 1
+2020-07-31 13:24:10 TRACE DeveloperOracle:167 - Retrieving all developers that is related to game with ID 4
+2020-07-31 13:24:11 TRACE GameSystemOracle:111 - Retrieving all systems that is related to game with ID 4
+2020-07-31 13:24:17 TRACE GameController:34 - Retrieving all games from inventory...
+2020-07-31 13:24:17 TRACE GameController:37 - Session already hold stored games
+2020-07-31 13:24:18 TRACE GameController:34 - Retrieving all games from inventory...
+2020-07-31 13:24:18 TRACE GameController:37 - Session already hold stored games
+2020-07-31 13:24:33 INFO  UserController:44 - Checking to see if Customer session is occupied
+2020-07-31 13:24:33 TRACE UserController:49 - user is not logged in
+2020-07-31 13:24:33 TRACE GameController:34 - Retrieving all games from inventory...
+2020-07-31 13:24:33 TRACE GameController:37 - Session already hold stored games
+2020-07-31 13:24:53 INFO  UserController:44 - Checking to see if Customer session is occupied
+2020-07-31 13:24:53 TRACE UserController:49 - user is not logged in
+2020-07-31 13:24:53 TRACE GameController:34 - Retrieving all games from inventory...
+2020-07-31 13:24:53 TRACE GameController:37 - Session already hold stored games
+2020-07-31 13:25:06 INFO  UserController:44 - Checking to see if Customer session is occupied
+2020-07-31 13:25:06 TRACE UserController:49 - user is not logged in
+2020-07-31 13:25:06 TRACE GameController:34 - Retrieving all games from inventory...
+2020-07-31 13:25:06 TRACE GameController:37 - Session already hold stored games
+2020-07-31 13:25:09 INFO  UserController:44 - Checking to see if Customer session is occupied
+2020-07-31 13:25:09 TRACE UserController:49 - user is not logged in
+2020-07-31 13:25:10 TRACE GameController:34 - Retrieving all games from inventory...
+2020-07-31 13:25:10 TRACE GameController:37 - Session already hold stored games
+2020-07-31 13:25:14 INFO  UserController:44 - Checking to see if Customer session is occupied
+2020-07-31 13:25:14 TRACE UserController:49 - user is not logged in
+2020-07-31 13:25:14 TRACE GameController:34 - Retrieving all games from inventory...
+2020-07-31 13:25:14 TRACE GameController:37 - Session already hold stored games
+2020-07-31 13:25:26 INFO  UserController:44 - Checking to see if Customer session is occupied
+2020-07-31 13:25:26 TRACE UserController:49 - user is not logged in
+2020-07-31 13:25:26 TRACE GameController:34 - Retrieving all games from inventory...
+2020-07-31 13:25:26 TRACE GameController:37 - Session already hold stored games
+2020-07-31 13:26:06 INFO  UserController:44 - Checking to see if Customer session is occupied
+2020-07-31 13:26:06 TRACE UserController:49 - user is not logged in
+2020-07-31 13:26:06 TRACE GameController:34 - Retrieving all games from inventory...
+2020-07-31 13:26:06 TRACE GameController:37 - Session already hold stored games
+2020-07-31 13:26:17 INFO  UserController:44 - Checking to see if Customer session is occupied
+2020-07-31 13:26:17 TRACE UserController:49 - user is not logged in
+2020-07-31 13:26:17 TRACE GameController:34 - Retrieving all games from inventory...
+2020-07-31 13:26:17 TRACE GameController:37 - Session already hold stored games
+2020-07-31 13:26:25 INFO  UserController:44 - Checking to see if Customer session is occupied
+2020-07-31 13:26:25 TRACE UserController:49 - user is not logged in
+2020-07-31 13:26:25 TRACE GameController:34 - Retrieving all games from inventory...
+2020-07-31 13:26:25 TRACE GameController:37 - Session already hold stored games
+2020-07-31 13:26:29 INFO  UserController:44 - Checking to see if Customer session is occupied
+2020-07-31 13:26:29 TRACE UserController:49 - user is not logged in
+2020-07-31 13:26:29 TRACE GameController:34 - Retrieving all games from inventory...
+2020-07-31 13:26:29 TRACE GameController:37 - Session already hold stored games
+2020-07-31 13:26:41 INFO  UserController:44 - Checking to see if Customer session is occupied
+2020-07-31 13:26:41 TRACE UserController:49 - user is not logged in
+2020-07-31 13:26:41 TRACE GameController:34 - Retrieving all games from inventory...
+2020-07-31 13:26:41 TRACE GameController:37 - Session already hold stored games
+2020-07-31 13:27:16 INFO  UserController:44 - Checking to see if Customer session is occupied
+2020-07-31 13:27:16 TRACE UserController:49 - user is not logged in
+2020-07-31 13:27:16 TRACE GameController:34 - Retrieving all games from inventory...
+2020-07-31 13:27:16 TRACE GameController:37 - Session already hold stored games
+2020-07-31 13:27:20 INFO  UserController:44 - Checking to see if Customer session is occupied
+2020-07-31 13:27:20 TRACE UserController:49 - user is not logged in
+2020-07-31 13:27:20 TRACE GameController:34 - Retrieving all games from inventory...
+2020-07-31 13:27:20 TRACE GameController:37 - Session already hold stored games
+2020-07-31 13:27:23 INFO  UserController:44 - Checking to see if Customer session is occupied
+2020-07-31 13:27:23 TRACE UserController:49 - user is not logged in
+2020-07-31 13:27:23 TRACE GameController:34 - Retrieving all games from inventory...
+2020-07-31 13:27:23 TRACE GameController:37 - Session already hold stored games
+2020-07-31 13:27:26 INFO  UserController:44 - Checking to see if Customer session is occupied
+2020-07-31 13:27:26 TRACE UserController:49 - user is not logged in
+2020-07-31 13:27:26 TRACE GameController:34 - Retrieving all games from inventory...
+2020-07-31 13:27:26 TRACE GameController:37 - Session already hold stored games
+2020-07-31 13:27:36 INFO  UserController:44 - Checking to see if Customer session is occupied
+2020-07-31 13:27:36 TRACE UserController:49 - user is not logged in
+2020-07-31 13:27:36 TRACE GameController:34 - Retrieving all games from inventory...
+2020-07-31 13:27:36 TRACE GameController:37 - Session already hold stored games
+2020-07-31 13:27:42 INFO  UserController:44 - Checking to see if Customer session is occupied
+2020-07-31 13:27:42 TRACE UserController:49 - user is not logged in
+2020-07-31 13:27:42 TRACE GameController:34 - Retrieving all games from inventory...
+2020-07-31 13:27:42 TRACE GameController:37 - Session already hold stored games
+2020-07-31 13:27:47 TRACE GameOracle:62 - Retrieving game with ID: 1 from DB
+2020-07-31 13:27:47 TRACE GameOracle:70 - Successfully retrieved game with id: 1
+2020-07-31 13:27:47 TRACE DeveloperOracle:167 - Retrieving all developers that is related to game with ID 1
+2020-07-31 13:27:48 TRACE DeveloperOracle:109 - Retrieving category with ID: 41 from DB
+2020-07-31 13:27:48 TRACE DeveloperOracle:119 - Successfully retrieved developer with id: 41
+2020-07-31 13:27:48 TRACE PublisherOracle:79 - Retrieving all publishers that is related to game with ID 1
+2020-07-31 13:27:48 TRACE PublisherOracle:106 - Retrieving publisher with ID: 1 from DB
+2020-07-31 13:27:49 TRACE PublisherOracle:116 - Successfully retrieved publisher with id: 1
+2020-07-31 13:27:49 TRACE GameSystemOracle:111 - Retrieving all systems that is related to game with ID 1
+2020-07-31 13:27:49 TRACE GameSystemOracle:55 - Retrieving game system with ID: 1 from DB
+2020-07-31 13:27:49 TRACE GameSystemOracle:65 - Successfully retrieved game system with id: 1
+2020-07-31 13:27:49 TRACE GameSystemOracle:55 - Retrieving game system with ID: 3 from DB
+2020-07-31 13:27:50 TRACE GameSystemOracle:65 - Successfully retrieved game system with id: 3
+2020-07-31 13:27:50 TRACE GameDetailsOracle:97 - Retrieving all details that is related to game with ID 1
+2020-07-31 13:27:50 TRACE GameOracle:62 - Retrieving game with ID: 1 from DB
+2020-07-31 13:27:50 TRACE GameOracle:70 - Successfully retrieved game with id: 1
+2020-07-31 13:27:51 TRACE CategoryOracle:88 - Retrieving all categories that is related to game with ID 1
+2020-07-31 13:27:51 TRACE CategoryOracle:58 - Retrieving category with ID: 1 from DB
+2020-07-31 13:27:51 TRACE CategoryOracle:68 - Successfully retrieved category with id: 1
+2020-07-31 13:27:52 INFO  UserController:44 - Checking to see if Customer session is occupied
+2020-07-31 13:27:52 TRACE UserController:49 - user is not logged in
+2020-07-31 13:27:52 TRACE GameOracle:62 - Retrieving game with ID: 1 from DB
+2020-07-31 13:27:52 TRACE GameOracle:70 - Successfully retrieved game with id: 1
+2020-07-31 13:27:53 TRACE DeveloperOracle:167 - Retrieving all developers that is related to game with ID 1
+2020-07-31 13:27:53 TRACE DeveloperOracle:109 - Retrieving category with ID: 41 from DB
+2020-07-31 13:27:53 TRACE DeveloperOracle:119 - Successfully retrieved developer with id: 41
+2020-07-31 13:27:53 TRACE PublisherOracle:79 - Retrieving all publishers that is related to game with ID 1
+2020-07-31 13:27:54 TRACE PublisherOracle:106 - Retrieving publisher with ID: 1 from DB
+2020-07-31 13:27:54 TRACE PublisherOracle:116 - Successfully retrieved publisher with id: 1
+2020-07-31 13:27:54 TRACE GameSystemOracle:111 - Retrieving all systems that is related to game with ID 1
+2020-07-31 13:27:54 TRACE GameSystemOracle:55 - Retrieving game system with ID: 1 from DB
+2020-07-31 13:27:55 TRACE GameSystemOracle:65 - Successfully retrieved game system with id: 1
+2020-07-31 13:27:55 TRACE GameSystemOracle:55 - Retrieving game system with ID: 3 from DB
+2020-07-31 13:27:55 TRACE GameSystemOracle:65 - Successfully retrieved game system with id: 3
+2020-07-31 13:27:55 TRACE GameDetailsOracle:97 - Retrieving all details that is related to game with ID 1
+2020-07-31 13:27:55 TRACE GameOracle:62 - Retrieving game with ID: 1 from DB
+2020-07-31 13:27:56 TRACE GameOracle:70 - Successfully retrieved game with id: 1
+2020-07-31 13:27:56 TRACE CategoryOracle:88 - Retrieving all categories that is related to game with ID 1
+2020-07-31 13:27:56 TRACE CategoryOracle:58 - Retrieving category with ID: 1 from DB
+2020-07-31 13:27:56 TRACE CategoryOracle:68 - Successfully retrieved category with id: 1
+2020-07-31 13:28:29 TRACE GameController:34 - Retrieving all games from inventory...
+2020-07-31 13:28:29 TRACE GameController:37 - Session already hold stored games
+2020-07-31 13:29:09 INFO  UserController:44 - Checking to see if Customer session is occupied
+2020-07-31 13:29:09 TRACE UserController:49 - user is not logged in
+2020-07-31 13:29:09 TRACE GameController:34 - Retrieving all games from inventory...
+2020-07-31 13:29:09 TRACE GameController:37 - Session already hold stored games
+2020-07-31 13:29:23 INFO  UserController:44 - Checking to see if Customer session is occupied
+2020-07-31 13:29:23 TRACE UserController:49 - user is not logged in
+2020-07-31 13:29:23 TRACE GameController:34 - Retrieving all games from inventory...
+2020-07-31 13:29:23 TRACE GameController:37 - Session already hold stored games
+2020-07-31 13:30:06 INFO  UserController:44 - Checking to see if Customer session is occupied
+2020-07-31 13:30:06 TRACE UserController:49 - user is not logged in
+2020-07-31 13:30:06 TRACE GameController:34 - Retrieving all games from inventory...
+2020-07-31 13:30:06 TRACE GameController:37 - Session already hold stored games
+2020-07-31 13:30:17 INFO  UserController:44 - Checking to see if Customer session is occupied
+2020-07-31 13:30:17 TRACE UserController:49 - user is not logged in
+2020-07-31 13:30:17 TRACE GameController:34 - Retrieving all games from inventory...
+2020-07-31 13:30:17 TRACE GameController:37 - Session already hold stored games
+2020-07-31 13:30:22 INFO  UserController:44 - Checking to see if Customer session is occupied
+2020-07-31 13:30:22 TRACE UserController:49 - user is not logged in
+2020-07-31 13:30:22 TRACE GameController:34 - Retrieving all games from inventory...
+2020-07-31 13:30:22 TRACE GameController:37 - Session already hold stored games
+2020-07-31 13:30:35 INFO  UserController:44 - Checking to see if Customer session is occupied
+2020-07-31 13:30:35 TRACE UserController:49 - user is not logged in
+2020-07-31 13:30:35 TRACE GameController:34 - Retrieving all games from inventory...
+2020-07-31 13:30:35 TRACE GameController:37 - Session already hold stored games
+2020-07-31 13:31:18 INFO  UserController:44 - Checking to see if Customer session is occupied
+2020-07-31 13:31:18 TRACE UserController:49 - user is not logged in
+2020-07-31 13:31:18 TRACE GameController:34 - Retrieving all games from inventory...
+2020-07-31 13:31:18 TRACE GameController:37 - Session already hold stored games
+2020-07-31 13:31:32 INFO  UserController:44 - Checking to see if Customer session is occupied
+2020-07-31 13:31:32 TRACE UserController:49 - user is not logged in
+2020-07-31 13:31:32 TRACE GameController:34 - Retrieving all games from inventory...
+2020-07-31 13:31:32 TRACE GameController:37 - Session already hold stored games
+2020-07-31 13:31:35 INFO  UserController:44 - Checking to see if Customer session is occupied
+2020-07-31 13:31:35 TRACE UserController:49 - user is not logged in
+2020-07-31 13:31:36 TRACE GameController:34 - Retrieving all games from inventory...
+2020-07-31 13:31:36 TRACE GameController:37 - Session already hold stored games
+2020-07-31 13:31:37 TRACE GameOracle:62 - Retrieving game with ID: 2 from DB
+2020-07-31 13:31:37 TRACE GameOracle:70 - Successfully retrieved game with id: 2
+2020-07-31 13:31:37 TRACE DeveloperOracle:167 - Retrieving all developers that is related to game with ID 2
+2020-07-31 13:31:37 TRACE DeveloperOracle:109 - Retrieving category with ID: 5 from DB
+2020-07-31 13:31:38 TRACE DeveloperOracle:119 - Successfully retrieved developer with id: 5
+2020-07-31 13:31:38 TRACE PublisherOracle:79 - Retrieving all publishers that is related to game with ID 2
+2020-07-31 13:31:38 TRACE GameSystemOracle:111 - Retrieving all systems that is related to game with ID 2
+2020-07-31 13:31:38 TRACE GameSystemOracle:55 - Retrieving game system with ID: 1 from DB
+2020-07-31 13:31:39 TRACE GameSystemOracle:65 - Successfully retrieved game system with id: 1
+2020-07-31 13:31:39 TRACE GameDetailsOracle:97 - Retrieving all details that is related to game with ID 2
+2020-07-31 13:31:39 TRACE GameOracle:62 - Retrieving game with ID: 2 from DB
+2020-07-31 13:31:40 TRACE GameOracle:70 - Successfully retrieved game with id: 2
+2020-07-31 13:31:40 TRACE CategoryOracle:88 - Retrieving all categories that is related to game with ID 2
+2020-07-31 13:31:40 TRACE CategoryOracle:58 - Retrieving category with ID: 2 from DB
+2020-07-31 13:31:40 TRACE CategoryOracle:68 - Successfully retrieved category with id: 2
+2020-07-31 13:32:54 INFO  UserController:44 - Checking to see if Customer session is occupied
+2020-07-31 13:32:54 TRACE UserController:49 - user is not logged in
+2020-07-31 13:32:55 TRACE GameOracle:62 - Retrieving game with ID: 2 from DB
+2020-07-31 13:32:55 TRACE GameOracle:70 - Successfully retrieved game with id: 2
+2020-07-31 13:32:55 TRACE DeveloperOracle:167 - Retrieving all developers that is related to game with ID 2
+2020-07-31 13:32:55 TRACE DeveloperOracle:109 - Retrieving category with ID: 5 from DB
+2020-07-31 13:32:56 TRACE DeveloperOracle:119 - Successfully retrieved developer with id: 5
+2020-07-31 13:32:56 TRACE PublisherOracle:79 - Retrieving all publishers that is related to game with ID 2
+2020-07-31 13:32:56 TRACE GameSystemOracle:111 - Retrieving all systems that is related to game with ID 2
+2020-07-31 13:32:56 TRACE GameSystemOracle:55 - Retrieving game system with ID: 1 from DB
+2020-07-31 13:32:57 TRACE GameSystemOracle:65 - Successfully retrieved game system with id: 1
+2020-07-31 13:32:57 TRACE GameDetailsOracle:97 - Retrieving all details that is related to game with ID 2
+2020-07-31 13:32:57 TRACE GameOracle:62 - Retrieving game with ID: 2 from DB
+2020-07-31 13:32:58 TRACE GameOracle:70 - Successfully retrieved game with id: 2
+2020-07-31 13:32:58 TRACE CategoryOracle:88 - Retrieving all categories that is related to game with ID 2
+2020-07-31 13:32:58 TRACE CategoryOracle:58 - Retrieving category with ID: 2 from DB
+2020-07-31 13:32:58 TRACE CategoryOracle:68 - Successfully retrieved category with id: 2
+2020-07-31 13:33:01 TRACE GameController:34 - Retrieving all games from inventory...
+2020-07-31 13:33:01 TRACE GameController:37 - Session already hold stored games
+2020-07-31 13:33:59 TRACE GameOracle:62 - Retrieving game with ID: 2 from DB
+2020-07-31 13:33:59 TRACE GameOracle:70 - Successfully retrieved game with id: 2
+2020-07-31 13:33:59 TRACE DeveloperOracle:167 - Retrieving all developers that is related to game with ID 2
+2020-07-31 13:34:00 TRACE DeveloperOracle:109 - Retrieving category with ID: 5 from DB
+2020-07-31 13:34:00 TRACE DeveloperOracle:119 - Successfully retrieved developer with id: 5
+2020-07-31 13:34:00 TRACE PublisherOracle:79 - Retrieving all publishers that is related to game with ID 2
+2020-07-31 13:34:00 TRACE GameSystemOracle:111 - Retrieving all systems that is related to game with ID 2
+2020-07-31 13:34:01 TRACE GameSystemOracle:55 - Retrieving game system with ID: 1 from DB
+2020-07-31 13:34:01 TRACE GameSystemOracle:65 - Successfully retrieved game system with id: 1
+2020-07-31 13:34:01 TRACE GameDetailsOracle:97 - Retrieving all details that is related to game with ID 2
+2020-07-31 13:34:01 TRACE GameOracle:62 - Retrieving game with ID: 2 from DB
+2020-07-31 13:34:02 TRACE GameOracle:70 - Successfully retrieved game with id: 2
+2020-07-31 13:34:02 TRACE CategoryOracle:88 - Retrieving all categories that is related to game with ID 2
+2020-07-31 13:34:02 TRACE CategoryOracle:58 - Retrieving category with ID: 2 from DB
+2020-07-31 13:34:03 TRACE CategoryOracle:68 - Successfully retrieved category with id: 2
+2020-07-31 13:34:12 TRACE GameController:34 - Retrieving all games from inventory...
+2020-07-31 13:34:12 TRACE GameController:37 - Session already hold stored games
+2020-07-31 13:44:47 TRACE GameOracle:62 - Retrieving game with ID: 3 from DB
+2020-07-31 13:44:48 TRACE GameOracle:70 - Successfully retrieved game with id: 3
+2020-07-31 13:44:48 TRACE DeveloperOracle:167 - Retrieving all developers that is related to game with ID 3
+2020-07-31 13:44:49 TRACE DeveloperOracle:109 - Retrieving category with ID: 21 from DB
+2020-07-31 13:44:49 TRACE DeveloperOracle:119 - Successfully retrieved developer with id: 21
+2020-07-31 13:44:49 TRACE PublisherOracle:79 - Retrieving all publishers that is related to game with ID 3
+2020-07-31 13:44:49 TRACE GameSystemOracle:111 - Retrieving all systems that is related to game with ID 3
+2020-07-31 13:44:50 TRACE GameSystemOracle:55 - Retrieving game system with ID: 1 from DB
+2020-07-31 13:44:50 TRACE GameSystemOracle:65 - Successfully retrieved game system with id: 1
+2020-07-31 13:44:50 TRACE GameDetailsOracle:97 - Retrieving all details that is related to game with ID 3
+2020-07-31 13:44:51 TRACE GameOracle:62 - Retrieving game with ID: 3 from DB
+2020-07-31 13:44:51 TRACE GameOracle:70 - Successfully retrieved game with id: 3
+2020-07-31 13:44:51 TRACE CategoryOracle:88 - Retrieving all categories that is related to game with ID 3
+2020-07-31 13:44:51 TRACE CategoryOracle:58 - Retrieving category with ID: 3 from DB
+2020-07-31 13:44:52 TRACE CategoryOracle:68 - Successfully retrieved category with id: 3
+2020-07-31 13:44:58 TRACE GameController:34 - Retrieving all games from inventory...
+2020-07-31 13:44:58 TRACE GameController:37 - Session already hold stored games
+2020-07-31 13:44:59 TRACE GameOracle:62 - Retrieving game with ID: 2 from DB
+2020-07-31 13:44:59 TRACE GameOracle:70 - Successfully retrieved game with id: 2
+2020-07-31 13:44:59 TRACE DeveloperOracle:167 - Retrieving all developers that is related to game with ID 2
+2020-07-31 13:45:00 TRACE DeveloperOracle:109 - Retrieving category with ID: 5 from DB
+2020-07-31 13:45:00 TRACE DeveloperOracle:119 - Successfully retrieved developer with id: 5
+2020-07-31 13:45:00 TRACE PublisherOracle:79 - Retrieving all publishers that is related to game with ID 2
+2020-07-31 13:45:01 TRACE GameSystemOracle:111 - Retrieving all systems that is related to game with ID 2
+2020-07-31 13:45:01 TRACE GameSystemOracle:55 - Retrieving game system with ID: 1 from DB
+2020-07-31 13:45:01 TRACE GameSystemOracle:65 - Successfully retrieved game system with id: 1
+2020-07-31 13:45:02 TRACE GameDetailsOracle:97 - Retrieving all details that is related to game with ID 2
+2020-07-31 13:45:02 TRACE GameOracle:62 - Retrieving game with ID: 2 from DB
+2020-07-31 13:45:02 INFO  UserController:44 - Checking to see if Customer session is occupied
+2020-07-31 13:45:02 TRACE UserController:49 - user is not logged in
+2020-07-31 13:45:02 TRACE GameOracle:70 - Successfully retrieved game with id: 2
+2020-07-31 13:45:03 TRACE CategoryOracle:88 - Retrieving all categories that is related to game with ID 2
+2020-07-31 13:45:03 TRACE CategoryOracle:58 - Retrieving category with ID: 2 from DB
+2020-07-31 13:45:03 TRACE GameController:34 - Retrieving all games from inventory...
+2020-07-31 13:45:03 TRACE GameController:37 - Session already hold stored games
+2020-07-31 13:45:03 TRACE CategoryOracle:68 - Successfully retrieved category with id: 2
+2020-07-31 13:45:05 INFO  UserController:44 - Checking to see if Customer session is occupied
+2020-07-31 13:45:05 TRACE UserController:49 - user is not logged in
+2020-07-31 13:45:06 TRACE GameController:34 - Retrieving all games from inventory...
+2020-07-31 13:45:06 TRACE GameController:37 - Session already hold stored games
+2020-07-31 13:45:07 TRACE GameOracle:62 - Retrieving game with ID: 2 from DB
+2020-07-31 13:45:07 TRACE GameOracle:70 - Successfully retrieved game with id: 2
+2020-07-31 13:45:07 TRACE DeveloperOracle:167 - Retrieving all developers that is related to game with ID 2
+2020-07-31 13:45:08 TRACE DeveloperOracle:109 - Retrieving category with ID: 5 from DB
+2020-07-31 13:45:09 TRACE DeveloperOracle:119 - Successfully retrieved developer with id: 5
+2020-07-31 13:45:09 TRACE PublisherOracle:79 - Retrieving all publishers that is related to game with ID 2
+2020-07-31 13:45:09 TRACE GameSystemOracle:111 - Retrieving all systems that is related to game with ID 2
+2020-07-31 13:45:09 TRACE GameSystemOracle:55 - Retrieving game system with ID: 1 from DB
+2020-07-31 13:45:10 TRACE GameSystemOracle:65 - Successfully retrieved game system with id: 1
+2020-07-31 13:45:10 TRACE GameDetailsOracle:97 - Retrieving all details that is related to game with ID 2
+2020-07-31 13:45:10 TRACE GameOracle:62 - Retrieving game with ID: 2 from DB
+2020-07-31 13:45:11 TRACE GameOracle:70 - Successfully retrieved game with id: 2
+2020-07-31 13:45:11 TRACE CategoryOracle:88 - Retrieving all categories that is related to game with ID 2
+2020-07-31 13:45:11 TRACE CategoryOracle:58 - Retrieving category with ID: 2 from DB
+2020-07-31 13:45:11 TRACE CategoryOracle:68 - Successfully retrieved category with id: 2
+2020-07-31 14:21:29 INFO  UserController:44 - Checking to see if Customer session is occupied
+2020-07-31 14:21:29 TRACE UserController:49 - user is not logged in
+2020-07-31 14:21:43 TRACE GameController:34 - Retrieving all games from inventory...
+2020-07-31 14:21:43 TRACE GameController:39 - Session does not hold stored games, retrieving from DB
+2020-07-31 14:21:43 TRACE GameOracle:94 - Retrieving all game from the game table
+2020-07-31 14:21:44 TRACE DeveloperOracle:167 - Retrieving all developers that is related to game with ID 1
+2020-07-31 14:21:44 TRACE DeveloperOracle:109 - Retrieving category with ID: 41 from DB
+2020-07-31 14:21:45 TRACE DeveloperOracle:119 - Successfully retrieved developer with id: 41
+2020-07-31 14:21:45 TRACE GameSystemOracle:111 - Retrieving all systems that is related to game with ID 1
+2020-07-31 14:21:45 TRACE GameSystemOracle:55 - Retrieving game system with ID: 1 from DB
+2020-07-31 14:21:46 TRACE GameSystemOracle:65 - Successfully retrieved game system with id: 1
+2020-07-31 14:21:46 TRACE GameSystemOracle:55 - Retrieving game system with ID: 3 from DB
+2020-07-31 14:21:46 TRACE GameSystemOracle:65 - Successfully retrieved game system with id: 3
+2020-07-31 14:21:46 TRACE DeveloperOracle:167 - Retrieving all developers that is related to game with ID 2
+2020-07-31 14:21:46 TRACE DeveloperOracle:109 - Retrieving category with ID: 5 from DB
+2020-07-31 14:21:47 TRACE DeveloperOracle:119 - Successfully retrieved developer with id: 5
+2020-07-31 14:21:47 TRACE GameSystemOracle:111 - Retrieving all systems that is related to game with ID 2
+2020-07-31 14:21:47 TRACE GameSystemOracle:55 - Retrieving game system with ID: 1 from DB
+2020-07-31 14:21:48 TRACE GameSystemOracle:65 - Successfully retrieved game system with id: 1
+2020-07-31 14:21:48 TRACE DeveloperOracle:167 - Retrieving all developers that is related to game with ID 3
+2020-07-31 14:21:48 TRACE DeveloperOracle:109 - Retrieving category with ID: 21 from DB
+2020-07-31 14:21:48 TRACE DeveloperOracle:119 - Successfully retrieved developer with id: 21
+2020-07-31 14:21:48 TRACE GameSystemOracle:111 - Retrieving all systems that is related to game with ID 3
+2020-07-31 14:21:49 TRACE GameSystemOracle:55 - Retrieving game system with ID: 1 from DB
+2020-07-31 14:21:49 TRACE GameSystemOracle:65 - Successfully retrieved game system with id: 1
+2020-07-31 14:21:49 TRACE DeveloperOracle:167 - Retrieving all developers that is related to game with ID 4
+2020-07-31 14:21:49 TRACE GameSystemOracle:111 - Retrieving all systems that is related to game with ID 4
+2020-07-31 14:21:50 INFO  UserController:44 - Checking to see if Customer session is occupied
+2020-07-31 14:21:50 TRACE UserController:49 - user is not logged in
+2020-07-31 14:28:44 INFO  UserController:44 - Checking to see if Customer session is occupied
+2020-07-31 14:28:44 TRACE UserController:49 - user is not logged in
+2020-07-31 14:28:44 INFO  UserController:44 - Checking to see if Customer session is occupied
+2020-07-31 14:28:44 TRACE UserController:49 - user is not logged in
+2020-07-31 14:28:46 TRACE GameController:34 - Retrieving all games from inventory...
+2020-07-31 14:28:46 TRACE GameController:37 - Session already hold stored games
+2020-07-31 14:28:46 INFO  UserController:44 - Checking to see if Customer session is occupied
+2020-07-31 14:28:46 TRACE UserController:49 - user is not logged in
+2020-07-31 15:02:58 TRACE GameController:34 - Retrieving all games from inventory...
+2020-07-31 15:02:58 TRACE GameController:39 - Session does not hold stored games, retrieving from DB
+2020-07-31 15:02:58 TRACE GameOracle:94 - Retrieving all game from the game table
+2020-07-31 15:02:58 TRACE DeveloperOracle:167 - Retrieving all developers that is related to game with ID 1
+2020-07-31 15:02:58 TRACE DeveloperOracle:109 - Retrieving category with ID: 41 from DB
+2020-07-31 15:02:59 TRACE DeveloperOracle:119 - Successfully retrieved developer with id: 41
+2020-07-31 15:02:59 TRACE GameSystemOracle:111 - Retrieving all systems that is related to game with ID 1
+2020-07-31 15:02:59 TRACE GameSystemOracle:55 - Retrieving game system with ID: 1 from DB
+2020-07-31 15:03:00 TRACE GameSystemOracle:65 - Successfully retrieved game system with id: 1
+2020-07-31 15:03:00 TRACE GameSystemOracle:55 - Retrieving game system with ID: 3 from DB
+2020-07-31 15:03:00 TRACE GameSystemOracle:65 - Successfully retrieved game system with id: 3
+2020-07-31 15:03:00 TRACE DeveloperOracle:167 - Retrieving all developers that is related to game with ID 2
+2020-07-31 15:03:00 TRACE DeveloperOracle:109 - Retrieving category with ID: 5 from DB
+2020-07-31 15:03:01 TRACE DeveloperOracle:119 - Successfully retrieved developer with id: 5
+2020-07-31 15:03:01 TRACE GameSystemOracle:111 - Retrieving all systems that is related to game with ID 2
+2020-07-31 15:03:01 TRACE GameSystemOracle:55 - Retrieving game system with ID: 1 from DB
+2020-07-31 15:03:01 TRACE GameSystemOracle:65 - Successfully retrieved game system with id: 1
+2020-07-31 15:03:01 TRACE DeveloperOracle:167 - Retrieving all developers that is related to game with ID 3
+2020-07-31 15:03:02 TRACE DeveloperOracle:109 - Retrieving category with ID: 21 from DB
+2020-07-31 15:03:02 TRACE DeveloperOracle:119 - Successfully retrieved developer with id: 21
+2020-07-31 15:03:02 TRACE GameSystemOracle:111 - Retrieving all systems that is related to game with ID 3
+2020-07-31 15:03:03 TRACE GameSystemOracle:55 - Retrieving game system with ID: 1 from DB
+2020-07-31 15:03:03 TRACE GameSystemOracle:65 - Successfully retrieved game system with id: 1
+2020-07-31 15:03:03 TRACE DeveloperOracle:167 - Retrieving all developers that is related to game with ID 4
+2020-07-31 15:03:03 TRACE GameSystemOracle:111 - Retrieving all systems that is related to game with ID 4
+2020-07-31 15:03:20 TRACE GameOracle:62 - Retrieving game with ID: 1 from DB
+2020-07-31 15:03:21 TRACE GameOracle:70 - Successfully retrieved game with id: 1
+2020-07-31 15:03:21 TRACE DeveloperOracle:167 - Retrieving all developers that is related to game with ID 1
+2020-07-31 15:03:21 TRACE DeveloperOracle:109 - Retrieving category with ID: 41 from DB
+2020-07-31 15:03:21 TRACE DeveloperOracle:119 - Successfully retrieved developer with id: 41
+2020-07-31 15:03:21 TRACE PublisherOracle:79 - Retrieving all publishers that is related to game with ID 1
+2020-07-31 15:03:22 TRACE PublisherOracle:106 - Retrieving publisher with ID: 1 from DB
+2020-07-31 15:03:22 TRACE PublisherOracle:116 - Successfully retrieved publisher with id: 1
+2020-07-31 15:03:22 TRACE GameSystemOracle:111 - Retrieving all systems that is related to game with ID 1
+2020-07-31 15:03:22 TRACE GameSystemOracle:55 - Retrieving game system with ID: 1 from DB
+2020-07-31 15:03:23 TRACE GameSystemOracle:65 - Successfully retrieved game system with id: 1
+2020-07-31 15:03:23 TRACE GameSystemOracle:55 - Retrieving game system with ID: 3 from DB
+2020-07-31 15:03:23 TRACE GameSystemOracle:65 - Successfully retrieved game system with id: 3
+2020-07-31 15:03:23 TRACE GameDetailsOracle:97 - Retrieving all details that is related to game with ID 1
+2020-07-31 15:03:23 TRACE GameOracle:62 - Retrieving game with ID: 1 from DB
+2020-07-31 15:03:24 TRACE GameOracle:70 - Successfully retrieved game with id: 1
+2020-07-31 15:03:24 TRACE CategoryOracle:88 - Retrieving all categories that is related to game with ID 1
+2020-07-31 15:03:24 TRACE CategoryOracle:58 - Retrieving category with ID: 1 from DB
+2020-07-31 15:03:25 TRACE CategoryOracle:68 - Successfully retrieved category with id: 1
+2020-07-31 15:03:48 TRACE GameController:34 - Retrieving all games from inventory...
+2020-07-31 15:03:48 TRACE GameController:37 - Session already hold stored games
+2020-07-31 15:05:32 TRACE GameOracle:62 - Retrieving game with ID: 1 from DB
+2020-07-31 15:05:32 TRACE GameOracle:70 - Successfully retrieved game with id: 1
+2020-07-31 15:05:32 TRACE DeveloperOracle:167 - Retrieving all developers that is related to game with ID 1
+2020-07-31 15:05:33 TRACE DeveloperOracle:109 - Retrieving category with ID: 41 from DB
+2020-07-31 15:05:33 TRACE DeveloperOracle:119 - Successfully retrieved developer with id: 41
+2020-07-31 15:05:33 TRACE PublisherOracle:79 - Retrieving all publishers that is related to game with ID 1
+2020-07-31 15:05:34 TRACE PublisherOracle:106 - Retrieving publisher with ID: 1 from DB
+2020-07-31 15:05:34 TRACE PublisherOracle:116 - Successfully retrieved publisher with id: 1
+2020-07-31 15:05:34 TRACE GameSystemOracle:111 - Retrieving all systems that is related to game with ID 1
+2020-07-31 15:05:34 TRACE GameSystemOracle:55 - Retrieving game system with ID: 1 from DB
+2020-07-31 15:05:35 TRACE GameSystemOracle:65 - Successfully retrieved game system with id: 1
+2020-07-31 15:05:35 TRACE GameSystemOracle:55 - Retrieving game system with ID: 3 from DB
+2020-07-31 15:05:35 TRACE GameSystemOracle:65 - Successfully retrieved game system with id: 3
+2020-07-31 15:05:35 TRACE GameDetailsOracle:97 - Retrieving all details that is related to game with ID 1
+2020-07-31 15:05:36 TRACE GameOracle:62 - Retrieving game with ID: 1 from DB
+2020-07-31 15:05:36 TRACE GameOracle:70 - Successfully retrieved game with id: 1
+2020-07-31 15:05:36 TRACE CategoryOracle:88 - Retrieving all categories that is related to game with ID 1
+2020-07-31 15:05:36 TRACE CategoryOracle:58 - Retrieving category with ID: 1 from DB
+2020-07-31 15:05:37 TRACE CategoryOracle:68 - Successfully retrieved category with id: 1
+2020-07-31 15:05:50 TRACE GameController:34 - Retrieving all games from inventory...
+2020-07-31 15:05:50 TRACE GameController:37 - Session already hold stored games

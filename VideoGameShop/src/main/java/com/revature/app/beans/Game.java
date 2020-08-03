@@ -4,103 +4,147 @@ import java.time.LocalDateTime;
 import java.util.List;
 
 public class Game {
-	
+
 	private Integer id;
-	
+
 	private String name;
-	
+
+	private String description;
+
+	private String mainImg;
+
 	private List<Developer> developers; // Develops the game: Naughty Dog, Ubisoft, Infinity Ward
-	
+
 	private List<Publisher> publishers; // Pushlisher: Sony, Nintendo, Xbox
 
 	private LocalDateTime dateReleased;
-	
+
 	private List<GameSystem> systems;
-	
+
 	private String esrbRating;
-	
+
 	private List<Category> category;
-	
+
 	private List<GameDetails> details;
-	
-	private String playerLimit; 
-	
+
+	private String playerLimit;
+
 	public Integer getId() {
 		return id;
 	}
+
 	public void setId(Integer id) {
 		this.id = id;
 	}
+
 	public String getName() {
 		return name;
 	}
+
 	public void setName(String name) {
 		this.name = name;
 	}
+
 	public List<Developer> getDevelopers() {
 		return developers;
 	}
+
 	public void setDevelopers(List<Developer> developers) {
 		this.developers = developers;
 	}
+
 	public List<Publisher> getPublishers() {
 		return publishers;
 	}
+
 	public void setPublishers(List<Publisher> publishers) {
 		this.publishers = publishers;
 	}
+
 	public LocalDateTime getDateReleased() {
 		return dateReleased;
 	}
+
 	public void setDateReleased(LocalDateTime dateReleased) {
 		this.dateReleased = dateReleased;
 	}
+
 	public List<GameSystem> getSystems() {
 		return systems;
 	}
+
 	public void setSystems(List<GameSystem> systems) {
 		this.systems = systems;
 	}
+
 	public String getEsrbRating() {
 		return esrbRating;
 	}
+
 	public void setEsrbRating(String esrbRating) {
 		this.esrbRating = esrbRating;
 	}
+
 	public List<Category> getCategory() {
 		return category;
 	}
+
 	public void setCategory(List<Category> category) {
 		this.category = category;
 	}
+
 	public String getPlayerLimit() {
 		return playerLimit;
 	}
+
 	public void setPlayerLimit(String playerLimit) {
 		this.playerLimit = playerLimit;
 	}
+
 	public List<GameDetails> getDetails() {
 		return details;
 	}
+
 	public void setDetails(List<GameDetails> details) {
 		this.details = details;
 	}
+
+	public String getDescription() {
+		return description;
+	}
+
+	public void setDescription(String description) {
+		this.description = description;
+	}
+
+	public String getMainImg() {
+		return mainImg;
+	}
+
+	public void setMainImg(String mainImg) {
+		this.mainImg = mainImg;
+	}
+
+	
 	@Override
 	public int hashCode() {
 		final int prime = 31;
 		int result = 1;
 		result = prime * result + ((category == null) ? 0 : category.hashCode());
 		result = prime * result + ((dateReleased == null) ? 0 : dateReleased.hashCode());
+		result = prime * result + ((description == null) ? 0 : description.hashCode());
 		result = prime * result + ((details == null) ? 0 : details.hashCode());
 		result = prime * result + ((developers == null) ? 0 : developers.hashCode());
 		result = prime * result + ((esrbRating == null) ? 0 : esrbRating.hashCode());
 		result = prime * result + ((id == null) ? 0 : id.hashCode());
+		result = prime * result + ((mainImg == null) ? 0 : mainImg.hashCode());
 		result = prime * result + ((name == null) ? 0 : name.hashCode());
 		result = prime * result + ((playerLimit == null) ? 0 : playerLimit.hashCode());
 		result = prime * result + ((publishers == null) ? 0 : publishers.hashCode());
 		result = prime * result + ((systems == null) ? 0 : systems.hashCode());
 		return result;
 	}
+
 	@Override
 	public boolean equals(Object obj) {
 		if (this == obj)
@@ -119,6 +163,11 @@ public class Game {
 			if (other.dateReleased != null)
 				return false;
 		} else if (!dateReleased.equals(other.dateReleased))
+			return false;
+		if (description == null) {
+			if (other.description != null)
+				return false;
+		} else if (!description.equals(other.description))
 			return false;
 		if (details == null) {
 			if (other.details != null)
@@ -139,6 +188,11 @@ public class Game {
 			if (other.id != null)
 				return false;
 		} else if (!id.equals(other.id))
+			return false;
+		if (mainImg == null) {
+			if (other.mainImg != null)
+				return false;
+		} else if (!mainImg.equals(other.mainImg))
 			return false;
 		if (name == null) {
 			if (other.name != null)
@@ -162,10 +216,12 @@ public class Game {
 			return false;
 		return true;
 	}
+
 	@Override
 	public String toString() {
-		return "Game [id=" + id + ", name=" + name + ", developers=" + developers + ", publishers=" + publishers
-				+ ", dateReleased=" + dateReleased + ", systems=" + systems + ", esrbRating=" + esrbRating
-				+ ", category=" + category + ", details=" + details + ", playerLimit=" + playerLimit + "]";
+		return "Game [id=" + id + ", name=" + name + ", description=" + description + ", mainImg=" + mainImg
+				+ ", developers=" + developers + ", publishers=" + publishers + ", dateReleased=" + dateReleased
+				+ ", systems=" + systems + ", esrbRating=" + esrbRating + ", category=" + category + ", details="
+				+ details + ", playerLimit=" + playerLimit + "]";
 	}
 }

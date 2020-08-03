@@ -27,13 +27,15 @@ public class GameOracle implements GameDAO {
 		log.trace("Adding game " + t.getName() + " into the DB");
 		try(Connection conn = cu.getConnection()){
 			conn.setAutoCommit(false);
-			String sql = "insert into game(name, dateReleased, esrbRating, playerLimit) values (?,?,?,?)";
+			String sql = "insert into game(name, dateReleased, esrbRating, playerLimit, description, mainImg) values (?,?,?,?,?,?)";
 			String[] keys = { "id" };
 			PreparedStatement pstmt = conn.prepareStatement(sql, keys);
 			pstmt.setString(1, t.getName());
 			pstmt.setTimestamp(2, new Timestamp(t.getDateReleased().toInstant(ZoneOffset.UTC).toEpochMilli()));
 			pstmt.setString(3, t.getEsrbRating());
 			pstmt.setString(4, t.getPlayerLimit());
+			pstmt.setString(5, t.getDescription());
+			pstmt.setString(6, t.getMainImg());
 			pstmt.executeUpdate();
 			
 			ResultSet rs = pstmt.getGeneratedKeys();
@@ -71,6 +73,8 @@ public class GameOracle implements GameDAO {
 				g.setDateReleased(rs.getTimestamp("dateReleased").toLocalDateTime());
 				g.setEsrbRating(rs.getString("esrbRating"));
 				g.setPlayerLimit(rs.getString("playerLimit"));
+				g.setDescription(rs.getString("description"));
+				g.setMainImg(rs.getString("mainImg"));
 			}else {
 				log.trace("Cannot find game with ID: " + id);
 				return null;
@@ -100,6 +104,8 @@ public class GameOracle implements GameDAO {
 				g.setDateReleased(rs.getTimestamp("dateReleased").toLocalDateTime());
 				g.setEsrbRating(rs.getString("esrbRating"));
 				g.setPlayerLimit(rs.getString("playerLimit"));
+				g.setDescription(rs.getString("description"));
+				g.setMainImg(rs.getString("mainImg"));
 				games.add(g);
 				
 			}
@@ -120,13 +126,15 @@ public class GameOracle implements GameDAO {
 		// TODO Auto-generated method stub
 		log.trace("Updating game " + t.getName() + " from DB");
 		try (Connection conn = cu.getConnection()){
-			String sql = "update game set name = ?, dateReleased = ?, esrbRating = ?, playerLimit = ? where id = ?";
+			String sql = "update game set name = ?, dateReleased = ?, esrbRating = ?, playerLimit = ?, description = ?, mainImg = ? where id = ?";
 			PreparedStatement pstmt = conn.prepareStatement(sql);
 			pstmt.setString(1, t.getName());
 			pstmt.setTimestamp(2, new Timestamp(t.getDateReleased().toInstant(ZoneOffset.UTC).toEpochMilli()));
 			pstmt.setString(3, t.getEsrbRating());
 			pstmt.setString(4, t.getPlayerLimit());
 			pstmt.setInt(5, t.getId());
+			pstmt.setString(6, t.getDescription());
+			pstmt.setString(7, t.getMainImg());
 			int rs = pstmt.executeUpdate();
 			if(rs > 0) {
 				log.trace("Game (" + t.getName() + ") has been updated!");
